@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info__wrapper {
+    margin: 118px 0;
+}
+
+.info__tab {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    max-width: 178px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.info__tab:first-child {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    max-width: 203px;
+}
+
+.info__container {
+    border: 1px solid #C6CBCD;
+    display: flex;
+}
+
+.info__page {
+    display: inline-block;
+    vertical-align: top;
+    width: 59.83%;
+    padding: 55px 30px 54px 100px;
+}
+
+.info__title {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.85px;
+    margin-bottom: 57px;
+}
+
+.info__text {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px; 
+}
+
+.info__page p:first-of-type {
+    margin-bottom: 26px;
+}
+
+.info__page p:last-of-type {
+    margin-bottom: 82px;
+}
+
+.info__button {
+    max-width: 270px;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-transform: capitalize;
+    background-color: #EC7979;
+    border: none;
+    padding: 17px;
+}
+
+.info__image-wrapper {
+    display: inline-block;
+    max-height: 500px;
+    height: 100%;
+    width: 40.17%;
+}
+
+.info__image {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.awesome__wrapper {
+    margin-bottom: 118px;
+}
+
+.head__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.26px;
+    margin-bottom: 40px;
+}
+
+.head__separator {
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px;
+    max-width: 170px;
+    width: 100%;
+}
+
+.head__text {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-bottom: 92px;
+}
+
+.awesome__container {
+    display: flex;
+    column-gap: 26px;
+}
+
+.awesome__advantage {
+    max-width: 371px;
+    text-align: center;
+}
+
+.awesome__advantage-border {
+    border-radius: 100px;
+    border: 1px solid #EC7979;
+    width: 92px;
+    height: 92px;
+    margin:0 auto 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome__advantage-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    margin-bottom: 30px;
+}
+
+.awesome__advantage-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+}
