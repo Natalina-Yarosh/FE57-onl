@@ -7,7 +7,7 @@
 }
 
 .tab {
-    padding: 118px;
+    margin-bottom: 118px;
 }
 
 .container {
@@ -41,7 +41,7 @@
 }
 
 .tab__content {
-    margin: 56px 30px 56px 100px;
+    padding: 56px 30px 56px 100px;
     display: inline-block;
     width: 60%;
     vertical-align: top;
@@ -60,7 +60,6 @@
     margin-bottom: 57px;
     font-size: 18px;
     line-height: 21px;
-
 }
 .tab__text p:first-child {
     margin-bottom: 26px;
@@ -82,6 +81,11 @@
 .tab__wrapper-img {
     width: 40%;
     overflow: hidden;
+}
+
+.tab__img{
+    width: 100%;
+    height: 100%;
 }
 
 
