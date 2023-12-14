@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs{
+    margin-top: 100px;
+    margin-bottom: 118px
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+.tabs__item{
+    color:#333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    max-width: 203px;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tabs__item_active{
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+}
+
+.tab{
+    border: 1px solid #C6CBCD;
+}
+
+.tab__info{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding: 56px 30px 54px 100px;
+}
+
+.tab__title{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.85px;
+    margin-bottom: 57px;
+}
+
+.tab__text{
+    margin-bottom: 26px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tab__text:nth-last-of-type(1){
+    margin-bottom: 84px;
+}
+
+.tab__link{
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    display: inline-block;
+    max-width: 270px;
+    width: 100%;
+    text-decoration: none;
+    padding: 17px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.tab__wrapper-img{
+    display: inline-block;
+    width: 39%;
+}
+
+.tab__img{
+    width: 100%;
+    height: 100%;
+}
+
+.awesome{
+    margin-bottom: 118px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.awesome__title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Raleway', sans-serif;
+}
+
+.awesome__line{
+    background: #EC7979;
+    max-width:170px;
+    height: 1px;
+    margin: 0 auto 40px;
+}
+
+.awesome__text{
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:92px; 
+}
+
+.awesome__blocks{
+    display:inline-flex;
+}
+
+.blocks__wrapper-icon{
+    width: 92px;
+    height: 92px;
+    margin: 0 auto 15px;
+}
+
+.blocks__title{
+    margin:0 0 26px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height:normal;
+}
+
+.blocks__text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
