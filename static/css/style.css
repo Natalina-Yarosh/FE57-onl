@@ -5,21 +5,22 @@
     margin: 0;
 }
 
-.tabs_wrapper{
-    margin-bottom: 118px;
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px; 
 }
 
-.tabs{
-    margin: 0 auto;
-    width: 1200px;
-    padding: 0 15px; 
+.tabs_wrapper{
+    margin-bottom: 118px;
 }
 
 .tab-btns{
 }
 
 .tab-btns__btn{
-    width: 184px;
+    max-width: 184px;
+    width: 100%;
     padding: 8px 16px;
     background-color: #fff;
     display: inline-block;
@@ -27,7 +28,8 @@
 }
 
 .tab-btns__btn-pressed{
-    width: 202px;
+    max-width: 202px;
+    width: 100%;
     border-radius: 5px 5px 0px 0px;
     border-top:    1px solid #C6CBCD;
     border-right:  1px solid #C6CBCD;
@@ -97,13 +99,7 @@
     height: 100%;
 }
 
-.awesome_wrapped{
-}
-
-.awesome {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 15px;  
+.awesome_wrapper{
 }
 
 .awesome__title {
