@@ -9,22 +9,15 @@
     max-width: 1200px;
 }
 .tabs__button{
-    padding: 10px;
+    background: transparent;
     max-width: 203px;
-    width: 100%;
-    text-align: center; 
-    border: none; 
+    width: 100%; 
 }
 .tabs__button{
     width: 184px;
     height: 40px;
-    
 }
-.tabs__button{
-    width: 184px;
-    height: 40px;
-    
-}
+
 .tabs__button_active{
 border: 1px solid #C6CBCD;
 border-radius:5px 5px 0 0;
@@ -33,6 +26,7 @@ border-radius:5px 5px 0 0;
     border: 1px solid #C6CBCD;
 }
 .tab__content{
+    padding: 55px 29px 55px 100px;
     width: 60%;
     display: inline-block;
     vertical-align: top;
@@ -45,6 +39,7 @@ border-radius:5px 5px 0 0;
     margin-bottom: 57px;
 }
 .tab__text{
+    line-height:normal;
     margin-bottom:26px;
     color: #000;
     font-family: Raleway;
@@ -54,8 +49,10 @@ border-radius:5px 5px 0 0;
     margin-bottom: 40px;
 }
 .tab__button{
-    width: 270px;
-    height: 58px;
+    max-width: 270px;
+    width: 100%;
+    border: none;
+    padding: 17px;
     background-color: #f55757;
     color: #FFF;
     text-align: center;
