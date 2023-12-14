@@ -142,8 +142,9 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  margin: 0 29px 57px 0;
+  margin-bottom: 57px;
 }
+
 .tab__wrapper-text {
   font-family: Raleway;
   font-size: 18px;
