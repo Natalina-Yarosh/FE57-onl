@@ -20,6 +20,10 @@
     vertical-align:middle
 }
 
+.tabs__item_active{
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+}
 .tabs__item {
     display: inline-block;
     line-height: 19px; 
@@ -31,8 +35,6 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    border-radius: 5px 5px 0px 0px;
-    border: 1px solid #C6CBCD;
 }
 
 .tab__wrapper {
