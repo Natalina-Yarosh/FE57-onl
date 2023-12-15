@@ -11,12 +11,12 @@
 .tabs__button{
     background: transparent;
     max-width: 203px;
-    width: 100%; 
-}
-.tabs__button{
-    width: 184px;
+    width: 100%;
     height: 40px;
+    text-align: center;
+    border: none;
 }
+
 
 .tabs__button_active{
 border: 1px solid #C6CBCD;
@@ -39,7 +39,7 @@ border-radius:5px 5px 0 0;
     margin-bottom: 57px;
 }
 .tab__text{
-    line-height:normal;
+    line-height:26px;
     margin-bottom:26px;
     color: #000;
     font-family: Raleway;
