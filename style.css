@@ -150,9 +150,6 @@ p {
     max-width: 370px;
     width: 100%;
 }
-.price__description_link {
-    text-decoration: none;
-}
 .price__name {
     color: #FFF;
     text-align: center;
