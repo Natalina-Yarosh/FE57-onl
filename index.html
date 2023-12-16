@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tabs__container container">
+            <div class="tabs__options">
+                <button class="tabs__options-tab active">TAB 1</button>
+                <button class="tabs__options-tab">TAB 2</button>
+                <button class="tabs__options-tab">TAB 3</button>
+            </div>
+            <div class="tabs__content">
+                <div class="tabs__content-text">
+                <h3 class="tabs__content-title">Tabs with soft transitioning effect.</h3>
+                <div class="tabs__content-info">
+                    <p class="content-info__paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque  penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="content-info__paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod  bibendum laoreet. 
+                    </p>
+                </div>
+                <button onclick="EasterEgg()" href="button answer.html" class="content-info__button">Download</button>
+                </div>
+                <div class="content-info__picture">
+                    <img src="img/ny.png" alt="New York" class="content__image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function EasterEgg() {
+            // Укажите URL страницы, на которую вы хотите перейти
+            var newTab = "button answer.html";
+            
+            // Открываем новую вкладку
+            window.open(newTab, '_blank');
+        }
+    </script>
+</body>
+</html>
