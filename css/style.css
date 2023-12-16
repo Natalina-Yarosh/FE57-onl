@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tabs {
+    background-color: #FFF;
+    margin-bottom: 118px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.tabs__list{
+    list-style-type:none;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.tabs__item{
+    background-color: #fff;
+    max-width: 203px;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19.07px;
+    text-transform: uppercase;
+    border:none
+    
+}
+
+.tabs__item-active{
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+}
+
+.tab__content{
+    border: 1px solid #C6CBCD;
+    display: flex;
+}
+
+.tab__content-description{
+    padding: 55px 30px 54px 100px;
+}
+
+.tab__image{   
+    height: 100%;
+}
+
+.tab__title{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40.85px;
+    margin-bottom: 57px;
+}
+
+.tab__text{
+    color: #000;
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-bottom: 26px;
+}
+
+.tab__text:nth-last-of-type(1){
+    margin-bottom: 84px;
+}
+
+.tab__button {
+    max-width: 270px;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-transform: capitalize;
+    background-color: #EC7979;
+    padding: 17px;
+    border:none;
+}
+
+
+.design {
+    background-color: #FFF;
+ }
+
+ .title{
+    line-height: 42.26px;
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+    
+ .line{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+ }
+
+ .design__description{
+    line-height: 21.13px;
+     color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 92px;
+ }
+
+ .design__wrapper{
+    display: flex;
+    column-gap: 28px;
+ }
+
+.design__item{
+    max-width: 371px;
+}
+
+.design__wrapper-icon{
+    border-radius: 50%;
+    height: 92px;
+    width: 92px;
+    border: 1px solid #EC7979;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.design__title{
+    line-height: 32.68px;
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 26px;
+}
+
+.design__text{
+    line-height: 21.13px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
