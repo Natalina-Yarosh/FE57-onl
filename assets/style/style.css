@@ -236,8 +236,7 @@
   font-weight: 700;
   line-height: 32.68px;
   text-transform: capitalize;
-  padding: 23px;
-  text-align: center;
+  padding: 14px;
 }
 
 .pricing__text-price {
@@ -255,7 +254,7 @@
 }
 
 .pricing__offer {
-  margin: 2px 0 0 0;
+  margin: 2px 0 2px 0;
   font-family:  "OpenSans-Regular", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -263,7 +262,7 @@
   color: #fff;
   transition: background-color 0.3s linear;
   text-align: center;
-  padding: 21px;
+  padding: 17px;
 }
 
 .pricing__list-item {
@@ -283,4 +282,8 @@
 .pricing {
     background: #F5F5F5;
     padding: 82px 0 82px 0;
+}
+
+.pricing__list-item:nth-child(6) {
+  border: 0 solid #F5F5F5;
 }
