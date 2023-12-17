@@ -209,14 +209,14 @@ ul {
     font-size: 18px;
     line-height: 21px;
     text-transform: capitalize;
-    padding: 14px 126px;
+    padding: 14px;
     background-color: #fff;
     border-bottom: 1px solid #F5F5F5;
 }
 
 .options-title {
     background-color: #333333;
-    padding: 13px 0;
+    padding: 13px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -226,7 +226,7 @@ ul {
 
 .options-price {
     background-color: #333333;
-    padding: 29px 0;
+    padding: 29px;
     color: #fff;
     font-size: 36px;
     font-weight: 700;
