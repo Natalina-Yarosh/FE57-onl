@@ -164,29 +164,24 @@
 }
 
 .prising__wrapper{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
+    column-gap: 31px;
     padding: 0;
 }   
 
-.prising__basic{
-    max-width: 370px;
-    width: 100%;
-}
-
-.prising__optima{
+.basic{
     max-width: 370px;
     width: 100%;
 }
 
 .optima{
     margin-top: -20px;
-
+    max-width: 370px;
+    width: 100%;
 }
 
-.prising__pro{
+.pro{
     max-width: 370px;
     width: 100%;
 }
@@ -230,7 +225,7 @@
 
 .row__prising{
     padding: 15px 0;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     list-style-type: none;
     background-color: #ffffff;
     color: #86878B;
@@ -239,4 +234,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
+}
+
+ul :last-child{
+    border-bottom: 0;
 }
