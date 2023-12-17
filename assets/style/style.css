@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 79px;
+}
+
 /* Features */
 
 .feautures__tab {
@@ -165,25 +171,17 @@
   line-height: 21.13px;
 }
 
-.awesome-card {
-  margin-right: 27px;
-  margin-bottom: 110px;
-}
-
 .awesome-card:last-child {
   margin-right: 0;
 }
 
-/* Pricing */
-
-.wrapper__pricing {
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-  padding: 84px 0 79px;
+.awesome {
+  margin-bottom: 110px;
 }
 
-.pricing__header {
+/* Pricing */
+
+.head__title {
   color: #000;
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -191,9 +189,10 @@
   font-weight: 400;
   line-height: 42.26px;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-.pricing__header::after {
+.head__title::after {
   content: "";
   display: block;
   margin-left: 42%;
@@ -203,8 +202,7 @@
   background-color: #EC7979;
 }
 
-.pricing__subheader {
-  margin-top: 40px;
+.head__text {
   font-family: "Raleway", sans-serif;
   color: #86878B;
   text-align: center;
@@ -213,20 +211,23 @@
   line-height: 21.13px;
 }
 
-.pricing__flexbox-wrapper {
+.pricing__wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  column-gap: 30px;
+}
+.pricing__item {
+  width: 100%;
+  max-width: 370px;
 }
 
-.pricing__flexbox-item:nth-child(2) {
+.pricing__item:nth-child(2) {
   margin: -20px 0 0 0;
   filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.20));
 }
 
-.pricing__text {
-  height: 60px;
+.pricing__title {
   background: #000;
   color: #FFF;
   text-align: center;
@@ -235,13 +236,11 @@
   font-weight: 700;
   line-height: 32.68px;
   text-transform: capitalize;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 33px;
+  text-align: center;
 }
 
-.pricing__flexbox-price {
-  height: 100px;
+.pricing__text-price {
   margin: 2px 0 0 0;
   color: #FFF;
   font-family: "Raleway", sans-serif;
@@ -251,14 +250,11 @@
   background-color: #000;
   transition: background-color 0.3s linear;
   border-radius: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 42px;
+  text-align: center;
 }
 
-.pricing__flexbox-offer {
-  width: 370px;
-  height: 50px;
+.pricing__offer {
   margin: 2px 0 0 0;
   font-family:  "OpenSans-Regular", sans-serif;
   font-size: 14px;
@@ -266,29 +262,25 @@
   background-color: black;
   color: #fff;
   transition: background-color 0.3s linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding: 21px;
 }
 
-.list__item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  font-family: OpenSans-Light;
+.pricing__list-item {
+  padding: 15px;
+  font-family: "OpenSans-Regular", sans-serif;
   font-size: 14px;
   font-style: normal;
   color: #868786;
   border: 2px solid #F5F5F5;
   background: #FFF;
+  list-style-type: none;
+  text-align: center;
 }
 
 
 
 .pricing {
     background: #F5F5F5;
+    padding: 82px 0 82px 0;
 }
