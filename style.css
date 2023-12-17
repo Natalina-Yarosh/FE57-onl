@@ -173,6 +173,7 @@
     font-weight: 700;
     line-height: normal;
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 .pricing__line{
@@ -253,4 +254,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.block__space:last-child{
+    border: none;
 }
