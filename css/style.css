@@ -19,7 +19,6 @@
 .tabs__list{
     list-style-type:none;
     display: flex;
-    flex: 1 1 auto;
 }
 
 .tabs__item{
@@ -49,10 +48,16 @@
 
 .tab__content-description{
     padding: 55px 30px 54px 100px;
+    width: 60%;
+}
+
+.tab__content-image{
+    width: 40%;
 }
 
 .tab__image{   
     height: 100%;
+    width: 100%;
 }
 
 .tab__title{
@@ -95,7 +100,7 @@
     background-color: #FFF;
  }
 
- .title{
+ .head__title{
     line-height: 42.26px;
     color: #000;
     text-align: center;
@@ -103,7 +108,7 @@
     margin-bottom: 40px;
 }
     
- .line{
+ .head__line{
     width: 170px;
     height: 1px;
     background: #EC7979;
@@ -111,7 +116,7 @@
     margin-bottom: 40px;
  }
 
- .design__description{
+ .head__text{
     line-height: 21.13px;
      color: #86878B;
     text-align: center;
@@ -144,7 +149,7 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
-    padding-bottom: 26px;
+    margin-bottom: 26px;
 }
 
 .design__text{
