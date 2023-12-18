@@ -126,11 +126,11 @@
     margin-bottom: 110px;
  }
 
- .head__design{
+.head__design{
     margin-bottom: 92px;
- }
+}
 
- .design__wrapper{
+.design__wrapper{
     display: flex;
     column-gap: 28px;
  }
