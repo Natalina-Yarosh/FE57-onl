@@ -5,6 +5,32 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.head__title{
+    line-height: 42.26px;
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+    
+ .head__line{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+ }
+
+ .head__text{
+    line-height: 21.13px;
+     color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 92px;
+ }
+
 .tabs {
     background-color: #FFF;
     margin-bottom: 118px;
@@ -98,30 +124,7 @@
 
 .design {
     background-color: #FFF;
- }
-
- .head__title{
-    line-height: 42.26px;
-    color: #000;
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-    
- .head__line{
-    width: 170px;
-    height: 1px;
-    background: #EC7979;
-    margin: 0 auto;
-    margin-bottom: 40px;
- }
-
- .head__text{
-    line-height: 21.13px;
-     color: #86878B;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 92px;
+    margin-bottom: 110px;
  }
 
  .design__wrapper{
@@ -158,3 +161,74 @@
     text-align: center;
     font-size: 18px;
 }
+
+.pricing {
+    background-color: #F5F5F5;
+    padding: 82px 169px 83px 170px;
+}
+
+.pricing__variants {
+    display: flex;
+    justify-content: center;
+    column-gap: 31px;
+}
+
+.pricing__item {
+    max-width: 370px;
+    width: 100%;
+}
+
+.pricing__item-main {
+    margin-top: -20px;
+}
+
+.pricing__info {
+    background-color: #333333;    
+}
+
+.pricing__info-plan {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: capitalize;
+    border: 1px solid #FFF;
+    padding: 10px 0;
+}
+
+.pricing__info-price {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.26px;
+    padding: 25px 0;
+    border: 1px solid #FFF;
+}
+
+.pricing__info__text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.13px;
+    border: 1px solid #FFF;
+    padding: 10px 0;
+}
+
+.pricing__offers {
+    list-style-type: none;
+    background-color: #FFF;
+}
+
+.pricing__offer {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-transform: capitalize;
+    border: 0.5px solid #F5F5F5;
+    padding: 10px;
+}
+
