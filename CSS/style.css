@@ -1,182 +1,146 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.wrapper {
-    
-    
-}
-
-.container{
-    
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .tabs__tab {
-    
 }
 
 .tab__tb-active {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
 
 .tab__tb {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    text-decoration:none;
-}   
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
 
 .container__text-img {
-    border: 1px solid #C6CBCD
+  border: 1px solid #c6cbcd;
 }
 
 .info__field {
-    
 }
 
 .info__title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    
-    
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
 }
 
 .info__text {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
-
 .button__btn {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    max-width: 231px;
-    width: 100%;
-    padding: 17px;
-    line-height: 24px;
-    background-color: #EC7979;
-    color: #FFF;
-    border: #FFF;
-    
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  max-width: 231px;
+  width: 100%;
+  padding: 17px;
+  line-height: 24px;
+  background-color: #ec7979;
+  color: #fff;
+  border: #fff;
 }
 
 .img__stat {
-    
 }
 
 .info__image {
-    
-    
 }
 /*-----Здесь начинается второй блок---------*/
 .wrapper__2 {
-
 }
 
 .container__2 {
-    
 }
 
 .title__text {
-
 }
 
 .friendly__reminder {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
 }
 
 .create__line {
-    text-align: center;
-    text-decoration-color: #EC7979;
-    height: 1px
+  text-align: center;
+  text-decoration-color: #ec7979;
+  height: 1px;
 }
 
 .text__lorem {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 .lamp__text {
-
 }
 
 .icon__lamp {
-    
 }
 
 .title__lamp {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 .text__plamp {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 .keyboard__text {
-    
 }
 
 .icon__keyboard {
-    
 }
 
 .lightning__text {
-
 }
 
 .icon__lightning {
-    
-    
 }
 .create-line {
-    max-width: 100%;
-    width: 100%;
-    background-color: black;
+  max-width: 100%;
+  width: 100%;
+  background-color: black;
 }
 
 /*-----Здесь начинается третий блок---------*/
 .wrapper__3 {
-
 }
 .container__3 {
-
 }
 .title__options {
-
 }
 
 .create-line {
-
 }
 .title__info {
-
 }
 
 .wrapper__basic-price {
-
 }
 .title__basic-price {
-
 }
 .price__basic {
-
 }
 .price__life {
-
 }
 .price__list-space {
-
 }
 .wrapper__optima-price {
-
 }
 .wrapper__Pro-price {
-
 }
