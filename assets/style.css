@@ -116,6 +116,7 @@ img {
     font-weight: 400;
     line-height: 42.26px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .line {
@@ -178,4 +179,92 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: 21.13px;
+}
+
+.pricing {
+    background-color: #F5F5F5;
+    padding: 82px 0;
+    margin-bottom: 100px;
+}
+
+.pricing__text {
+    margin-bottom: 79px;
+}
+
+.pricing__options {
+    display: flex;
+    column-gap: 30px;
+}
+
+.pricing__items {
+    flex: 1 1 auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+.pricing__items-active {
+    margin: -20px 0 20px;
+    box-shadow: 0px 5px 10px 0px #33333333;
+}
+
+.pricing__item-title {
+    background: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 14px 0 13px; 
+}
+
+.pricing__item-price {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42.26px;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 29px 0;
+}
+
+.pricing__item-description {
+    background: #333333;
+    color: #ffffff80;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 15px 0 14px;
+}
+
+.pricing__item-option {
+    background: #FFF;
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 15px 0 14px;
+}
+
+.pricing__item-option:last-child {
+    border: none;
+}
+
+.pricing__items-active {
+    border: 2px solid #F5F5F5;
 }
