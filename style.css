@@ -90,7 +90,9 @@
     height: 100%;
 }
 
-
+.awesome{
+    margin-bottom: 110px;
+}
 .head {
     margin-bottom: 92px;
 }    
@@ -153,4 +155,87 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
+}
+
+.pricing{
+    background: #F5F5F5;
+    padding: 82px 0;
+    margin-bottom: 83px;
+}
+
+.prising__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 31px;
+    padding: 0;
+}   
+
+.basic{
+    max-width: 370px;
+    width: 100%;
+}
+
+.optima{
+    margin-top: -20px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.pro{
+    max-width: 370px;
+    width: 100%;
+}
+
+.row__prising-title{
+    margin-bottom: 2px;
+    padding: 13px 0;
+    background-color: #333333;
+    list-style-type: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.row__prising-price{
+    margin-bottom: 2px;
+    padding: 29px 0;
+    list-style-type: none;
+    background-color: #333333;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.row__prising-description{
+    padding: 13px 0;
+    list-style-type: none;    
+    background-color: #333333;
+    color: #ffffff80;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.row__prising{
+    padding: 15px 0;
+    border-bottom: 2px solid #F5F5F5;
+    list-style-type: none;
+    background-color: #ffffff;
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+ul :last-child{
+    border-bottom: 0;
 }
