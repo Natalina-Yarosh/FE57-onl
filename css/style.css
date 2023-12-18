@@ -11,6 +11,8 @@
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
 }
     
  .head__line{
@@ -27,7 +29,6 @@
     text-align: center;
     font-size: 18px;
  }
-
 
 .tabs {
     background-color: #FFF;
@@ -122,13 +123,14 @@
 
 .design {
     background-color: #FFF;
+    margin-bottom: 110px;
  }
 
 .head__design{
     margin-bottom: 92px;
 }
 
- .design__wrapper{
+.design__wrapper{
     display: flex;
     column-gap: 28px;
  }
@@ -161,4 +163,83 @@
     color: #000;
     text-align: center;
     font-size: 18px;
+}
+
+.pricing {
+    background-color: #F5F5F5;
+    padding: 82px 0px 83px;
+}
+
+.head__pricing{
+    margin-bottom: 79px;
+}
+
+.pricing__variants {
+    display: flex;
+    justify-content: center;
+    column-gap: 31px;
+}
+
+.pricing__item {
+    max-width: 370px;
+    width: 100%;
+}
+
+.pricing__item-main {
+    margin-top: -20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.20));
+}
+
+.pricing__info {
+    background-color: #333333;    
+}
+
+.pricing__info-plan {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: capitalize;
+    border: 1px solid #FFF;
+    padding: 10px 0;
+}
+
+.pricing__info-price {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.26px;
+    padding: 25px 0;
+    border: 1px solid #FFF;
+}
+
+.pricing__info__text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.13px;
+    border: 1px solid #FFF;
+    padding: 10px 0;
+}
+
+.pricing__offers {
+    list-style-type: none;
+    background-color: #FFF;
+}
+
+.pricing__offer {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21.13px;
+    text-transform: capitalize;
+    border: 0.5px solid #F5F5F5;
+    padding: 10px;
+}
+
+.pricing__offer:last-of-type{
+    border-bottom: none;
 }
