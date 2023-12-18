@@ -4,6 +4,8 @@
   padding: 0;
 }
 .effect {
+  margin-bottom: 106px;
+
 }
 .container {
   max-width: 1170px;
@@ -78,7 +80,7 @@ padding: 17px;
 }
 .effect__wrap-img{
   display: inline-block;
-  width: 39%;
+  width: 40%;
 }
 .effect__image{
   width: 100%;
@@ -89,7 +91,7 @@ padding: 17px;
 
 
 .awesome {
-  margin-top: 106px;
+
 }
 .container {
   max-width: 1170px;
