@@ -5,6 +5,30 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.head__title{
+    line-height: 42.26px;
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+    
+ .head__line{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+ }
+
+ .head__text{
+    line-height: 21.13px;
+     color: #86878B;
+    text-align: center;
+    font-size: 18px;
+ }
+
+
 .tabs {
     background-color: #FFF;
     margin-bottom: 118px;
@@ -100,29 +124,9 @@
     background-color: #FFF;
  }
 
- .head__title{
-    line-height: 42.26px;
-    color: #000;
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-    
- .head__line{
-    width: 170px;
-    height: 1px;
-    background: #EC7979;
-    margin: 0 auto;
-    margin-bottom: 40px;
- }
-
- .head__text{
-    line-height: 21.13px;
-     color: #86878B;
-    text-align: center;
-    font-size: 18px;
+.head__design{
     margin-bottom: 92px;
- }
+}
 
  .design__wrapper{
     display: flex;
