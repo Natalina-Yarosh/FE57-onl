@@ -28,7 +28,6 @@
      color: #86878B;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 92px;
  }
 
 .tabs {
@@ -127,6 +126,10 @@
     margin-bottom: 110px;
  }
 
+ .head__design{
+    margin-bottom: 92px;
+ }
+
  .design__wrapper{
     display: flex;
     column-gap: 28px;
@@ -165,6 +168,10 @@
 .pricing {
     background-color: #F5F5F5;
     padding: 82px 169px 83px 170px;
+}
+
+.head__pricing{
+    margin-bottom: 79px;
 }
 
 .pricing__variants {
