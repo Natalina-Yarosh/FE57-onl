@@ -12,9 +12,6 @@
   padding: 0 15px;
 }
 .effect__tabs{
-  width: 1170px;
-  max-width: 1170px;
-  height: 40px
 }
 .effect__link {
   color: #333;
@@ -43,7 +40,7 @@ border: 1px solid #C6CBCD;
 }
 .effect__info{
   width: 60%;
-  margin: 55px 30px 54px 100px;
+  padding: 55px 30px 54px 100px;
 }
 .effect__title{
 color: #000;
