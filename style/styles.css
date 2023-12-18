@@ -23,7 +23,6 @@
 }
 
 .tabs__elem-text.active{
-    width: 203px;
     border: 1px solid #C6CBCD;
     border-bottom: none;
 }
