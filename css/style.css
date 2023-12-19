@@ -233,6 +233,7 @@ line-height: 21.13px;
 .pricing__options {
   display: flex;
   justify-content: space-between;
+  column-gap: 31px;
 }
 .pricing__option {
   max-width: 370px;
