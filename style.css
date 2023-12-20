@@ -216,13 +216,11 @@ p {
 /* customers */
 
 .customers {
-    padding: 107px 0;
+    margin: 107px 0;
 }
-.customers__wrapper {
-    max-width: 1169px;  
+.customers__wrapper { 
     display: flex;
     column-gap: 30px;
-    padding: 0 15px;
 }
 .customer__block {
     max-width: 370px; 
@@ -261,7 +259,8 @@ p {
     height: 70px;
 }
 .customer__photo-image {
-    width: 100%;
+    width: 70px;
+    height: 70px;
 }
 .customer__info-title {
     font-family: 'Open Sans', sans-serif;
