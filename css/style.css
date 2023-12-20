@@ -99,6 +99,11 @@
 .tabs {
   margin-bottom: 118px;
 }
+
+.tab-wrapper{
+  display: inline;
+}
+
 .tab-list__item {
   display: inline-block;
   text-decoration: none;
@@ -118,6 +123,16 @@
   border-radius: 5px 5px 0px 0px;
   border: 1px solid #c6cbcd;
   border-bottom: none;
+  position: relative;
+}
+
+.tab-list__item-selected::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  bottom: -1;
+  left: 0;
+  background-color: #fff;
 }
 
 .tab {
@@ -219,6 +234,15 @@
 .pricing__plan_selected {
   margin: 0 0 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.tab-list__item-selected::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  bottom: -6px;
 }
 
 .plan__title {
