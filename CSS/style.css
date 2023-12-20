@@ -199,8 +199,8 @@
 }
 
 .price {
-    width: 370px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 370px;
     display: inline-block;
 
 }
@@ -211,7 +211,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     background: #333;
     padding: 15px 0 14px;
 
@@ -229,7 +229,7 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     background: #333;
     padding: 20px 0 14px;
 }
@@ -241,7 +241,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     background: #333;
     padding: 15px 0 14px;
 }
@@ -254,7 +254,7 @@
     font-weight: 400;
     line-height: 21px;
     list-style-type: none;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     background: #FFF;
     padding: 15px 0 14px;
 }
