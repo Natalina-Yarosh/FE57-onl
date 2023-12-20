@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -78,7 +79,6 @@
   margin-bottom: 57px;
 }
 .feautures__text {
-  font-family: "Raleway", sans-serif;
   color: #000;
   font-size: 18px;
   font-weight: 400;
@@ -124,7 +124,6 @@
 .awesome__header {
   color: #000;
   text-align: center;
-  font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42.26px;
@@ -148,7 +147,6 @@
 .header__text {
   color: #86878b;
   text-align: center;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.23px;
@@ -181,7 +179,6 @@
 
 .awesome-card__text {
   color: #000;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
@@ -200,7 +197,6 @@
 .head__title {
   color: #000;
   text-align: center;
-  font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 42.26px;
@@ -221,7 +217,6 @@
 }
 
 .head__text {
-  font-family: "Raleway", sans-serif;
   color: #86878B;
   text-align: center;
   font-size: 18px;
@@ -260,7 +255,6 @@
 .pricing__text-price {
   margin: 2px 0 0 0;
   color: #FFF;
-  font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 42.26px;
@@ -314,7 +308,6 @@
 }
 
 .header__title {
-  font-family: Raleway-Light;
   font-style: normal;
   font-weight: normal;
   font-size: 2em;
@@ -353,7 +346,6 @@
 .block__text {
   color: #86878B;
   text-align: center;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -390,7 +382,6 @@
 
 .customers__author-profession {
   color: #000;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
