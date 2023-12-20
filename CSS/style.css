@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+.tabs {
+    margin-top: 50px;
+    margin-bottom: 118px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.tabs__tab {
+
+}
+
+.tabs__link {
+    max-width: 203px;
+    width: 100%;
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.tabs__link_active {
+    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-left: 1px solid#C6CBCD;
+    
+}
+
+.tabs__wrapper {
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.tabs__info {
+    width: 60%;
+    padding: 55px 29px 54px 100px;
+}
+
+.tabs__title {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 57px;
+}
+
+.tabs__text {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 26px;
+}
+.tabs__text:nth-last-of-type(1) {
+    margin-bottom: 84px;
+}
+
+
+.tabs__btn {
+    max-width: 270px;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    background-color: #EC7979;
+    border: none;
+    padding: 17px;
+}
+
+.tabs__wrapper-image {
+    width: 40%;
+
+}
+
+.tabs__image {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.awesome {
+    margin-bottom: 118px
+}
+
+.head {
+    margin-bottom: 92px;
+}
+
+.head__title {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+
+
+.head__line {
+    max-width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto 40px;
+} 
+.head__text {
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+
+.awesome__wrapper {
+    
+
+}
+
+.awesome__item {
+    max-width: 370px;
+    display: inline-block; /* запомнить как отче наш!!!!*/
+}
+
+.awesome__wrapper-image {
+    
+    margin: 0 auto 24px;
+    width: 92px;
+    height: 92px;
+    
+}
+
+.awesome__title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 26px;
+    
+
+}
+
+.awesome__text {
+    
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.pricing {
+    padding-top: 83px;
+    padding-bottom: 82px;
+    margin-bottom: 107px;
+    background: #F5F5F5;
+
+}
+
+.head__title {
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+.pricing__wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: flex-start;
+}
+
+.price {
+    width: 100%; /* запомнить как отче наш!!!!*/
+    max-width: 370px;
+    display: inline-block;
+
+}
+
+.price__name {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border-bottom: 2px solid #F5F5F5;
+    background: #333;
+    padding: 15px 0 14px;
+
+}
+
+
+.price.optima :nth-last-of-type() {
+    
+}
+
+.price__amount {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    border-bottom: 2px solid #F5F5F5; /* запомнить как отче наш!!!!*/
+    background: #333;
+    padding: 20px 0 14px;
+}
+
+.price__description {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    border-bottom: 2px solid #F5F5F5; /* запомнить как отче наш!!!!*/
+    background: #333;
+    padding: 15px 0 14px;
+}
+
+.price__text {
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    list-style-type: none;
+    border-bottom: 2px solid #F5F5F5; /* запомнить как отче наш!!!!*/
+    background: #FFF;
+    padding: 15px 0 14px;
+}
+
+.price_optima {
+
+    margin-top: -20px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    align-items: flex-start;
+}
+
+li.price__text:last-child {
+    border-bottom: none;
+    
+}
