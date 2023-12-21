@@ -20,12 +20,16 @@ html {
     max-width: 1238px;
     margin: 0 auto;
 }
+.header__nav {
+    max-width: 600px;
+    width: 100%;
+}
 .header__nav-list {
     display: flex;
-    column-gap: 63px;
 }
 .header__nav-list-item {
     list-style: none;
+    flex: 1 1 auto;
 }
 .header__nav-list-item-link:hover {
     background-color: #EC7979;
@@ -566,9 +570,9 @@ input.form__input::placeholder {
 .footer__container {
     display: flex;
     flex-direction: column;
-    max-width: 570px;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 35px 0 27px;
+    padding: 35px 15px 27px;
 }
 .footer__text {
     color: #ffffff80;
