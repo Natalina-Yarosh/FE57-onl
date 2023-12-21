@@ -230,6 +230,7 @@ line-height: 21.13px;
   display: flex;
   justify-content: space-between;
   column-gap: 31px;
+  align-items: flex-start;
 }
 .pricing__option {
   max-width: 370px;
@@ -288,7 +289,6 @@ line-height: 21.13px;
 .pricing__option-optima{
   box-shadow: 0px 4px 10px 0px #33333333;
   margin-top: -20px;
-
 }
 
 .pricing__optin-benefit{
