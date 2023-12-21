@@ -154,7 +154,8 @@ p {
 
 .pricing {
     background: #F5F5F5;
-    padding: 82px 0;
+    padding: 110px 0;
+    margin-bottom: 107px;
 }
 .pricing__wrapper {
     display: flex;
@@ -216,7 +217,7 @@ p {
 /* customers */
 
 .customers {
-    margin: 107px 0;
+    margin-bottom: 107px;
 }
 .customers__wrapper { 
     display: flex;
@@ -259,8 +260,9 @@ p {
     height: 70px;
 }
 .customer__photo-image {
-    width: 70px;
-    height: 70px;
+    width: 100%;
+    max-width: 70px;
+    max-height: 70px;
 }
 .customer__info-title {
     font-family: 'Open Sans', sans-serif;
