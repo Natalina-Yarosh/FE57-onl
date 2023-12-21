@@ -153,6 +153,9 @@ html {
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 30px;
 }
+input.form__input::placeholder {
+    color: #BDBDBD;
+}
 .form__button {
     color: #FFF;
     text-align: center;
