@@ -152,8 +152,6 @@ html {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 30px;
-    vertical-align: text-top;
-    height: 38px;
 }
 .form__button {
     color: #FFF;
