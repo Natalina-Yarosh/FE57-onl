@@ -320,4 +320,164 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: normal}
+    line-height: normal}.banner {
+        position: relative;
+        padding: 381px 0px 185px 0px;
+        background-image:url(/img/banner.png);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        z-index: 1;
+      }
+      .banner::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.50);
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .banner__container {
+        display: flex;
+        justify-content: center;
+        column-gap: 50px;
+        align-items:center;
+      }
+      .banner__logo {
+        max-width: 170px;
+        height: 100%;
+        margin-bottom: 72px;
+      }
+      .banner__title {
+        position: relative;
+        max-width: 650px;
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 56.35px;
+        margin-bottom: 97px;
+      }
+      .banner__title::after{
+        background-color:#fff;
+        left: 0;
+        bottom:-55px;
+        transform: none;
+      }
+      .banner__info {
+        max-width: 270px;
+        color: #FFF;
+        font-size: 18px;
+        line-height: 21.13px;
+        margin-bottom: 42px;
+      }
+      .cta {
+        display: block;
+        cursor: pointer;
+        max-width: 270px;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        background:none;
+        border: 2px solid #FFF;
+        line-height: 25px;
+        padding: 16.5px;
+      }
+      .bannner__form {
+        display: flex;
+        flex-direction: column;
+        background-color:#fff;
+        padding: 36px 50px 0px 50px;
+        border-radius: 10px;
+      }
+      .banner__form-try {
+        color: #333;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.68px;
+        text-transform: uppercase;
+        margin-bottom: 75px;
+      }
+      .banner__form-try span{
+        color: #EC7979;
+      }
+      .bannner__fields {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .banner__field {
+        margin-bottom: 30px;
+        max-width: 370px;
+        height: 40px;
+        color: #BDBDBD;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        border-bottom: 1px solid #BDBDBD; 
+        outline: none;
+        padding-bottom: 16px;
+      }
+      .banner__field:last-of-type{
+        margin-bottom: 75px;
+      }
+      
+      .banner__field-button {
+        width: 470px;
+        height: 100%;
+        margin: 0 -50px;
+        color: #FFF;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 20px;
+        border-radius: 0px 0px 10px 10px;
+        background: #EC7979;
+        border:none;
+      }
+      .design__header{
+        color: #FFF;
+      }
+      .design__header::after{
+        background-color:#FFF;
+      }
+      .design {
+        position: relative;
+        background-image:url(/img/design.jpg);
+        padding:70px 0px;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        z-index: 1;
+      }
+      .design::after{
+        position: absolute;
+        content:'';  
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.50);
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .design__cta {
+        max-width: 370px;
+        margin: 0 auto;
+      }
+      .design__subtittle{
+        color: #FFF;
+      }
