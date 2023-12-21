@@ -29,7 +29,6 @@
     font-weight: 400;
     line-height: 19.07px;
     text-transform: uppercase;
-    border: 1px solid #C6CBCD;
     border-bottom:none;
     background-color:#fff;
 }
@@ -54,6 +53,7 @@
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
     border-bottom:none;
+    border: 1px solid #C6CBCD;
 }
 .tabs__content-title{
     color: #000;
@@ -127,7 +127,6 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 21.13px;
-margin-bottom: 92px;
 }
 .benefits-column__text{
 color: #000;
@@ -225,10 +224,7 @@ line-height: 21.13px;
     background-color:#F5F5F5;
 }
 .pricing__info {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+  margin-bottom: 92px;
 }
 .pricing__options {
   display: flex;
@@ -241,6 +237,9 @@ line-height: 21.13px;
 }
 .pricing__option *{
     margin-bottom: 2px;
+}
+.pricing__option:last-child{
+  margin-bottom: 0;
 }
 .pricing__option-basic {
 }
@@ -263,12 +262,10 @@ line-height: 21.13px;
     font-weight: 700;
     line-height: 42px;
     padding: 29px 0px;
-    max-height: 100%;
 }
 .pricing__option-comment {
     background-color:#333333;
     padding: 15px 0px 14px 0px;
-    max-height: 100%;
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
     font-size: 18px;
@@ -291,7 +288,7 @@ line-height: 21.13px;
 .pricing__option-optima{
   box-shadow: 0px 4px 10px 0px #33333333;
   margin-top: -20px;
-  margin-bottom: 20px;
+
 }
 
 .pricing__optin-benefit{
