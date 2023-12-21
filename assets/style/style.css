@@ -294,6 +294,7 @@
 .pricing {
     background: #F5F5F5;
     padding: 82px 0 82px 0;
+    margin-bottom: 107px;
 }
 
 .pricing__list-item:nth-child(6) {
@@ -304,9 +305,8 @@
 /* Customers */
 
 .customers {
-  margin: 107px 0;
+  margin-bottom: 107px;
 }
-
 .header__title {
   font-style: normal;
   font-weight: normal;
