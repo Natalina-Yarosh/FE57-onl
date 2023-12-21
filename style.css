@@ -261,8 +261,7 @@ p {
 }
 .customer__photo-image {
     width: 100%;
-    max-width: 70px;
-    max-height: 70px;
+    height: 100%;
 }
 .customer__info-title {
     font-family: 'Open Sans', sans-serif;
