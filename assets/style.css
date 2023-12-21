@@ -16,8 +16,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 22px 0px;
-    max-width: 1208px;
+    padding: 22px 15px;
+    max-width: 1238px;
     margin: 0 auto;
 }
 .header__nav-list {
@@ -43,6 +43,8 @@ html {
     text-transform: capitalize;
     line-height: 19.07px;
     list-style: none;
+    display: block;
+    padding: 10px 15px;
 }
 .main-container {
     max-width: 1200px;
