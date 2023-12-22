@@ -286,7 +286,7 @@ input.form__input::placeholder {
 .info__page p:last-of-type {
     margin-bottom: 82px;
 }
-.info__button {
+.button-third {
     max-width: 270px;
     width: 100%;
     color: #FFF;
@@ -299,10 +299,10 @@ input.form__input::placeholder {
     border: none;
     padding: 17px;
 }
-.info__button:active {
+.button-third:active {
     box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
-.info__button:hover {
+.button-third:hover {
     background-color: #AB4949;
 }
 .info__image-wrapper {
@@ -519,6 +519,7 @@ input.form__input::placeholder {
 .design__container {
     position: relative;
     padding: 70px 0;
+    margin-bottom: 67px;
 }
 .design__head {
     margin-bottom: 0;
@@ -562,6 +563,35 @@ input.form__input::placeholder {
 .button-first:hover {
     border-color: #AB4949;
     color: #AB4949;
+}
+.contacts__wrapper {
+    margin-bottom: 66px;
+}
+.contacts__head {
+    margin-bottom: 89px;
+}
+.contacts__inputs-container {
+    display: flex;
+    column-gap: 30px;
+}
+.contacts__inputs-creds {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+}
+.contacts__input {
+    max-width: 570px;
+    width: 100%;
+    margin-bottom: 52px;
+}
+.contacts__input-message {
+    padding-bottom: 190px;
+}
+.contacts__button {
+    display: block;
+    margin: 0 auto;
+    max-width: 370px;
 }
 .footer {
     background-color: #000;
