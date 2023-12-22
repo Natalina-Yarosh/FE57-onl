@@ -313,7 +313,7 @@ ul.price__options-item li:last-of-type{
 }
 
 .reference_wrapper{
-    padding-bottom: 82px;
+    margin-bottom: 82px;
 }
 
 ul.references{
@@ -357,6 +357,7 @@ ul.references{
 .references__item-info{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 30px;
 }
 
 .references__item-frame {
@@ -365,7 +366,6 @@ ul.references{
     width: 70px;
     height: 70px;
     overflow: hidden;
-    margin-right: 30px;
 }
 
 .references__item-frame img{
@@ -392,5 +392,4 @@ ul.references{
 }
 
 .references__item-description{
-    display: inline-block;
 }
