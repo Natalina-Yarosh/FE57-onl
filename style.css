@@ -8,21 +8,14 @@
     margin:0 auto 118px;
 }
 
-.container__tabs {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.tabs__lists {
+.tabs__list {
     display: flex;
     font-family: "Open Sans", sans-serif;
     justify-content: space-around;
     max-width: 552px;
 }
 
-.tabs__list {
+.tabs__list-item {
     text-decoration: none;
     color: #333333;
     max-width: 184px;
@@ -40,31 +33,31 @@
 
 .tabs__main {
     display: flex;
+    padding-left: 101px;
     border: 1px solid #C6CBCD;
 }
 
-.tabs__main-left {
-    margin-left: 101px;
+.tabs__info {
     max-width: 700px;
     width: 60%;
     padding: 55px;
 }
 
-div.tabs__main-left h2 {
+.tabs__title {
     font-family: "Open Sans";
     margin-bottom: 57px;
     font-size: 30px;
     line-height: 41px;
 }
 
-.tabs__main-text {
+.tabs__text {
     margin-bottom: 26px;
     font-family: "Raleway";
     font-size: 18px;
     line-height: 21px;
 }
 
-.margin {
+.tabs__text:nth-last-of-type(1) {
     margin-bottom: 84px;
 }
 
@@ -82,23 +75,27 @@ div.tabs__main-left h2 {
     border: none;
 }
 
-.tabs__main-right {
+.tabs__wrapper-image {
     width: 40%;
 }
 
-div.tabs__main-right img {
+.tabs__image {
     width: 100%;
     height: 100%;
+}
+
+.awesome {
+    margin-bottom: 110px;
 }
 
 .container {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto 110px;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
-.awesome__title {
+.title {
     font-size: 36px;
     font-family: "Raleway";
     text-align: center;
@@ -107,10 +104,10 @@ div.tabs__main-right img {
     margin-bottom: 40px;
 }
 
-.awesome__line {
+.line {
     border-bottom: 1px solid #EC7979;
     width: 170px;
-    margin:40px auto;    
+    margin:40px auto; 
 }
 
 .awesome__design {
@@ -118,7 +115,7 @@ div.tabs__main-right img {
     gap: 27px;
 }
 
-.awesome__text {
+.text {
     text-align: center;
     font-family: "Raleway";
     color: #86878B;
@@ -149,7 +146,7 @@ div.tabs__main-right img {
     background-image: url('./src/images/lightning.svg');
 }
 
-.awesome__design-title {
+.awesome__title {
     font-family: "Open sans";
     text-align: center;
     margin-bottom: 26px;
@@ -157,19 +154,23 @@ div.tabs__main-right img {
     font-weight: 700;
 }
 
-.awesome__design-text {
+.awesome__text {
     font-family: "Raleway";
     text-align: center;
     font-size: 18px;
     line-height: 21px;
 }
 
+.pricing {
+    background-color: rgba(245, 245, 245, 1);
+    margin-bottom: 110px;
+    padding: 0 15px; 
+}
+
 .pricing__container {
     max-width: 1540px;
     width: 100%;
-    margin: 0 auto 40px;
-    padding: 0 15px;
-    background-color: rgba(245, 245, 245, 1)    
+    margin: 0 auto;
 }
 
 .pricing__title {
@@ -185,7 +186,7 @@ div.tabs__main-right img {
 .pricing__line {
     border-bottom: 1px solid #EC7979;
     width: 170px;
-    margin:40px auto;
+    margin: 0 auto 40px;
 }
 
 .pricing__tarifs {
@@ -245,10 +246,10 @@ div.tabs__main-right img {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: rgba(245, 245, 245, 0.5);
-    opacity: .5;
+    color: rgba(255, 255, 255, 0.5);
     padding: 15px 0;
     cursor: pointer;
+    background-color: rgba(51, 51, 51, 1);
 }
 
 .tarif__offer {
