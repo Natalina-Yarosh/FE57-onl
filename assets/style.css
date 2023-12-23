@@ -36,8 +36,19 @@
 }
 
 .tab_active {
+    position: relative;
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
+}
+
+.tab_active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #FFFFFF;
+    bottom: -5px;
+    left: 0;
 }
 
 .tab {
@@ -81,7 +92,7 @@
     width: 40%;
 }
 
-img {
+img, .tab__image {
     width: 100%;
     height: 100%;
 }  
@@ -115,15 +126,19 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: 42.26px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     text-transform: uppercase;
+    position: relative;
 }
 
-.line {
+.title::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-top: 1px solid #EC7979;
+    bottom: -40px;
+    left: calc(50% - 85px);
     width: 170px;
-    height: 1px;
-    background: #EC7979;
-    margin: 0 auto 40px;
 }
 
 .text {
@@ -267,4 +282,78 @@ img {
 
 .pricing__items-active {
     border: 2px solid #F5F5F5;
+}
+
+.customers {
+    margin-bottom: 100px;
+}
+
+.customers__subtitle {
+    margin-bottom: 83px;
+}
+
+.customers__container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.customer__quote {
+    position: relative;
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 10px;
+    background-color: #E2E2E2;
+    padding: 38px 25px;
+    margin-bottom: 66px;
+}
+
+.customer__quote::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 70px;
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;  
+}
+
+.customer__image-wrapper {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.customer__author-box {
+    display: flex;
+    column-gap: 30px;
+}
+
+.customer__name {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    text-transform: capitalize;
+    margin-bottom: 18px;
+
+}
+
+.customer__job_position {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
 }
