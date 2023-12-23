@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.head{
+    margin-bottom: 92px;
+}
+
 .head__title{
     margin-bottom: 80px;
     text-align: center;
@@ -29,8 +33,7 @@
 .head__text{
     color: #86878B;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom:92px; 
+    font-family: 'Raleway', sans-serif; 
 }
 
 .tabs{
