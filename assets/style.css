@@ -181,11 +181,11 @@ html {
     border-radius: 0 0 10px 10px;
     padding: 20px;
 }
-.form__button:active {
-    border: 1px solid #AB4949;
-}
 .form__button:hover {
     background-color: #AB4949;
+    border: 1px solid #AB4949;
+}
+.form__button:active {
     border: 1px solid #AB4949;
 }
 .social__wrapper {
@@ -402,7 +402,7 @@ html {
     list-style-type: none;
     text-align: center;
 }
-.pricing__list-active {
+.pricing__list:hover {
     margin: -20px 0 20px;
     box-shadow: 0px 5px 10px 0px #33333333;
 }
@@ -565,13 +565,14 @@ html {
     margin: 0 auto;
     display: block;
 }
-.button-first:active {
-    border-color: #AB4949;
-    background-color: #AB4949;
-}
 .button-first:hover {
     border-color: #AB4949;
     color: #AB4949;
+}
+.button-first:active {
+    border-color: #AB4949;
+    background-color: #AB4949;
+    color: #FFF;
 }
 .contacts__wrapper {
     margin-bottom: 66px;
