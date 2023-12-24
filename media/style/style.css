@@ -180,6 +180,9 @@
     padding: 82px 0;
     margin-bottom: 107px;
 }
+.price{
+    margin-bottom: 79px;
+}
 
 .prising__wrapper{
     display: flex;
@@ -261,6 +264,9 @@ ul :last-child{
 .customers{
     margin-bottom: 108px;
 }
+.custom{
+    margin-bottom: 83px;
+}
 
 .customers__wrapper{
     list-style-type: none;
@@ -325,3 +331,69 @@ ul :last-child{
     line-height: 21px;
 
 }
+
+.des{
+    margin-bottom: 80px;
+}
+.design__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 80px ;
+    line-height: 42px;
+    position: relative;
+    }
+
+.design__title::before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;    
+    background: #ffffff;
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 85px);
+}
+
+.design__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.design{
+    margin-bottom: 67px;
+    padding: 70px 0;
+    background-image: url(../Img/designBG.jpg);
+    background-position: center;
+    position: relative;
+}
+.design::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.design__btn{
+    display: block;
+    width: 100%;
+    max-width: 370px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    background: none;
+    padding: 16px;
+}    
+
+.design__btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
