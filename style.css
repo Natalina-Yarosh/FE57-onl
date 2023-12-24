@@ -15,9 +15,9 @@
     margin-bottom: 59px;
 }
 .content__title{
-    position: relative;
-    text-align: center;
-    margin:0 auto 80px ;
+    display: flex;
+    justify-content: center;
+    margin:0 auto 40px ;
     color: #000;
     font-family: 'Raleway' , sans-serif;
     font-size: 36px;
@@ -25,35 +25,33 @@
     text-transform: uppercase;
 }
 .content__title::after{
-    position: absolute;
     content: "";
-    top: 100% ;
-    left:50% ;
+    margin-bottom: 40px;
     width: 170px;
     height: 1px;
     background: #EC7979;
-    transform: translate(-50%, 40px);
 }
 .content__text{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     color: #86878B;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
-    margin:0 auto ;
+    margin:0 auto 59px;
 }
 .pricing__content{
+    max-width: 1170px;
     display:flex;
-    column-gap: 31px;
-
 }
 .price{
+    width: 370px;
     justify-content: center;
-    max-width: 370px;  
-    width: 100%;
+    column-gap: 31px;
+    
 }
 .price__title{
-    padding: 13px;
+    height: 60px;
     background-color: #000;
     color: #FFF;
     padding-top: 14px;
@@ -65,7 +63,8 @@
     margin-bottom: 3px;
 }
 .price__cost{
-    padding:26px 0 29px;
+    padding:26px 0 ;
+    height: 100px;
     text-align: center;
     background-color: #000;
     color: #FFF;
@@ -75,8 +74,9 @@
     margin-bottom: 3px;
 }
 .price__description{
-    padding: 13px 0 14px;
+    padding: 13px 0;
     background-color: #000;
+    height: 50px;
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
     font-family: 'Raleway' , sans-serif;
@@ -84,11 +84,14 @@
     line-height: 21px;
     margin-bottom: 3px;
 }
-.price__list{
+.list{
+    display: block;
+    column-gap: 30px;
     list-style-type: none;
-    padding: 13px 0 14px;
+    padding: 13px 0;
     margin-bottom: 3px;
     background: #F5F5F5;
+    height: 50px;
     color: #86878B;
     text-align: center;
     font-family: Raleway;
