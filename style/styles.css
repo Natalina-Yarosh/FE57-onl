@@ -56,6 +56,18 @@
     width: 203px;
     border: 1px solid #C6CBCD;
     border-bottom: none;
+    position: relative;
+}
+
+.tabs__elem-text.active::before{
+    content: "";
+    width: 100%;
+    height: 5px;
+    display: block;
+    background: #FFF;
+    position: absolute;
+    left:0;
+    bottom: -2px;
 }
 
 .tabs__elem-text{
