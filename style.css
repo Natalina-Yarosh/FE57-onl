@@ -24,7 +24,8 @@ p {
 }
 .header__nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .wrapper__navigation {
     display: flex;
@@ -47,6 +48,7 @@ p {
     font-weight: 600;
     text-transform: capitalize;
     padding: 8px 30px;
+    display: inline-block;
 }
 .link__logo {
     text-decoration: none;
@@ -76,10 +78,6 @@ p {
     column-gap: 100px;
     position: relative;
     z-index: 1;
-    width: 100%;
-    max-width: 1270px;
-    padding: 0 15px;
-    margin: 0 auto;
 }
 .banner__content-info {
     max-width: 670px;
@@ -103,7 +101,8 @@ p {
     height: 5px;
     max-width: 170px;
     width: 100%;
-    top: 223px;
+    top: 100%; 
+    transform: translateY(55px);
     left: 0;
 }
 .banner__content-text {
