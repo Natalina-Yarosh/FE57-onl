@@ -332,6 +332,11 @@ ul :last-child{
 
 }
 
+.design__container{
+    position: relative;
+    z-index: 1;
+}
+
 .des{
     margin-bottom: 80px;
 }
@@ -353,7 +358,8 @@ ul :last-child{
     background: #ffffff;
     position: absolute;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .design__text {
@@ -374,8 +380,11 @@ ul :last-child{
 .design::after{
     position: absolute;
     content: "";
-    background-color: rgba(0, 0, 0, 0.5);
-
+    background-color: #00000080;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .design__btn{
