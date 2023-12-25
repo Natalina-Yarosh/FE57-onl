@@ -35,14 +35,13 @@
 
 .header{
     background: #000;
-    margin: 0 auto;
+    padding: 22px 0;
 }
 
 .header__wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 75px;
 }
 
 .header__nav-list{
