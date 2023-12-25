@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+.header {
+    background-color: #000;
+    padding: 22px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 571px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-transform: capitalize;
+}
+
 .banner {
     background: url(/assets/images/street.jpg);
     background-size: cover;
@@ -23,7 +53,7 @@
     width: 100%;
 }
 
-.logo {
+.logo__banner {
     margin-bottom: 73px;
 }
 
