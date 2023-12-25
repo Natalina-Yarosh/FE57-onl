@@ -20,7 +20,8 @@
     position: absolute;
     content: '';
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
     width: 170px;
     height: 1px;
     background: #EC7979;
@@ -289,7 +290,7 @@
     position: absolute;
     content:'';
     top: 100%;
-    right: 269px;
+    left: 70px;
     width: 0;
 	height: 0;
 	border-left: 20px solid transparent;
@@ -302,13 +303,13 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    object-fit: cover;
     overflow: hidden;
 }
 
 .customer__photo{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .customer__self{
