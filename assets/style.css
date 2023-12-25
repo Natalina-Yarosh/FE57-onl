@@ -138,7 +138,7 @@ img, .tab__image {
     border-top: 1px solid #EC7979;
     bottom: -40px;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     width: 170px;
 }
 
