@@ -137,7 +137,8 @@ img, .tab__image {
     position: absolute;
     border-top: 1px solid #EC7979;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translate(-50%);
     width: 170px;
 }
 
@@ -349,7 +350,7 @@ img, .tab__image {
 
 }
 
-.customer__job_position {
+.customer__job-position {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
