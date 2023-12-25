@@ -272,3 +272,112 @@ li.price__text:last-child {
     border-bottom: none;
     
 }
+
+/* Здесь начинается раздел с комментариями*/
+
+
+.customers {
+    margin-bottom: 107px;
+}
+.container {
+    
+}
+.head {
+    
+}
+.head__title {
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+.head__line {
+    max-width: 170px;
+    border-bottom: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+.head__text {
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.customers__wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: flex-start;
+}
+.customers__block {
+}
+.customer__window {
+    
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    margin-bottom: 66px;
+}
+
+.customer__window::after {
+    content: "";
+    position: relative;
+    top: 19px;
+    left: 70px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+	
+    
+    
+}
+.window__text {
+    padding: 38px 25px;
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+.customer__info-wrapper {
+    display: flex;
+}
+.image__customer {
+    margin-right: 30px ;
+    width: 70px;
+    height: 70px;
+   
+}
+.customers__image {
+    max-width: 100%;
+    border-radius: 70px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.customer__name-profession {
+    
+
+}
+.name__customer {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+.profission__customer {
+    color: #000;
+
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
