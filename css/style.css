@@ -182,9 +182,6 @@ line-height: 21.13px;
     line-height: 32.68px;
     margin-bottom: 26px;
   }
-  .info__line{
-
-  }
   .info__text{
   color: #86878B;
   text-align: center;
@@ -341,8 +338,8 @@ line-height: 21.13px;
 .reviews__comment-answer::after{
   position: absolute;
   content:"";
-  border-left: 15px solid transparent; /* Половина ширины треугольника */
-  border-right: 15px solid transparent; /* Половина ширины треугольника */
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent;
   border-top: 20px solid #e2e2e2;
   bottom: -20px;
   left: 70px;
@@ -378,8 +375,8 @@ line-height: 21.13px;
   position: relative;
   padding: 381px 0px 185px 0px;
   background-image:url(/img/banner.png);
-  background-size: cover; /* Растягивает изображение, чтобы оно покрывало весь контейнер */
-  background-position: center; /* Выравнивает изображение по центру контейнера */
+  background-size: cover; 
+  background-position: center; 
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -415,13 +412,10 @@ line-height: 21.13px;
   margin-bottom: 97px;
 }
 .banner__title::after{
-  position: absolute;
-  content:'';
-  width: 170px;
-  height: 1px;
   background-color:#fff;
   left: 0;
   bottom:-55px;
+  transform: none;
 }
 .banner__info {
   max-width: 270px;
@@ -430,16 +424,17 @@ line-height: 21.13px;
   line-height: 21.13px;
   margin-bottom: 42px;
 }
-.banner__cta {
+.cta {
+  display: block;
   cursor: pointer;
-  width: 270px;
+  max-width: 270px;
+  width: 100%;
   height: 100%;
   color: #FFF;
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: normal;
   text-transform: capitalize;
   background:none;
   border: 2px solid #FFF;
@@ -505,4 +500,36 @@ line-height: 21.13px;
   border-radius: 0px 0px 10px 10px;
   background: #EC7979;
   border:none;
+}
+.design__header{
+  color: #FFF;
+}
+.design__header::after{
+  background-color:#FFF;
+}
+.design {
+  position: relative;
+  background-image:url(/img/design.jpg);
+  padding:70px 0px;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.design::after{
+  position: absolute;
+  content:'';  
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.50);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.design__cta {
+  max-width: 370px;
+  margin: 0 auto;
+}
+.design__subtittle{
+  color: #FFF;
 }
