@@ -397,3 +397,23 @@ ul :last-child{
     text-transform: capitalize;
 }
 
+.footer{
+    background: #000000;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding: 35px 0 28px;
+}
+
+.creater{
+    color: #ffffff80;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 27px;
+}
+
