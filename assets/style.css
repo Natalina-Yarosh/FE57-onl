@@ -345,7 +345,8 @@ html {
     position: absolute;
     border-top: 1px solid #EC7979;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
     width: 170px;
 }
 .head__text {
@@ -541,13 +542,7 @@ html {
     margin-bottom: 80px;
 }
 .design__title::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
     border-top: 1px solid #fff;
-    bottom: -40px;
-    left: calc(50% - 85px);
-    width: 170px;
 }
 .design__button {
     color: #FFF;

@@ -42,7 +42,7 @@
         </div>
     </header>
     <main class="main">
-        <div class="banner__wrapper">
+        <section class="banner__wrapper">
             <div class="banner__container main-container">
                 <div class="banner__info">
                     <div class="banner__logo-wrapper">
@@ -57,17 +57,17 @@
                     <p class="banner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="banner__button  button-first">Download</button>
                 </div>
-                <div class="banner__form-wrapper">
+                <form class="banner__form-wrapper">
                     <div class="banner__form">
                         <h3 class="form__title">Try Your <span class="form__coloring">FREE</span> Trial Today</h3>
                         <input type="text" class="form__input" placeholder="Name">
                         <input type="email" class="form__input" placeholder="Email">
                         <input type="password" class="form__input" placeholder="Password">
                     </div>
-                    <button class="form__button">Get Started</button>
-                </div>
+                    <button class="form__button" type="submit">Get Started</button>
+                </form>
             </div>
-        </div>
+        </section>
         <div class="social__wrapper">
             <div class="main-container social__container">
                 <div class="social__text">
@@ -133,7 +133,7 @@
                 </div>
             </div>
         </div>
-        <div class="awesome__wrapper" id="features">
+        <section class="awesome__wrapper" id="features">
             <div class="main-container">
                 <div class="head">
                     <h2 class="head__title">WHY THIS IS AWESOME</h2>
@@ -169,8 +169,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="pricing__wrapper" id="pricing">
+        </section>
+        <section class="pricing__wrapper" id="pricing">
             <div class="main-container">
                 <div class="head pricing__head">
                     <h2 class="head__title">PRICING OPTIONS</h2>
@@ -212,8 +212,8 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="customers__wrapper" id="reviews">
+        </section>
+        <section class="customers__wrapper" id="reviews">
             <div class="main-container">
                 <div class="head customers__head">
                     <h2 class="head__title">what our customers are saying</h2>
@@ -252,8 +252,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="design__wrapper">
+        </section>
+        <section class="design__wrapper">
             <div class="design__container main-container">
                 <div class="head design__head">
                     <h2 class="head__title design__title">STYLISH AXURE DESIGN</h2>
@@ -261,24 +261,26 @@
                     <button class="design__button button-first">Download</button>
                 </div>
             </div>
-        </div>
-        <div class="contacts__wrapper" id="contact">
+        </section>
+        <section class="contacts__wrapper" id="contact">
             <div class="main-container">
                 <div class="head contacts__head">
                     <h2 class="head__title">contact us</h2>
                     <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="contacts__inputs-container">
-                    <div class="contacts__inputs-creds">
-                        <input type="text" class="contacts__input form__input" placeholder="Name">
-                        <input type="email" class="contacts__input form__input" placeholder="Email">
-                        <input type="password" class="contacts__input form__input" placeholder="Password">
+                <form>
+                    <div class="contacts__inputs-container">
+                        <div class="contacts__inputs-creds">
+                            <input type="text" class="contacts__input form__input" placeholder="Name">
+                            <input type="email" class="contacts__input form__input" placeholder="Email">
+                            <input type="password" class="contacts__input form__input" placeholder="Password">
+                        </div>
+                        <textarea type="text" class="form__input contacts__input" placeholder="Message"></textarea>
                     </div>
-                    <textarea type="text" class="form__input contacts__input" placeholder="Message"></textarea>
-                </div>
-                <button class="contacts__button button-third">Send Message</button>
+                    <button class="contacts__button button-third" type="submit">Send Message</button>
+                </form>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__container main-container">
