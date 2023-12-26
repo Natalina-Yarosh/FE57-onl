@@ -7,10 +7,6 @@
 }
 
 
-.info {
-    margin: 118px 0 118px;
-}
-
 
 .container {
     max-width: 1200px;
@@ -20,18 +16,17 @@
 
 .axit-header{
     background-color: #000;
+    padding: 22px 0;
 }
 
 .axit__container{
     display: flex;
-    padding: 22px 15px;
     justify-content: space-between;
     align-items: center;
 }
 
 .axit-header__logo-wrapper{
-    width: 87px;
-    height: 31px;
+   display: flex;
 }
 
 .axit-header__logo{
@@ -40,8 +35,6 @@
 }
 
 .axit-header__menu{
-    max-width: 571px;
-    width: 100%;
 }
 
 .axit-header__menu-items{
@@ -49,6 +42,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    column-gap: 55px;
 }
 
 .menu-item{
@@ -60,6 +54,7 @@
     font-weight: 600;
     line-height: 21px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .banner{
@@ -69,6 +64,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    margin: 0 0 100px;
 }
 
 .banner::before{
@@ -121,8 +117,8 @@
     display: block;
     background-color: #fff;
     position: absolute;
-    left: 0;
-    top: calc(100% + 55px);
+    top: 100%;
+    transform: translateY(55px);
 }
 
 .banner__text{
@@ -167,6 +163,10 @@
     border: 2px solid #fff;
     text-transform: capitalize;
 } */
+
+.info {
+    margin: 0 0 118px;
+}
 
 .info__tabs {
    
@@ -310,8 +310,9 @@ a.tab-one::after{
     display: block;
     background-color: #EC7979;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 
 
@@ -426,6 +427,9 @@ ul {
     border-bottom: 1px solid #F5F5F5;
 }
 
+.options__list:last-child{
+    border-bottom: none;
+}
 
 .options-title {
     background-color: #333333;
@@ -517,17 +521,15 @@ ul {
 .reviews__data{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 30px;
 }
 
 
 .reviews__data-photo{
     width: 70px;
     height: 70px;
-    -moz-border-radius: 35px;
-    -webkit-border-radius: 35px;
-    border-radius: 35px;
+    border-radius: 50%;
     overflow: hidden;
-    margin-right: 30px;
 }
 
 
@@ -590,13 +592,7 @@ ul {
 
 .axure-title::after{
     content: '';
-    width: 170px;
-    height: 1px;
-    display: block;
     background-color: #fff;
-    position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);
 }
 
 .axure-text{
@@ -625,13 +621,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    column-gap: 32px;
+    margin-bottom: 27px;
 }
 
 .contacts__icon-wrapper{
     width: 53px;
     height: 53px;
-    margin-bottom: 27px;
 }
 
 .contacts__icon-wrapper:hover path{
