@@ -136,8 +136,9 @@ a.tab-one::after{
     display: block;
     background-color: #EC7979;
     position: absolute;
-    left: calc(50% - 85px);
-    top: calc(100% + 40px);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 40px);
 }
 
 /* .container__line {
@@ -317,16 +318,14 @@ ul {
 .reviews__data{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 30px;
 }
 
 .reviews__data-photo{
     width: 70px;
 	height: 70px;
-	-moz-border-radius: 35px;
-	-webkit-border-radius: 35px;
-	border-radius: 35px;
+	border-radius: 50%;
     overflow: hidden;
-    margin-right: 30px;
 }
 
 .customer-photo{
