@@ -169,6 +169,7 @@ html {
     outline: none;
     border: 1px solid #EC7979;
     border-radius: 10px;
+    padding-left: 5px;
 }
 .banner__form .form__input:last-of-type  {
     margin-bottom: 0;
