@@ -36,8 +36,9 @@
     position: absolute;
     width: 170px;
     height: 1px;
-    top: calc(100% + 40px);
-    left: calc(50% - 85px);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 40px);
     background-color: var(--second-color);
 
 }
@@ -52,10 +53,14 @@
     line-height: 21px;
 }
 
+.banner__container{
+    display: flex;
+    align-items: center;
+}
+
 .banner__btn{
     display: inline-block;
     max-width: 270px;
-    min-width: 95px;
     width: 100%;
     border: 2px solid #FFF;
     color: #FFF;
@@ -79,16 +84,22 @@
     background: #AB4949;
 }
 
-.header__wrapper{
+header {
     background-color: #000;
     padding: 22px 0;
+}
+
+.header__wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo-container{
-    padding-left: 170px;
-    height: 31px;
+    display: flex;
+}
+
+.header__nav{
 }
 
 .header__nav-links{
@@ -98,7 +109,6 @@
 }
 
 .header__nav-links li{
-    margin: auto;
     min-width: 113px;
     width: 100%;
 }
@@ -122,14 +132,22 @@
 
 .banner_wrapper{
     background-size: cover;
-    padding-top: 333px;
+    padding-top: 306px;
     padding-bottom: 185px;
     position: relative;
+    z-index: 0;
 }
 
 
-.banner__container{
-    padding: 0 155px;
+.banner_wrapper::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
 }
 
 .banner__info{
@@ -160,6 +178,7 @@
 .banner__title::after{
     background-color: #FFF;
     left: 0;
+    transform: translate(0, 40px);
 }
 
 .banner__agenda{
@@ -170,12 +189,8 @@
 }
 
 .banner__logo{
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
-
-.banner__logo svg{
-    margin-top: -27px;
-} 
 
 .social_wrapper{
     padding: 32px 0 18px;
@@ -556,7 +571,7 @@ ul.references{
 
 .design_wrapper{
     margin-bottom: 67px;
-    padding: 70px;
+    padding: 70px 0;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -575,9 +590,7 @@ ul.references{
 }
 
 .design__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .design__agenda{
@@ -629,6 +642,11 @@ ul.references{
     margin-bottom: 28px;
 }
 
+.social_links__link{
+    width: 70px;
+    height: 70px;
+}
+
 .social_links__link:hover{
     background-color: var(--second-color);
 }
@@ -650,10 +668,16 @@ footer{
 .social_links-banner{
     gap: 30px;
     justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
 }
 
 .social_links__link-banner:hover{
     background-color: #F8EFEF;
+}
+
+.social_links__image{
+    width: 100%;
 }
 
 .social_links__image path:hover{
@@ -661,7 +685,8 @@ footer{
 
 }
 
-.social_links-banner li {
+.social_links-banner a {
     width: 70px;
     height: 70px;
+    display: flex;
 }
