@@ -15,6 +15,16 @@
     align-items: center;
 }
 
+.logo {
+    max-width: 86px;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo__header {
+    width: 100%;
+}
+
 .nav__header {
     display: flex;
     justify-content: space-between;
@@ -38,13 +48,25 @@ a {
     background: url(/assets/images/street.jpg);
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     padding: 306px 0 185px;
-    opacity: 0.9;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
 }
 
  .banner__container {
     align-items: center;
+    position: relative;
+    z-index: 1;
  }
 
 
@@ -108,7 +130,7 @@ a {
 }
 
 .tabs {
-    margin: 100px auto;
+    margin: 0 auto 100px;
 }
 
 .container {
@@ -491,14 +513,7 @@ img, .tab__image {
 }
 
 .design__title::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
     border-top: 1px solid #FFF;
-    bottom: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 170px;
 }
 
 .design__subtitle {
