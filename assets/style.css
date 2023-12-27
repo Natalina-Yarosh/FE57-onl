@@ -21,6 +21,9 @@ html {
     max-width: 1238px;
     margin: 0 auto;
 }
+.header__logo {
+    display: flex;
+}
 .header__nav {
     max-width: 600px;
     width: 100%;
@@ -148,6 +151,8 @@ html {
 }
 .form__coloring {
     color: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .form__input {
     color: #EC7979;
@@ -227,7 +232,10 @@ html {
 }
 .social__icons {
     margin: 0;
-
+}
+.social__container .social__icon {
+    width: 70px;
+    height: 70px;
 }
 .social__icon {
     width: 53.2px;
@@ -235,6 +243,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+a.social__icon svg {
+    width: 100%;
+    height: 100%;
 }
 .social__icon:hover path{
     fill: #AB4949;
@@ -538,14 +550,13 @@ html {
     position: relative;
 }
 .design__head {
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 .design__title {
     color: #FFF;
 }
 .design__text {
     color: #FFF;
-    margin-bottom: 80px;
 }
 .design__title::after {
     border-top: 1px solid #fff;
