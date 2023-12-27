@@ -13,30 +13,30 @@
     <!-- header -->
     <header class="header">
         <div class="container header__nav">
-                <a href="#" class="link__logo" target="_blank">
-                    <svg class="logo" width="87" height="31" viewBox="0 0 87 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.3163 0H15.8289L26.1059 31H20.5146L17.9158 23.2718H8.1507L5.5913 31H0L10.3163 0ZM16.9314 19.0366L13.0726 6.24366L9.05633 19.0366H16.9314Z" fill="white"/>
-                        <path d="M32.086 0L39.016 11.4394L45.9067 0H51.813L42.1267 15.7183L51.498 31H45.5917L39.016 19.9972L32.401 31H26.4553L35.8266 15.7183L26.1403 0H32.086Z" fill="white"/>
-                        <path d="M54.6277 31V0H60.0615V31H54.6277Z" fill="#EC7979"/>
-                        <path d="M86.8026 5.2831H77.8644V31H72.47V5.2831H63.5318V0H86.8026V5.2831Z" fill="#EC7979"/>
-                    </svg>
-                </a>
+            <a href="#" class="link__logo" target="_blank">
+                <svg class="logo" width="87" height="31" viewBox="0 0 87 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.3163 0H15.8289L26.1059 31H20.5146L17.9158 23.2718H8.1507L5.5913 31H0L10.3163 0ZM16.9314 19.0366L13.0726 6.24366L9.05633 19.0366H16.9314Z" fill="white"/>
+                    <path d="M32.086 0L39.016 11.4394L45.9067 0H51.813L42.1267 15.7183L51.498 31H45.5917L39.016 19.9972L32.401 31H26.4553L35.8266 15.7183L26.1403 0H32.086Z" fill="white"/>
+                    <path d="M54.6277 31V0H60.0615V31H54.6277Z" fill="#EC7979"/>
+                    <path d="M86.8026 5.2831H77.8644V31H72.47V5.2831H63.5318V0H86.8026V5.2831Z" fill="#EC7979"/>
+                </svg>
+            </a>
         <nav>
             <ul class="wrapper__navigation">
                 <li class="navigation__item">
-                    <a class="item__nav" href="#">Features</a>
+                    <a class="item__nav" href="#features">Features</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="item__nav" href="#">About</a>
+                    <a class="item__nav" href="#about">About</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="item__nav" href="#">Pricing</a>
+                    <a class="item__nav" href="#pricing">Pricing</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="item__nav" href="#">Reviews</a>
+                    <a class="item__nav" href="#reviews">Reviews</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="item__nav" href="#">Contact</a>
+                    <a class="item__nav" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
     </header>
 
     <!-- banner -->
-    <div class="banner">
+    <section class="banner">
         <div class="banner__content container">
             <div class="banner__content-info">
                 <div class="banner__content-logo">
@@ -61,18 +61,21 @@
                 <p class="banner__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <button class="btn banner__btn">Download</button>
             </div>
-            <!-- <form class="banner__form-wrapper">
-                <p class="banner__form-title">Try Your <span class="banner__form-differ">FREE</span> Trial Today</p>
-                <input type="text" placeholder="Name">
-                <input type="email" name="Email" placeholder="Email">
-                <input type="password" name="Password" placeholder="Password">
-                <button class="btn btn__form btn__main">Get Started</button>
-            </form> -->
+            <form class="banner__form-wrapper">
+                <div class="banner__input-wrapper">
+                    <h2 class="banner__form-title">Try Your <span class="banner__form-differ">FREE</span> Trial Today</h2>
+                    <input class="banner__form-input" type="text" placeholder="Name">
+                    <input class="banner__form-input" type="email" name="Email" placeholder="Email">
+                    <input class="banner__form-input" type="password" name="Password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn__form btn__main">Get Started</button>
+            </form>
+            
         </div>
-    </div>
+    </section>
 
     <!-- social media -->
-    <div class="social-media">
+    <section class="social-media">
         <div class="container social-media__wrapper">
             <div class="social-media__info">
                 <h2 class="social-media__title">Social Media</h2>
@@ -118,10 +121,10 @@
                 </a></li>
             </ul>
         </div>
-    </div>
+    </section>
 
     <!-- tabs -->
-    <div class="tabs">
+    <section id="about" class="tabs">
         <div class="container">
             <div class="tabs__head">
                 <a class="tab tab_active" href="#" target="_blank">TAB 1</a>
@@ -142,10 +145,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- awesome -->
-    <div class="awesome">
+    <section id="features" class="awesome">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">WHY THIS IS AWESOME</h2>
@@ -181,10 +184,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- pricing-->
-    <div class="pricing">
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">pricing options</h2>
@@ -232,10 +235,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- customers -->
-    <div class="customers">
+    <section id="reviews" class="customers">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">what our customers are saying</h2>
@@ -299,10 +302,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- design -->
-    <div class="design">
+    <section class="design">
         <div class="container design__wrapper">
             <div class="head">
                 <h2 class="head__title design__title">STYLISH AXURE DESIGN</h2>
@@ -310,24 +313,28 @@
             </div>
             <button class="btn btn__design banner__btn">Download</button>
         </div>
-    </div>
+    </section>
 
     <!-- contact us -->
-    <div class="contact-us">
+    <section id="contact" class="contact-us">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">contact us</h2>
                 <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+            <form class="form__contact-us">
+                <div class="form__contact-us-wrapper">
+                    <div class="input__contact-us-wrapper">
+                        <input class="contact-us__input" type="text" name="name" placeholder="Name">
+                        <input class="contact-us__input" type="email" name="email" placeholder="Email">
+                        <input class="contact-us__input" type="password" name="password" placeholder="Password">
+                    </div>
+                    <textarea class="contact-us__textarea" name="big-text">Message</textarea>
+                </div>
+                <button type="submit" class="btn btn__contact-us btn__main">Send Message</button>
+            </form>
         </div>
-        <!-- <form method="get" action="#" class="contact-us__wrapper">
-            <input type="text" name="name" id="" placeholder="Name">
-            <input type="email" name="email" id="" placeholder="Email">
-            <input type="password" name="password" id="" placeholder="Password">
-            <textarea name="big-text" id="">Message</textarea>
-        </form> -->
-        <button class="btn btn__contact-us btn__main">Send Message</button>
-    </div>
+    </section>
     
     <!-- fotter -->
     <footer class="footer">
