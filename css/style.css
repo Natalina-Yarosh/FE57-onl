@@ -232,7 +232,7 @@ line-height: 21.13px;
     margin-bottom: 0;
   }
 
-.pricing {
+  .pricing {
     padding: 83px 0px;
     background-color:#F5F5F5;
     margin-bottom: 107px;
@@ -324,6 +324,7 @@ line-height: 21.13px;
 }
 .reviews__comment {
   width:100%;
+  max-width: 370px;
 }
 .reviews__comment-answer {
   position: relative;
@@ -335,6 +336,7 @@ line-height: 21.13px;
   padding: 38px 25px;
   text-align: center;
   margin-bottom: 66px;
+  border-radius: 10px;
 }
 .reviews__comment-answer::after{
   position: absolute;
@@ -349,13 +351,16 @@ line-height: 21.13px;
 .reviews__comment-person {
   display: flex;
   align-items:center;
-  justify-content: center;
+  justify-content: flex-start;
   column-gap:30px;
 }
-.reviews__comment-icon {
+.reviews__image-wrapper{
   width: 70px;
   height: 70px;
-  border-radius:70px;
+}
+.reviews__comment-icon {
+ width: 100%;
+ height: 100%;
 }
 .reviews__person-info {
 }
@@ -370,7 +375,6 @@ line-height: 21.13px;
   font-weight: 400;
   line-height: 21.13px;
 }
-
 
 .banner {
   position: relative;
@@ -443,10 +447,10 @@ line-height: 21.13px;
   padding: 16.5px;
 }
 .bannner__form {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  max-width: 470px;
   background-color:#fff;
-  padding: 36px 50px 0px 50px;
+  padding: 50px 0 0;
   border-radius: 10px;
 }
 .banner__form-try {
@@ -462,15 +466,16 @@ line-height: 21.13px;
 .banner__form-try span{
   color: #EC7979;
 }
-.bannner__fields {
+.banner__input {
   display: flex;
   flex-direction: column;
+  padding: 0 50px;
+  margin-bottom: 73px;
 }
 
 .banner__field {
   margin-bottom: 30px;
-  max-width: 370px;
-  height: 40px;
+  width: 100%;
   color: #BDBDBD;
   font-family: Open Sans;
   font-size: 14px;
@@ -480,17 +485,16 @@ line-height: 21.13px;
   border: none;
   border-bottom: 1px solid #BDBDBD; 
   outline: none;
-  padding-bottom: 16px;
+  padding: 16px 0;
 }
 .banner__field:last-of-type{
-  margin-bottom: 75px;
+  margin-bottom: 0;
+  
 }
 .banner__field-name {
 }
 .banner__field-button {
-  width: 470px;
-  height: 100%;
-  margin: 0 -50px;
+  width: 100%;
   color: #FFF;
   text-align: center;
   font-family: Open Sans;
