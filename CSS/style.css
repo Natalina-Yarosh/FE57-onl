@@ -628,6 +628,7 @@ ul {
 .contacts__icon-wrapper{
     width: 53px;
     height: 53px;
+    display: flex;
 }
 
 .contacts__icon-wrapper:hover path{
