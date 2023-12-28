@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-a {
+.nav__header-link {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -48,7 +48,7 @@ a {
     background: url(/assets/images/street.jpg);
     background-size: cover;
     background-position: center;
-    margin: 0 auto 100px;
+    margin: 0 auto;
     padding: 306px 0 185px;
     position: relative;
 }
@@ -127,6 +127,67 @@ a {
     text-transform: capitalize;
     cursor: pointer;
     background-color: #ff000000;
+}
+
+.social {
+    background-color: #F8EFEF;
+    margin-bottom: 100px;
+    padding: 32px 0 18px;
+}
+
+.social__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__box {
+    max-width: 470px;
+    width: 100%;
+}
+
+.social__title {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.social__text {
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: left;
+}
+
+.social__icons {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 17px;
+}
+
+.social__icon {
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.social__icon-logo:hover path {
+    fill: #000;
 }
 
 .tabs {
