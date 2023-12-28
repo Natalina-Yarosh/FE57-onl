@@ -28,20 +28,20 @@ html {
     max-width: 600px;
     width: 100%;
 }
-.header__nav-list {
+.header__list {
     display: flex;
 }
-.header__nav-list-item {
+.header__list-item {
     list-style: none;
     flex: 1 1 auto;
 }
-.header__nav-list-item-link:hover {
+.header__link:hover {
     background-color: #EC7979;
 }
-.header__nav-list-item-link:active {
+.header__link:active {
     background-color: #AB4949;
 }
-.header__nav-list-item-link {
+.header__link {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -59,7 +59,7 @@ html {
     padding: 0 15px;
     margin: 0 auto;
 }
-.banner__wrapper {
+.banner {
     background: url(../assets/images/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@ html {
     position: relative;
     padding: 306px 0 185px;
 }
-.banner__wrapper::before {
+.banner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -199,7 +199,7 @@ html {
 .form__button:active {
     border: 1px solid #AB4949;
 }
-.social__wrapper {
+.social {
     margin-bottom: 100px;
     background-color: #F8EFEF;
     padding: 32px 0 18px;
@@ -251,7 +251,7 @@ a.social__icon svg {
 .social__icon:hover path{
     fill: #AB4949;
 }
-.info__wrapper {
+.info {
     margin-bottom: 118px;
 }
 .info__tab {
@@ -342,7 +342,7 @@ a.social__icon svg {
     height: 100%;
     width: auto;
 }
-.awesome__wrapper {
+.awesome {
     margin-bottom: 118px;
 }
 .head {
@@ -373,15 +373,15 @@ a.social__icon svg {
     font-size: 18px;
     line-height: 21.13px;
 }
-.awesome__container {
+.awesome__list {
     display: flex;
     column-gap: 26px;
 }
-.awesome__advantage {
+.advantage {
     max-width: 371px;
     text-align: center;
 }
-.awesome__advantage-border {
+.advantage__wrapper-icon {
     border-radius: 100px;
     border: 1px solid #EC7979;
     width: 92px;
@@ -391,19 +391,19 @@ a.social__icon svg {
     justify-content: center;
     align-items: center;
 }
-.awesome__advantage-title {
+.advantage__title {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32.68px;
     margin-bottom: 30px;
 }
-.awesome__advantage-description {
+.advantage__text {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
 }
-.pricing__wrapper {
+.pricing {
     background-color: #F5F5F5;
     margin-bottom: 118px;
     padding-top: 82px;
@@ -412,7 +412,7 @@ a.social__icon svg {
 .pricing__head {
     margin-bottom: 79px;
 }
-.pricing__container {
+.pricing__block {
     display: flex;
     column-gap: 30px;
 }
@@ -425,7 +425,7 @@ a.social__icon svg {
     margin: -20px 0 20px;
     box-shadow: 0px 5px 10px 0px #33333333;
 }
-.pricing__item-title {
+.pricing__title {
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -436,7 +436,7 @@ a.social__icon svg {
     line-height: 33px;
     padding: 14px 0 13px; 
 }
-.pricing__item-price {
+.pricing__price {
     color: #FFF;
     font-size: 36px;
     font-weight: 700;
@@ -445,7 +445,7 @@ a.social__icon svg {
     line-height: 42px;
     padding: 29px 0;
 }
-.pricing__item-period {
+.pricing__period {
     color: #ffffff80;
     font-size: 18px;
     background-color: #333333;
@@ -453,7 +453,7 @@ a.social__icon svg {
     line-height: 21px;
     padding: 15px 0 14px;
 }
-.pricing__item-space {
+.pricing__space {
     color: #86878B;
     font-size: 18px;
     text-transform: capitalize;
@@ -462,16 +462,16 @@ a.social__icon svg {
     line-height: 21px;
     padding: 15px 0 14px;
 }
-.pricing__item-space:last-child {
+.pricing__space:last-child {
     border: none;
 }
 .customers__head {
     margin-bottom: 83px;
 }
-.customers__wrapper {
+.customers {
     margin-bottom: 118px;
 }
-.customers__container {
+.customers__list {
     display: flex;
     column-gap: 30px;
 }
@@ -499,7 +499,7 @@ a.social__icon svg {
     top: 100%; 
     left: 70px
 }
-.customer__human-wrapper {
+.customer__info {
     display: flex;
     column-gap: 30px;
 }
@@ -528,7 +528,7 @@ a.social__icon svg {
     font-weight: 400;
     line-height: 21.13px;
 }
-.design__wrapper {
+.design {
     background: url(../assets/images/city.jpg);
     background-size: cover;
     background-position: center;
@@ -537,7 +537,7 @@ a.social__icon svg {
     padding: 70px 0;
     margin-bottom: 67px;
 }
-.design__wrapper::before {
+.design::before {
     content: "";
     position: absolute;
     top: 0;
@@ -586,18 +586,18 @@ a.social__icon svg {
     background-color: #AB4949;
     color: #FFF;
 }
-.contacts__wrapper {
+.contacts {
     margin-bottom: 66px;
 }
 .contacts__head {
     margin-bottom: 89px;
 }
-.contacts__inputs-container {
+.contacts__block {
     display: flex;
     column-gap: 30px;
     margin-bottom: 52px;
 }
-.contacts__inputs-creds {
+.contacts__inputs {
     max-width: 570px;
     width: 100%;
 }
@@ -606,7 +606,7 @@ a.social__icon svg {
     width: 100%;
     margin-bottom: 52px;
 }
-.contacts__inputs-container .contacts__input:last-of-type {
+.contacts__block .contacts__input:last-of-type {
     margin-bottom: 0;
 }
 textarea {
