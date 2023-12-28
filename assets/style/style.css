@@ -300,6 +300,7 @@ svg {
   max-width: 203px;
   text-align: center;
   border-bottom: 0;
+  border-radius: 10px 10px 0 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 19.07px;
@@ -870,13 +871,6 @@ svg {
     color: #FFF;
 }
 
-.social__icon:hover {
-  box-shadow: 8px 10px 5px 2px rgba(224, 224, 224, 0.5);
-}
-
-.social__icon:active {
-  background: #fdfdfd;
-}
 
 input:hover,
 input:focus {
@@ -888,4 +882,12 @@ textarea:hover,
 textarea:focus {
   border-color: grey;
   outline: 2px solid rgb(186, 186, 186);
+}
+
+.social__icon {
+  transition: 1s;
+}
+
+.social__icon:hover {
+  transform: scale(1.5);
 }
