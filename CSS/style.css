@@ -192,6 +192,20 @@ a.tab-one {
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #c6cbcd;
     position: relative;
+<<<<<<< HEAD
+=======
+}
+
+a.tab-one::after{
+    content: '';
+    width: 100%;
+    height: 5px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+>>>>>>> ukraina
 }
 
 
@@ -302,7 +316,10 @@ a.tab-one::after{
     position: relative;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ukraina
 .container__title::after{
     content: '';
     width: 170px;
@@ -315,14 +332,20 @@ a.tab-one::after{
     transform: translate(-50%, 40px);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ukraina
 /* .container__line {
     width: 170px;
     height: 1px;
     margin: 0 auto 40px;
     background-color: #EC7979;
 } */
+<<<<<<< HEAD
 
+=======
+>>>>>>> ukraina
 
 .container__text {
     color: #86878B;
@@ -551,6 +574,7 @@ ul {
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -735,3 +759,5 @@ ul {
     font-size: 18px;
     line-height: 21px;
 }
+=======
+>>>>>>> ukraina
