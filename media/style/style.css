@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
+
 
 .container {
     padding: 0 15px;
