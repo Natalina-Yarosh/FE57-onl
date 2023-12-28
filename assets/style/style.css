@@ -211,6 +211,7 @@ svg {
   border-bottom: 1px solid black;
   padding: 16px 0 16px;
   width: 100%;
+  margin-bottom: 31px;
 }
 .form__input::placeholder {
   color: #BDBDBD;
@@ -801,8 +802,11 @@ svg {
   border: 0;
   border-bottom: 1px solid black;
   padding: 10px;
+  margin-bottom: 20px;
 }
-
+.contact__input-form:last-child {
+  margin-bottom: 0;
+}
 
 
 .contact__button {
@@ -874,14 +878,14 @@ svg {
 
 input:hover,
 input:focus {
-  border-color: grey;
-  outline: 2px solid rgb(186, 186, 186);
+color: #000000;
+  border: 1px solid #000000
 }
 
 textarea:hover,
 textarea:focus {
-  border-color: grey;
-  outline: 2px solid rgb(186, 186, 186);
+  color: #000000;
+    border: 1px solid #000000
 }
 
 .social__icon {
