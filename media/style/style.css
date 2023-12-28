@@ -461,6 +461,11 @@ ul :last-child{
 
 }
 
+.design__container{
+    position: relative;
+    z-index: 1;
+}
+
 .des{
     margin-bottom: 80px;
 }
@@ -482,7 +487,8 @@ ul :last-child{
     background: #ffffff;
     position: absolute;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .design__text {
