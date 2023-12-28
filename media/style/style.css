@@ -491,6 +491,11 @@ ul :last-child{
 
 }
 
+.design__container{
+    position: relative;
+    z-index: 1;
+}
+
 .des{
     margin-bottom: 80px;
 }
