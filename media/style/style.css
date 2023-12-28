@@ -33,6 +33,8 @@
 
 .banner{
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 .banner__logo{
@@ -501,6 +503,7 @@ ul :last-child{
 .des{
     margin-bottom: 80px;
 }
+
 .design__title {
     color: #FFF;
     text-align: center;
@@ -562,16 +565,12 @@ ul :last-child{
     margin: 0 auto;
     background: none;
     padding: 16px;
-}    
-
-.design__btn a{
-    text-decoration: none;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
-}
+}    
 
 .footer{
     background: #000000;
@@ -599,11 +598,11 @@ ul :last-child{
     height: 100%;
     object-fit: contain;
 }
+
 .creater{
     color: #ffffff80;
     text-align: center;
     font-size: 18px;
     line-height: 21px;
-    padding-bottom: 27px;
 }
 
