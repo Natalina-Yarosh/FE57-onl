@@ -186,8 +186,12 @@
     height: 100%;
 }
 
-.social__icon-logo:hover path {
+.social__banner:hover path {
     fill: #000;
+}
+
+.social__banner:active path {
+    fill: #0000ff;
 }
 
 .tabs {
@@ -600,4 +604,47 @@ img, .tab__image {
     margin: 0 auto;
     background-color: #ff000000;
 }
+
+.footer {
+    display: flex;
+    background: #000;
+}
+
+.footer__container {
+    padding: 35px 0 27px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 32.8px;
+    justify-content: center;
+    margin-bottom: 27.8px;
+}
+
+.social__icon-footer {
+    text-decoration: none;
+    width: 53.2px;
+    height: 53.2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__footer:hover path {
+    fill: #cf4b2a;
+}
+
+.social__footer:active path {
+    fill: #cfcc2a;
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+}
+
 
