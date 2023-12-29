@@ -357,6 +357,8 @@ line-height: 21.13px;
 .reviews__image-wrapper{
   width: 70px;
   height: 70px;
+  overflow: hidden;
+  border-radius:50%;
 }
 .reviews__comment-icon {
  width: 100%;
