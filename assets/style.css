@@ -64,9 +64,11 @@
 }
 
  .banner__container {
+    display: flex;
     align-items: center;
     position: relative;
     z-index: 1;
+    justify-content: space-between;
  }
 
 
@@ -129,6 +131,80 @@
     background-color: #ff000000;
 }
 
+.banner__form {
+    max-width: 470px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner__form-container {
+    padding: 36px 50px 0;
+}
+
+.form__title {
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.form__title-highlighted {
+    color: #EC7979;
+}
+
+.form__input {
+    color: #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    padding: 16px 0 16px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 31px;
+}
+
+.banner__input {
+    width: 100%;
+}
+
+.banner__form .form__input:last-child {
+    margin-bottom: 75px;
+}
+
+
+.form__btn {
+    width: 100%;
+    border: none;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.43px;
+    padding: 20px;
+}
+
+.form__button {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.form__btn:hover {
+    background: #AB4949;
+}
+
+.form__btn:active {
+    background: #EC7979;
+}
+
 .social {
     background-color: #F8EFEF;
     margin-bottom: 100px;
@@ -170,7 +246,6 @@
 .social__icons {
     display: flex;
     column-gap: 30px;
-    margin-bottom: 17px;
 }
 
 .social__icon {
@@ -179,6 +254,7 @@
     height: 70px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .social__icon-logo {
@@ -603,6 +679,39 @@ img, .tab__image {
     cursor: pointer;
     margin: 0 auto;
     background-color: #ff000000;
+}
+
+.contacts__form-container {
+    display: flex;
+    text-align: center;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.contacts-data {
+    max-width: 570px;
+    width: 100%;
+}
+
+.contact__input {
+    width: 100%;
+}
+
+.contacts-data .form__input:last-child {
+    margin-bottom: 0;
+}
+
+.form__input-message {
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contact__button {
+    display: block;
+    max-width: 370px;
+    margin: 0 auto 66px;
 }
 
 .footer {
