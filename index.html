@@ -10,7 +10,34 @@
     <link rel="stylesheet" href="media/style/style.css">
 </head>
 <body>
-    <div class="ban">
+    <header class="header">
+        <div class="header__wrap container">
+            <div class="header__logo">
+                <a href="#"><svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="logo">
+                    <g id="AXIT">
+                    <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
+                    <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
+                    </g>
+                    <g id="AXIT_2">
+                    <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
+                    <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
+                    </g>
+                    </g>
+                    </svg></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#awesome">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="ban">
         <div class="container banner">
             <div class="banner__logo">
                 <div class="logo"><img src="media/Icons/logo.svg" alt="AXIT"></div>
@@ -18,15 +45,15 @@
                 <p class="banner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <button class="banner__btn">Download</button>
             </div>
-            <div class="banner__form">
+            <form class="banner__form">
                 <p class="try">Try Your <span class="red__text">FREE</span> Trial Today</p>
-                <input type="text" name="Name" placeholder="Name">
-                <input type="text" name="Email" placeholder="Email">
-                <input type="password" name="password" placeholder="Password">
-                <input type="submit" value="Get Started">
-            </div>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input class="banner__form-btn" type="submit" value="Get Started">
+            </form>
         </div>
-    </div>
+    </section>
     <div class="media">
         <div class="container media__container">
             <div class="media__body">
@@ -68,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="awesome">
+    <section id="awesome">
         <div class="container">
             <div class="head">
                 <h2 class="head__title">WHY THIS IS AWESOME</h2>
@@ -106,8 +133,8 @@
                 </div>          
             </div>  
         </div>    
-    </div>  
-    <div class="pricing">
+    </section>  
+    <section id="pricing">
         <div class="container">
             <div class="head price">
                 <h2 class="head__title">PRICING OPTIONS</h2>
@@ -149,8 +176,8 @@
                     </ul>
             </div>
         </div>
-    </div>
-    <div class="customers">
+    </section>
+    <section class="customers">
         <div class="container">
             <div class="head custom">
                 <h2 class="head__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -207,8 +234,8 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="design">
+    </section>
+    <section class="design">
         <div class="container design__container">
             <div class="head des">
                 <h2 class="design__title">STYLISH AXURE DESIGN</h2>
@@ -216,7 +243,28 @@
             </div>
             <button class="design__btn">Download</button>
         </div>
-    </div>
+    </section>
+    <section id="contact">
+        <div class="contact__wrap container">
+            <div class="head">
+                <h2 class="head__title">CONTACT US</h2>
+                <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <form class="contact__form">
+                <div class="contact__form-wrap">            
+                    <div class="contact__form-first">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="contact__form-second">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <button class="contact__form-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
     <footer class="footer">
         <div class="icons">
             <a href="#" class="facebook"><img src="media/Icons/facebook_icon.svg" alt="facebook"></a>
