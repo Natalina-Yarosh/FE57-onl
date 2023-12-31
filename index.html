@@ -21,28 +21,28 @@
                 </svg>
             </a>
             <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-list-item">
-                        <a class="header__nav-list-item-link" href="#features">Features</a>
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a class="header__link" href="#features">Features</a>
                     </li>
-                    <li class="header__nav-list-item">
-                        <a class="header__nav-list-item-link" href="#about">About</a>
+                    <li class="header__list-item">
+                        <a class="header__link" href="#about">About</a>
                     </li>
-                    <li class="header__nav-list-item">
-                        <a class="header__nav-list-item-link" href="#pricing">Pricing</a>
+                    <li class="header__list-item">
+                        <a class="header__link" href="#pricing">Pricing</a>
                     </li>
-                    <li class="header__nav-list-item">
-                        <a class="header__nav-list-item-link" href="#reviews">Reviews</a>
+                    <li class="header__list-item">
+                        <a class="header__link" href="#reviews">Reviews</a>
                     </li>
-                    <li class="header__nav-list-item">
-                        <a class="header__nav-list-item-link" href="#contact">Contact</a>
+                    <li class="header__list-item">
+                        <a class="header__link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="banner__wrapper">
+        <section class="banner">
             <div class="banner__container main-container">
                 <div class="banner__info">
                     <div class="banner__logo-wrapper">
@@ -57,18 +57,18 @@
                     <p class="banner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <button class="banner__button  button-first">Download</button>
                 </div>
-                <div class="banner__form-wrapper">
+                <form class="banner__form-wrapper">
                     <div class="banner__form">
                         <h3 class="form__title">Try Your <span class="form__coloring">FREE</span> Trial Today</h3>
                         <input type="text" class="form__input" placeholder="Name">
                         <input type="email" class="form__input" placeholder="Email">
                         <input type="password" class="form__input" placeholder="Password">
                     </div>
-                    <button class="form__button">Get Started</button>
-                </div>
+                    <button class="form__button" type="submit">Get Started</button>
+                </form>
             </div>
-        </div>
-        <div class="social__wrapper">
+        </section>
+        <section class="social">
             <div class="main-container social__container">
                 <div class="social__text">
                     <h2 class="social__title">Social Media</h2>
@@ -114,8 +114,8 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="info__wrapper" id="about">
+        </section>
+        <div class="info" id="about">
             <div class="main-container">
                 <div class="info__tabs">
                     <a href="#" class="info__tab info__tab-active">TAB 1</a>
@@ -133,96 +133,96 @@
                 </div>
             </div>
         </div>
-        <div class="awesome__wrapper" id="features">
+        <section class="awesome" id="features">
             <div class="main-container">
                 <div class="head">
                     <h2 class="head__title">WHY THIS IS AWESOME</h2>
                     <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="awesome__container">   
-                    <div class="awesome__advantage">
-                        <div class="awesome__advantage-border">
+                <div class="awesome__list">   
+                    <div class="advantage">
+                        <div class="advantage__wrapper-icon">
                             <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28.523 55.1362H45.4731H28.523ZM36.9999 4.35486V7.9821V4.35486ZM60.0837 13.9163L57.5192 16.4807L60.0837 13.9163ZM69.6451 37H66.0178H69.6451ZM7.98198 37H4.35474H7.98198ZM16.4806 16.4807L13.9161 13.9163L16.4806 16.4807ZM24.174 49.8259C21.6381 47.2894 19.9112 44.0578 19.2118 40.5398C18.5124 37.0219 18.8719 33.3756 20.2447 30.0619C21.6175 26.7482 23.9421 23.916 26.9245 21.9234C29.9068 19.9307 33.4131 18.8672 36.9999 18.8672C40.5867 18.8672 44.093 19.9307 47.0753 21.9234C50.0577 23.916 52.3823 26.7482 53.7551 30.0619C55.1279 33.3756 55.4874 37.0219 54.788 40.5398C54.0886 44.0578 52.3617 47.2894 49.8258 49.8259L47.8381 51.81C46.7017 52.9466 45.8003 54.2959 45.1854 55.7809C44.5705 57.2659 44.2542 58.8574 44.2544 60.4646V62.3907C44.2544 64.3147 43.4901 66.1599 42.1296 67.5204C40.7691 68.8809 38.9239 69.6452 36.9999 69.6452C35.0759 69.6452 33.2307 68.8809 31.8702 67.5204C30.5097 66.1599 29.7454 64.3147 29.7454 62.3907V60.4646C29.7454 57.2183 28.4541 54.1025 26.1617 51.81L24.174 49.8259Z" stroke="#EC7979" stroke-width="6.83333" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
-                        <h3 class="awesome__advantage-title">Thoughtful Design</h3>
-                        <p class="awesome__advantage-description">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                        <h3 class="advantage__title">Thoughtful Design</h3>
+                        <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
-                    <div class="awesome__advantage">
-                        <div class="awesome__advantage-border">
+                    <div class="advantage">
+                        <div class="advantage__wrapper-icon">
                             <svg width="66" height="46" viewBox="0 0 66 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M58.5731 0C60.5429 0 62.4319 0.778611 63.8247 2.16455C65.2175 3.55048 66 5.43021 66 7.39022V38.6098C66 40.5698 65.2175 42.4495 63.8247 43.8355C62.4319 45.2214 60.5429 46 58.5731 46H7.42686C6.45155 46 5.48579 45.8088 4.58472 45.4375C3.68365 45.0661 2.86492 44.5217 2.17528 43.8355C1.48563 43.1492 0.93857 42.3345 0.565336 41.4379C0.192101 40.5413 0 39.5803 0 38.6098V7.39022C0 5.43021 0.78247 3.55048 2.17528 2.16455C3.56808 0.778611 5.45713 0 7.42686 0H58.5731ZM58.5731 4.92681H7.42686C6.77028 4.92681 6.1406 5.18635 5.67633 5.64833C5.21206 6.1103 4.95124 6.73688 4.95124 7.39022V38.6098C4.95124 39.9696 6.06032 41.0732 7.42686 41.0732H58.5731C59.2297 41.0732 59.8594 40.8137 60.3237 40.3517C60.7879 39.8897 61.0488 39.2631 61.0488 38.6098V7.39022C61.0488 6.73688 60.7879 6.1103 60.3237 5.64833C59.8594 5.18635 59.2297 4.92681 58.5731 4.92681ZM15.6789 31.2031H50.3376C50.9648 31.2033 51.5686 31.4404 52.0269 31.8665C52.4852 32.2926 52.7639 32.876 52.8067 33.4986C52.8494 34.1213 52.6531 34.737 52.2572 35.2211C51.8614 35.7053 51.2956 36.0219 50.6743 36.107L50.3376 36.13H15.6789C15.0517 36.1298 14.4479 35.8927 13.9896 35.4666C13.5313 35.0405 13.2526 34.4571 13.2098 33.8345C13.1671 33.2118 13.3634 32.5961 13.7593 32.112C14.1551 31.6278 14.7209 31.3112 15.3422 31.2261L15.6789 31.2031H50.3376H15.6789ZM47.862 19.7072C48.7374 19.7072 49.577 20.0533 50.196 20.6693C50.815 21.2852 51.1628 22.1207 51.1628 22.9918C51.1628 23.8629 50.815 24.6983 50.196 25.3143C49.577 25.9303 48.7374 26.2763 47.862 26.2763C46.9865 26.2763 46.147 25.9303 45.5279 25.3143C44.9089 24.6983 44.5611 23.8629 44.5611 22.9918C44.5611 22.1207 44.9089 21.2852 45.5279 20.6693C46.147 20.0533 46.9865 19.7072 47.862 19.7072ZM28.0735 19.7072C28.949 19.7072 29.7885 20.0533 30.4076 20.6693C31.0266 21.2852 31.3743 22.1207 31.3743 22.9918C31.3743 23.8629 31.0266 24.6983 30.4076 25.3143C29.7885 25.9303 28.949 26.2763 28.0735 26.2763C27.1981 26.2763 26.3585 25.9303 25.7395 25.3143C25.1205 24.6983 24.7727 23.8629 24.7727 22.9918C24.7727 22.1207 25.1205 21.2852 25.7395 20.6693C26.3585 20.0533 27.1981 19.7072 28.0735 19.7072ZM18.171 19.7072C19.0465 19.7072 19.8861 20.0533 20.5051 20.6693C21.1241 21.2852 21.4719 22.1207 21.4719 22.9918C21.4719 23.8629 21.1241 24.6983 20.5051 25.3143C19.8861 25.9303 19.0465 26.2763 18.171 26.2763C17.2956 26.2763 16.456 25.9303 15.837 25.3143C15.218 24.6983 14.8702 23.8629 14.8702 22.9918C14.8702 22.1207 15.218 21.2852 15.837 20.6693C16.456 20.0533 17.2956 19.7072 18.171 19.7072ZM37.976 19.7072C38.8514 19.7072 39.691 20.0533 40.31 20.6693C40.9291 21.2852 41.2768 22.1207 41.2768 22.9918C41.2768 23.8629 40.9291 24.6983 40.31 25.3143C39.691 25.9303 38.8514 26.2763 37.976 26.2763C37.1006 26.2763 36.261 25.9303 35.642 25.3143C35.0229 24.6983 34.6752 23.8629 34.6752 22.9918C34.6752 22.1207 35.0229 21.2852 35.642 20.6693C36.261 20.0533 37.1006 19.7072 37.976 19.7072ZM13.2033 9.85362C14.0787 9.85362 14.9183 10.1997 15.5373 10.8156C16.1564 11.4316 16.5041 12.2671 16.5041 13.1382C16.5041 14.0093 16.1564 14.8447 15.5373 15.4607C14.9183 16.0767 14.0787 16.4227 13.2033 16.4227C12.3279 16.4227 11.4883 16.0767 10.8693 15.4607C10.2502 14.8447 9.90248 14.0093 9.90248 13.1382C9.90248 12.2671 10.2502 11.4316 10.8693 10.8156C11.4883 10.1997 12.3279 9.85362 13.2033 9.85362ZM23.0893 9.85362C23.9647 9.85362 24.8043 10.1997 25.4233 10.8156C26.0423 11.4316 26.3901 12.2671 26.3901 13.1382C26.3901 14.0093 26.0423 14.8447 25.4233 15.4607C24.8043 16.0767 23.9647 16.4227 23.0893 16.4227C22.2138 16.4227 21.3743 16.0767 20.7552 15.4607C20.1362 14.8447 19.7884 14.0093 19.7884 13.1382C19.7884 12.2671 20.1362 11.4316 20.7552 10.8156C21.3743 10.1997 22.2138 9.85362 23.0893 9.85362ZM32.9917 9.85362C33.8672 9.85362 34.7068 10.1997 35.3258 10.8156C35.9448 11.4316 36.2926 12.2671 36.2926 13.1382C36.2926 14.0093 35.9448 14.8447 35.3258 15.4607C34.7068 16.0767 33.8672 16.4227 32.9917 16.4227C32.1163 16.4227 31.2767 16.0767 30.6577 15.4607C30.0387 14.8447 29.6909 14.0093 29.6909 13.1382C29.6909 12.2671 30.0387 11.4316 30.6577 10.8156C31.2767 10.1997 32.1163 9.85362 32.9917 9.85362ZM42.8942 9.85362C43.7697 9.85362 44.6092 10.1997 45.2283 10.8156C45.8473 11.4316 46.195 12.2671 46.195 13.1382C46.195 14.0093 45.8473 14.8447 45.2283 15.4607C44.6092 16.0767 43.7697 16.4227 42.8942 16.4227C42.0188 16.4227 41.1792 16.0767 40.5602 15.4607C39.9412 14.8447 39.5934 14.0093 39.5934 13.1382C39.5934 12.2671 39.9412 11.4316 40.5602 10.8156C41.1792 10.1997 42.0188 9.85362 42.8942 9.85362ZM52.7967 9.85362C53.6721 9.85362 54.5117 10.1997 55.1307 10.8156C55.7498 11.4316 56.0975 12.2671 56.0975 13.1382C56.0975 14.0093 55.7498 14.8447 55.1307 15.4607C54.5117 16.0767 53.6721 16.4227 52.7967 16.4227C51.9213 16.4227 51.0817 16.0767 50.4627 15.4607C49.8436 14.8447 49.4959 14.0093 49.4959 13.1382C49.4959 12.2671 49.8436 11.4316 50.4627 10.8156C51.0817 10.1997 51.9213 9.85362 52.7967 9.85362Z" fill="#EC7979"/>
                             </svg>
                         </div>
-                        <h3 class="awesome__advantage-title">Thoughtful Design</h3>
-                        <p class="awesome__advantage-description">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                        <h3 class="advantage__title">Thoughtful Design</h3>
+                        <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
-                    <div class="awesome__advantage">
-                        <div class="awesome__advantage-border">
+                    <div class="advantage">
+                        <div class="advantage__wrapper-icon">
                             <svg width="44" height="66" viewBox="0 0 44 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.7308 65.8114C10.2572 65.6078 9.86369 65.2494 9.61227 64.7927C9.36084 64.336 9.26586 63.8071 9.34231 63.2893L13.5542 35.3575H2.37647C2.0221 35.3672 1.67028 35.2939 1.34815 35.1432C1.02602 34.9925 0.742197 34.7684 0.518571 34.4882C0.294944 34.2081 0.137497 33.8793 0.0583768 33.5274C-0.0207433 33.1754 -0.0194209 32.8096 0.0622413 32.4583L7.00493 1.81582C7.1271 1.28846 7.42391 0.820076 7.84542 0.489504C8.26692 0.158932 8.78737 -0.0136382 9.31916 0.00084246H32.4615C32.8072 -0.000354887 33.1488 0.077363 33.4612 0.228286C33.7735 0.379208 34.0488 0.5995 34.2666 0.872974C34.4875 1.14954 34.6439 1.47353 34.724 1.82057C34.8042 2.16761 34.806 2.52865 34.7294 2.87652L30.7258 21.2149H41.7184C42.1521 21.214 42.5774 21.3373 42.9456 21.5706C43.3139 21.804 43.6104 22.1381 43.8012 22.5348C43.967 22.9156 44.0308 23.3343 43.9861 23.7484C43.9414 24.1624 43.7898 24.557 43.5466 24.892L13.4616 64.9629C13.2583 65.2699 12.9868 65.5238 12.6692 65.7039C12.3515 65.8841 11.9967 65.9856 11.6334 66C11.3237 65.9941 11.0178 65.9302 10.7308 65.8114ZM24.9402 25.9291L29.5687 4.71507H11.1705L5.2924 30.6433H18.9695L15.2899 54.8744L37.0899 25.9291H24.9402Z" fill="#EC7979"/>
                             </svg>
                         </div>
-                        <h3 class="awesome__advantage-title">Thoughtful Design</h3>
-                        <p class="awesome__advantage-description">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                        <h3 class="advantage__title">Thoughtful Design</h3>
+                        <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="pricing__wrapper" id="pricing">
+        </section>
+        <section class="pricing" id="pricing">
             <div class="main-container">
                 <div class="head pricing__head">
                     <h2 class="head__title">PRICING OPTIONS</h2>
                     <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="pricing__container">   
+                <div class="pricing__block">   
                     <ul class="pricing__list">
-                        <li class="pricing__item-title">Basic</li>
-                        <li class="pricing__item-price">$10</li>
-                        <li class="pricing__item-period">Free for life</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                    </ul>
-                    <ul class="pricing__list pricing__list">
-                        <li class="pricing__item-title">Optima</li>
-                        <li class="pricing__item-price">$20</li>
-                        <li class="pricing__item-period">Free for life</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
+                        <li class="pricing__title">Basic</li>
+                        <li class="pricing__price">$10</li>
+                        <li class="pricing__period">Free for life</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
                     </ul>
                     <ul class="pricing__list">
-                        <li class="pricing__item-title">Pro</li>
-                        <li class="pricing__item-price">$30</li>
-                        <li class="pricing__item-period">Free for life</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
-                        <li class="pricing__item-space">1 gb of space</li>
+                        <li class="pricing__title">Optima</li>
+                        <li class="pricing__price">$20</li>
+                        <li class="pricing__period">Free for life</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                    </ul>
+                    <ul class="pricing__list">
+                        <li class="pricing__title">Pro</li>
+                        <li class="pricing__price">$30</li>
+                        <li class="pricing__period">Free for life</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
+                        <li class="pricing__space">1 gb of space</li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="customers__wrapper" id="reviews">
+        </section>
+        <section class="customers" id="reviews">
             <div class="main-container">
                 <div class="head customers__head">
                     <h2 class="head__title">what our customers are saying</h2>
                     <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="customers__container">   
+                <div class="customers__list">   
                     <div class="customer">
                         <p class="customer__quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                        <div class="customer__human-wrapper">
+                        <div class="customer__info">
                             <div class="customer__photo-wrapper"><img src="assets/images/Davis Rhiel Madsen.png" alt="Davis Rhiel Madsen photo" class="customer__photo"></div>
                             <div class="customer__human">
                                 <h3 class="customer__name">Davis Rhiel Madsen</h3>
@@ -232,7 +232,7 @@
                     </div>
                     <div class="customer">
                         <p class="customer__quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                        <div class="customer__human-wrapper">
+                        <div class="customer__info">
                             <div class="customer__photo-wrapper"><img src="assets/images/Jaydon Rosser.png" alt="Jaydon Rosser photo" class="customer__photo"></div>
                             <div class="customer__human">
                                 <h3 class="customer__name">Jaydon Rosser</h3>
@@ -242,7 +242,7 @@
                     </div>
                     <div class="customer">
                         <p class="customer__quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                        <div class="customer__human-wrapper">
+                        <div class="customer__info">
                             <div class="customer__photo-wrapper"><img src="assets/images/Cooper Dorwart.png" alt="Cooper Dorwart photo" class="customer__photo"></div>
                             <div class="customer__human">
                                 <h3 class="customer__name">Cooper Dorwart</h3>
@@ -252,33 +252,35 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="design__wrapper">
+        </section>
+        <section class="design">
             <div class="design__container main-container">
                 <div class="head design__head">
                     <h2 class="head__title design__title">STYLISH AXURE DESIGN</h2>
                     <p class="head__text design__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                    <button class="design__button button-first">Download</button>
                 </div>
+                <button class="design__button button-first">Download</button>
             </div>
-        </div>
-        <div class="contacts__wrapper" id="contact">
+        </section>
+        <section class="contacts" id="contact">
             <div class="main-container">
                 <div class="head contacts__head">
                     <h2 class="head__title">contact us</h2>
                     <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="contacts__inputs-container">
-                    <div class="contacts__inputs-creds">
-                        <input type="text" class="contacts__input form__input" placeholder="Name">
-                        <input type="email" class="contacts__input form__input" placeholder="Email">
-                        <input type="password" class="contacts__input form__input" placeholder="Password">
+                <form>
+                    <div class="contacts__block">
+                        <div class="contacts__inputs">
+                            <input type="text" class="contacts__input form__input" placeholder="Name">
+                            <input type="email" class="contacts__input form__input" placeholder="Email">
+                            <input type="password" class="contacts__input form__input" placeholder="Password">
+                        </div>
+                        <textarea type="text" class="form__input contacts__input" placeholder="Message"></textarea>
                     </div>
-                    <textarea type="text" class="form__input contacts__input" placeholder="Message"></textarea>
-                </div>
-                <button class="contacts__button button-third">Send Message</button>
+                    <button class="contacts__button button-third" type="submit">Send Message</button>
+                </form>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__container main-container">
