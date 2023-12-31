@@ -3,18 +3,179 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
-.tab {
-    margin-bottom: 118px;
-}
 
 .container {
     padding: 0 15px;
     margin: 0 auto;
     max-width: 1200px;
 }
+
+.ban{
+    background-image: url(../Img/headerBG.jpg);
+    background-position: center;
+    position: relative;
+    padding: 306px 0 185px ;
+
+}
+
+.ban::after{
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.banner__logo{
+    display: block;
+    z-index: 1;
+}
+
+.logo{
+    margin-bottom: 73px;
+}
+
+.banner__title{
+    color: #FFF;
+    margin-bottom: 97px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-transform: uppercase;
+    position: relative;
+    max-width: 670px;
+    width: 100%;
+}
+
+.banner__title::before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background: #FFF;
+    bottom: -55px;
+    left: 0;
+}
+
+.banner__description{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 42px;
+    max-width: 270px;
+    width: 100%;
+}
+
+.banner__btn{
+    color: #FFF;
+    max-width: 270px;
+    width: 100%;
+    padding: 17px;
+    background: none;
+    border: 2px solid #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+}
+
+.banner__form{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF;
+    /* margin: 333px auto 243px; */
+    max-width: 470px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.try{
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.red__text{
+    color: #EC7979;
+}
+
+.media{
+    background: #F8EFEF;
+    padding: 32px 0 18px;
+    margin-bottom: 100px;
+}
+
+.media__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media__body{
+    max-width: 470px;
+    width: 100%;
+}
+
+.media__title{
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.media__text{
+    color: #86878B;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.media__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.media__icon a{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media__icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.tab {
+    margin-bottom: 118px;
+}
+
+
 
 .tabs {
     vertical-align:middle
@@ -127,7 +288,9 @@
     background: #EC7979;
     position: absolute;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
 
 .head__text {
@@ -340,6 +503,7 @@ ul :last-child{
 .des{
     margin-bottom: 80px;
 }
+
 .design__title {
     color: #FFF;
     text-align: center;
@@ -376,7 +540,8 @@ ul :last-child{
     background-image: url(../Img/designBG.jpg);
     background-position: center;
     position: relative;
-}
+    }
+
 .design::after{
     position: absolute;
     content: "";
@@ -387,6 +552,11 @@ ul :last-child{
     left: 0;
 }
 
+.design__container{
+    position: relative;
+    z-index: 1;
+}
+
 .design__btn{
     display: block;
     width: 100%;
@@ -395,14 +565,44 @@ ul :last-child{
     margin: 0 auto;
     background: none;
     padding: 16px;
-}    
-
-.design__btn a{
-    text-decoration: none;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
+}    
+
+.footer{
+    background: #000000;
+    padding: 35px 0 27px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    margin-bottom: 28px;
+}
+
+.icons a{
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.creater{
+    color: #ffffff80;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
 }
 
