@@ -717,9 +717,6 @@ img, .tab__image {
 .footer {
     display: flex;
     background: #000;
-}
-
-.footer__container {
     padding: 35px 0 27px;
 }
 
