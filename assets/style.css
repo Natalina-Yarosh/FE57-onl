@@ -4,8 +4,274 @@
     box-sizing: border-box;
 }
 
+.header {
+    background-color: #000;
+    padding: 22px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 86px;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo__header {
+    width: 100%;
+}
+
+.nav__header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 571px;
+    width: 100%;
+}
+
+.nav__header-link {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.07px;
+    text-transform: capitalize;
+}
+
+.banner {
+    background: url(/assets/images/street.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 306px 0 185px;
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+ .banner__container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+ }
+
+
+.banner__info {
+    max-width: 670px;
+    width: 100%;
+}
+
+.logo__banner {
+    margin-bottom: 73px;
+}
+
+.banner__title {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56.35px;
+    text-transform: uppercase;
+    margin-bottom: 97px;
+    position: relative;
+}
+
+.banner__title::before {
+    position: absolute;
+    content: "";
+    bottom: -42px;
+    left: 0;
+    border-bottom: 1px solid #FFF;
+    width: 170px;
+}
+
+.banner__subtitle {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    margin-bottom: 42px;
+    max-width: 270px;
+}
+
+.banner__btn {
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    padding: 17px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #ff000000;
+}
+
+.banner__form {
+    max-width: 470px;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner__form-container {
+    padding: 36px 50px 0;
+}
+
+.form__title {
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.form__title-highlighted {
+    color: #EC7979;
+}
+
+.form__input {
+    color: #BDBDBD;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    padding: 16px 0 16px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 31px;
+}
+
+.banner__input {
+    width: 100%;
+}
+
+.banner__form .form__input:last-child {
+    margin-bottom: 75px;
+}
+
+
+.form__btn {
+    width: 100%;
+    border: none;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20.43px;
+    padding: 20px;
+}
+
+.form__button {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.form__btn:hover {
+    background: #AB4949;
+}
+
+.form__btn:active {
+    background: #EC7979;
+}
+
+.social {
+    background-color: #F8EFEF;
+    margin-bottom: 100px;
+    padding: 32px 0 18px;
+}
+
+.social__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__box {
+    max-width: 470px;
+    width: 100%;
+}
+
+.social__title {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.social__text {
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: left;
+}
+
+.social__icons {
+    display: flex;
+    column-gap: 30px;
+}
+
+.social__icon {
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social__icon-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.social__banner:hover path {
+    fill: #000;
+}
+
+.social__banner:active path {
+    fill: #0000ff;
+}
+
 .tabs {
-    margin: 100px auto;
+    margin: 0 auto 100px;
 }
 
 .container {
@@ -358,3 +624,133 @@ img, .tab__image {
     font-weight: 400;
     line-height: 21.13px;
 }
+
+.design {
+    background: url(/assets/images/city.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 70px;
+    position: relative;
+    padding: 70px 0;
+}
+
+.design__container {
+    position: relative;
+}
+
+.design::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.design__title {
+    color: #FFF;
+}
+
+.design__title::after {
+    border-top: 1px solid #FFF;
+}
+
+.design__subtitle {
+    color: #FFF;
+    margin-bottom: 80px;
+} 
+
+.design__btn {
+    display: block;
+    max-width: 370px;
+    width: 100%;
+    padding: 17px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: #ff000000;
+}
+
+.contacts__form-container {
+    display: flex;
+    text-align: center;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.contacts-data {
+    max-width: 570px;
+    width: 100%;
+}
+
+.contact__input {
+    width: 100%;
+}
+
+.contacts-data .form__input:last-child {
+    margin-bottom: 0;
+}
+
+.form__input-message {
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contact__button {
+    display: block;
+    max-width: 370px;
+    margin: 0 auto 66px;
+}
+
+.footer {
+    display: flex;
+    background: #000;
+    padding: 35px 0 27px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 32.8px;
+    justify-content: center;
+    margin-bottom: 27.8px;
+}
+
+.social__icon-footer {
+    text-decoration: none;
+    width: 53.2px;
+    height: 53.2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__footer:hover path {
+    fill: #cf4b2a;
+}
+
+.social__footer:active path {
+    fill: #cfcc2a;
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.13px;
+}
+
+
