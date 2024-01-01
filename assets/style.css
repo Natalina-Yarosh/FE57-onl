@@ -113,9 +113,8 @@
     max-width: 270px;
 }
 
-.banner__btn {
+.btn {
     display: block;
-    max-width: 270px;
     width: 100%;
     padding: 17px;
     border: 2px solid #FFF;
@@ -129,6 +128,21 @@
     text-transform: capitalize;
     cursor: pointer;
     background-color: #ff000000;
+}
+
+.btn:hover {
+    color: #EC7979;
+    border-color: #EC7979;
+}
+
+.btn:active {
+    color: #FFF;
+    background: #AB4949;
+    border-color: #AB4949;
+}
+
+.banner__btn {
+    max-width: 270px;
 }
 
 .banner__form {
@@ -663,22 +677,8 @@ img, .tab__image {
 } 
 
 .design__btn {
-    display: block;
     max-width: 370px;
-    width: 100%;
-    padding: 17px;
-    border: 2px solid #FFF;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24.51px;
-    text-transform: capitalize;
-    cursor: pointer;
     margin: 0 auto;
-    background-color: #ff000000;
 }
 
 .contacts__form-container {
