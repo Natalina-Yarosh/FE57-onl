@@ -217,6 +217,7 @@
 
 .form__btn:active {
     background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
 
 .social {
