@@ -17,9 +17,8 @@
 .nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 570px;
-    width: 100%;
+    gap: 50px;
+
 }
 
 .nav__link {
@@ -31,8 +30,46 @@
     text-decoration: none;
 }
 
+.media {
+    background: rgba(248, 239, 239, 1);
+    padding: 32px 170px 18px;
+    margin-bottom: 100px;
+}
+
+.media__container {
+    display: flex;
+    gap: 30px;
+}
+
+.media__description {
+    max-width: 470px;
+    width: 100%;
+}
+
+.media__title {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 16px;
+}
+
+.media__text {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(134, 135, 139, 1);
+}
+
+.media__social {
+    display: flex;
+    gap: 30px;
+}
+
 .modern {
-    padding: 306px 99px 185px 170px;
+    padding: 306px 0 185px;
     background: url('./src/images/bckg.png') no-repeat;
     position: relative;
     background-size: cover;
@@ -46,14 +83,14 @@
     right: 0;
     bottom: 0;
     background: rgba(0,0,0,.5);
-    z-index: 2;
   }
 
 .modern__container{
     position: relative;
     display: flex;
+    align-items: center;
     gap: 100px;
-    z-index: 3;
+    z-index: 1;
 }
 
 .modern__content {
@@ -93,6 +130,8 @@
     line-height: 21.13px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 42px;
+    max-width: 270px;
+    width: 100%;
 }
 
 .modern__button {
@@ -117,6 +156,7 @@
 
 .form__container {
     padding: 36px 50px 0 50px;
+    margin-bottom: 75px;
 }
 
 .form__title {
@@ -135,9 +175,8 @@
 .form__input {
     display: block;
     width: 100%;
-    min-height: 40px;
-    padding-bottom: 20px;
-    font-family: inherit;
+    padding: 20px 0;
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 19.07px;
@@ -146,22 +185,18 @@
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     margin-bottom: 33px;
-    position: relative;
 }
 
 .form__button {
-    font-family: inherit;
+    font-family: "Open Sans";
     font-weight: 600;
     font-size: 15px;
     line-height: 20.43px;
     text-align: center;
     background-color: rgba(236, 121, 121, 1);
     display: block;
-    max-width: 470px;
     width: 100%;
     border: none;
-    position: absolute;
-    bottom: 0;
     color: rgba(255, 255, 255, 1);
     padding: 20px 0;
     border-bottom-left-radius: 10px;
@@ -170,7 +205,6 @@
 
 .tabs {
     margin:0 auto 118px;
-    padding-top: 100px;
 }
 
 .tabs__list {
@@ -194,6 +228,16 @@
     border-width: 1px 1px 0 1px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    position: relative;
+}
+
+.tabs__selected::after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    width: 182px;
+    bottom: -1px;
+    left: 0;
 }
 
 .tabs__main {
@@ -206,6 +250,7 @@
     max-width: 700px;
     width: 60%;
     padding: 55px;
+    padding-left: 0;
 }
 
 .tabs__title {
@@ -267,6 +312,7 @@
     text-transform: uppercase;
     font-weight: normal;
     margin-bottom: 80px;
+    position: relative;
 }
 
 .title::after {
@@ -321,6 +367,7 @@
     margin-bottom: 26px;
     line-height: 33px;
     font-weight: 700;
+    font-size: 24px;
 }
 
 .awesome__text {
@@ -332,7 +379,8 @@
 
 .pricing {
     background-color: rgba(245, 245, 245, 1);
-    padding: 82px 15px; 
+    padding: 82px 15px;
+    margin-bottom: 110px;
 }
 
 .pricing__title {
@@ -362,6 +410,7 @@
     max-width: 370px;
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
 .pricing__tarifs-first:hover {
@@ -403,7 +452,6 @@
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
     padding: 15px 0;
-    cursor: pointer;
     background-color: rgba(51, 51, 51, 1);
 }
 
@@ -419,12 +467,13 @@
 }
 
 .customers {
-    padding: 110px 0;   
+    margin-bottom: 110px;
 }
 
 .customers__persons {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .customer__person {
@@ -476,10 +525,12 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .customer__img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -488,6 +539,8 @@
     background: url('./src/images/stylish__bckg.png') no-repeat;
     position: relative;
     background-size: cover;
+    background-position: center;
+    margin-bottom: 66px;
 }
 
 .stylish::after {
@@ -498,12 +551,11 @@
     right: 0;
     bottom: 0;
     background: rgba(0,0,0,.5);
-    z-index: 2;
   }
 
   .stylish__container {
     position: relative;
-    z-index: 3;
+    z-index: 1;
   }
 
 .stylish__title {
@@ -551,4 +603,72 @@
     background: none;
     display: block;
     margin: 0 auto;
+}
+
+.contact {
+    margin-bottom: 66px;
+}
+
+.contact__form {
+    display: flex;
+    gap: 30px;
+}
+
+.contact__form-info {
+    max-width: 571px;
+    width: 100%;
+}
+
+.message__input {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding-bottom: 20px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    margin-bottom: 33px;
+    position: relative;
+    padding-bottom: 160px;
+}
+
+.contact__button {
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24.51px;
+        text-align: center;
+        background-color: rgba(236, 121, 121, 1);
+        display: block;
+        max-width: 370px;
+        width: 100%;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        padding: 20px 0;
+        margin: 0 auto;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 1);
+    padding: 35px 0 27px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 27.8px;
+}
+
+.footer__text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 21.13px;
+    text-align: center;
 }
