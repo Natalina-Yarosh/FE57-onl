@@ -163,13 +163,13 @@
 }
 
 
-.banner-btn:hover{
+.banner__btn:hover{
     border: 2px solid #EC7979;
     color: #EC7979;
 }
 
 
-.banner-btn:active{
+.banner__btn:active{
     border: 2px solid #AB4949;
     background: #AB4949;
     color: #FFF;
