@@ -51,7 +51,6 @@
 
 
 .menu-item{
-    flex: 1 1 auto;
     color: #FFF;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -99,20 +98,20 @@
 }
 
 
-.banner__template-logo-wrapper{
+.banner__logo-wrapper{
     width: 170px;
     height: 55px;
     margin-bottom: 73px;
 }
 
 
-.banner__template-logo{
+.banner__logo{
     width: 100%;
     height: 100%;
 }
 
 
-.banner__text-header{
+.banner__title{
     max-width: 670px;
     color: #FFF;
     font-family: 'Raleway', sans-serif;
@@ -148,7 +147,7 @@
 }
 
 
-.banner-btn{
+.banner__btn{
     background: transparent;
     border: 2px solid #fff;
     text-transform: capitalize;
@@ -171,7 +170,7 @@
 
 
 .banner-btn:active{
-    border: none;
+    border: 2px solid #AB4949;
     background: #AB4949;
     color: #FFF;
 }
@@ -184,6 +183,7 @@
 
 .banner__form{
     padding: 36px 50px 0 53px;
+    margin-bottom: 75px;
 }
 
 .banner__form-header{
@@ -202,10 +202,8 @@
 }
 
 .form-input{
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    padding-bottom: 16px;
+    padding: 8px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     color: #000;
@@ -222,14 +220,19 @@
 
 .form-input:focus{
     outline: none;
+    background-color: #eeeff3;
 }
 
-.banner-input{
+.form-input:hover{
+    background-color: #f6f6f9;
+}
+
+.banner__input{
     max-width: 370px;
 }
 
-.banner-input:last-child{
-    margin-bottom: 75px;
+.banner__input:last-child{
+    margin-bottom: 0;
 }
 
 .banner__form-button{
@@ -266,7 +269,7 @@
 .social-media__container{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 
 .social-media__info{
@@ -296,22 +299,21 @@
     flex-wrap: wrap;
     justify-content: space-around;
     column-gap: 30px;
-    margin-top: 3px;
 }
 
-.social-media__icon-link{
+.social-media__link{
     flex: 1 1 auto;
     width: 70px;
     height: 70px;
     display: flex;
 }
 
-.social-media__icon-link:hover path{
+.social-media__link:hover path{
     fill: #AB4949;
 }
 
 
-.social-media__icons{
+.social-media__icon{
     width: 100%;
     height: 100%;
 } 
@@ -404,7 +406,7 @@ a.tab-one::after{
 
 
 
-.info-text {
+.info__text {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -415,7 +417,7 @@ a.tab-one::after{
 
 
 
-.info-text:last-child {
+.info__text:last-child {
     margin-bottom: 0;
 }
 
@@ -524,7 +526,7 @@ a.tab-one::after{
 
 
 
-.container__items {
+.description__items {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -610,7 +612,7 @@ a.tab-one::after{
 
 
 
-.container__pricelist {
+.pricing__list {
     display: flex;
     column-gap: 31px;
     flex-wrap: wrap;
@@ -702,7 +704,7 @@ ul {
 
 
 
-.container__customers{
+.customers__list{
     display: flex;
     column-gap: 30px;
     flex-wrap: wrap;
@@ -855,7 +857,7 @@ ul {
     margin-bottom: 89px;
 }
 
-.contact-us__form-container{
+.contact-us__wrapper-fields{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -869,11 +871,11 @@ ul {
     width: 100%;
 }
 
-.contact-us-input{
+.contact-us__input{
     margin-bottom: 50px;   
 }
 
-.contact-us-input:last-child{
+.contact-us__input:last-child{
     margin-bottom: 0;
 }
 
@@ -882,7 +884,7 @@ ul {
     width: 100%;
 }
 
-.contact-us__message-input{
+.contact-us__textarea{
     width: 100%;
     height: 100%;
     resize: none;
@@ -895,11 +897,16 @@ ul {
     line-height: 19px;
 }
 
-.contact-us__message-input:focus{
+.contact-us__textarea:focus{
     outline: none;
+    background-color: #eeeff3;
 }
 
-.contact-us__message-input::placeholder{
+.contact-us__textarea:hover{
+    background-color: #eeeff3;
+}
+
+.contact-us__textarea::placeholder{
     color: #bdbdbd;
 }
 
@@ -911,18 +918,18 @@ ul {
 }
 
 
-.axit__footer{
+.footer{
     background-color: #000;
     padding: 35px 0 27px;
 }
 
 
-.axit__footer-container{
+.footer__container{
 
 }
 
 
-.axit__contacts{
+.footer__list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -931,25 +938,25 @@ ul {
 }
 
 
-.contacts__icon-wrapper{
+.footer__link{
     width: 53px;
     height: 53px;
     display: flex;
 }
 
 
-.contacts__icon-wrapper:hover path{
+.footer__link:hover path{
     fill: #AB4949;
 }
 
 
-.contacts-icon{
+.footer__icon{
     width: 100%;
     height: 100%;
 }
 
 
-.axit__footer-copyright{
+.footer__copyright{
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
     font-family: 'Raleway', sans-serif;
