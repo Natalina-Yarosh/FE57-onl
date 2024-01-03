@@ -1,5 +1,4 @@
 *{
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     margin: 0;
@@ -179,11 +178,14 @@
     background-color: #fff;
     border-radius: 10px;
     margin-top: 27px;
+    max-width: 470px;
+    width: 100%;
 }
 
 .banner__form{
     padding: 36px 50px 0 53px;
     margin-bottom: 75px;
+
 }
 
 .banner__form-header{
