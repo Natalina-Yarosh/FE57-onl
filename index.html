@@ -13,9 +13,9 @@
 </head>
 
 <body>
-  <header class="navigations">
-    <div class="container navigation">
-      <a href="" class="nav__logo">
+  <header class="headers">
+    <div class="container header__navigation">
+      <a href="" class="logo">
         <svg width="87" height="31" viewBox="0 0 87 31" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M10.3163 0H15.8289L26.1059 31H20.5146L17.9158 23.2718H8.1507L5.5913 31H0L10.3163 0ZM16.9314 19.0366L13.0726 6.24366L9.05633 19.0366H16.9314Z"
@@ -26,21 +26,21 @@
           <path d="M54.6277 31V0H60.0615V31H54.6277Z" fill="#EC7979" />
           <path d="M86.8026 5.2831H77.8644V31H72.47V5.2831H63.5318V0H86.8026V5.2831Z" fill="#EC7979" />
         </svg></a>
-      <nav class="nav__menu">
-        <ul class="menu">
-          <li class="menu_item">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
             <a href="#banner" class="menu__link">Home</a>
           </li>
-          <li class="menu_item">
+          <li class="menu__list-item">
             <a href="#pricing" class="menu__link">Pricing</a>
           </li>
-          <li class="menu_item">
+          <li class="menu__list-item">
             <a href="#reviews" class="menu__link">Reviews</a>
           </li>
-          <li class="menu_item">
+          <li class="menu__list-item">
             <a href="#about" class="menu__link">About</a>
           </li>
-          <li class="menu_item">
+          <li class="menu__list-item">
             <a href="#contact" class="menu__link">Contact</a>
           </li>
         </ul>
@@ -48,9 +48,9 @@
     </div>
   </header>
   <section class="banner" id="banner">
-    <div class="container banner__block">
-      <div class="banner__logo">
-        <div href="" class="banner__title-logo">
+    <div class="container banner__container">
+      <div class="banner__info">
+        <div href="" class="banner__logo">
           <svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z"
@@ -62,14 +62,14 @@
             <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979" />
           </svg>
         </div>
-        <h1 class="banner__text-logo">MODERN AXURE TEMPLATE
+        <h1 class="banner__title">MODERN AXURE TEMPLATE
           FOR BEAUTIFUL PROTOTYPES</h1>
         <p class="subheader__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
-        <button class="button__banner-logo button__btn">Download</button>
+        <button class="banner__btn button__btn">Download</button>
       </div>
-      <form class="banner__form-wrapper">
-        <div class="form__wrapper-block">
-          <h3 class="form__wrapper-title">Try Your <spin class="spin">FREE</spin> Trial Today</h3>
+      <form class="banner__form">
+        <div class="banner__form-wrapper">
+          <h3 class="banner__form-title">Try Your <spin class="spin">FREE</spin> Trial Today</h3>
           <label for="name"></label>
           <input type="text" class="form__label" placeholder="Name">
           <label for="name"></label>
@@ -77,18 +77,18 @@
           <label for="name"></label>
           <input type="password" required class="form__label" placeholder="Password">
         </div>
-        <button class="banner__button btn btn_primary">Get Started</button>
+        <button class="banner__form-btn btn btn_primary">Get Started</button>
       </from>
     </div>
   </section>
   <section class="social">
-    <div class="container social__wrapper">
-      <div class="social__header-wrapper">
-        <h2 class="social__wrapper-title">Social Media</h2>
-        <p class="social__wrapper-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div class="container social__container">
+      <div class="social__info">
+        <h2 class="social__title">Social Media</h2>
+        <p class="social__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aenean euismod bibendum laoreet.</p>
       </div>
-      <div class="social__wrapper-subheader">
+      <div class="social__wrapper">
         <a class="social__icon facebook" href="https://www.facebook.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54"
             viewBox="0 0 54 54" fill="none">
             <path
@@ -141,7 +141,7 @@
       </div>
     </div>
   </section>
-  <section class="feautures">
+  <div class="feautures">
     <div class="container">
       <div class="feautures__tab">
         <a href="#" target="_blank" class="feautures__tab-item tab__item-active">TAB 1</a>
@@ -172,11 +172,11 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <section class="awesome" id="about">
     <div class="container">
-      <div class="awesome__header-block header">
-        <h2 class="awesome__header">WHY THIS IS AWESOME</h2>
+      <div class="awesome__header header">
+        <h2 class="header__title">WHY THIS IS AWESOME</h2>
         <div class="header__line"></div>
         <p class="header__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -235,8 +235,8 @@
   <section class="pricing" id="pricing">
     <div class="container">
       <div class="pricing__header header">
-        <h2 class="head__title">PRICING OPTIONS</h2>
-        <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2 class="header__title">PRICING OPTIONS</h2>
+        <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       <div class="pricing__wrapper">
         <div class="pricing__item">
@@ -295,14 +295,15 @@
       </div>
       <div class="customers__wrapper">
         <div class="customer">
-          <p class="block__text">Lorem ipsum dolor sit amet,
+          <p class="customer__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
             quo suscipit.</p>
           <div class="customers__author-block">
-            <div class="customers__author-image"><img src="/assets/images/avatar_devis.png" alt="Davis Rhiel Madsen"
-                class="customers__avatar">
+            <div class="customer__wrapper-image">
+              <img src="/assets/images/avatar_devis.png" alt="Davis Rhiel Madsen"
+                class="customer__image">
             </div>
             <div>
               <h3 class="customers__author-title">Davis Rhiel Madsen</h3>
@@ -312,14 +313,14 @@
         </div>
 
         <div class="customer">
-          <p class="block__text">Lorem ipsum dolor sit amet,
+          <p class="customer__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
             quo suscipit.</p>
           <div class="customers__author-block">
-            <div class="customers__author-image"><img src="/assets/images/avatar_jaydon.png" alt="Jaydon Rosser"
-                class="customers__avatar"></div>
+            <div class="customer__wrapper-image"><img src="/assets/images/avatar_jaydon.png" alt="Jaydon Rosser"
+                class="customer__image"></div>
             <div>
               <h3 class="customers__author-title">Jaydon Rosser</h3>
               <p class="customers__author-profession">Manager</p>
@@ -328,14 +329,14 @@
         </div>
 
         <div class="customer">
-          <p class="block__text">Lorem ipsum dolor sit amet,
+          <p class="customer__text">Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Doloribus
             accusamus expedita repellat similique
             odio aspernatur ex, architecto eaque
             quo suscipit.</p>
           <div class="customers__author-block">
-            <div class="customers__author-image"><img src="/assets/images/avatar_cooper.png" alt="Cooper Dorwart"
-                class="customers__avatar"></div>
+            <div class="customer__wrapper-image"><img src="/assets/images/avatar_cooper.png" alt="Cooper Dorwart"
+                class="customer__image"></div>
             <div>
               <h3 class="customers__author-title">Cooper Dorwart</h3>
               <p class="customers__author-profession">Manager</p>
@@ -358,25 +359,25 @@
   <section class="contact" id="contact">
     <div class="container contact__wrapper">
       <div class="contact__header header">
-        <h3 class="contact__title">CONTACT US</h3>
+        <h2 class="contact__title">CONTACT US</h2>
         <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <form class="contact__input-wrapper">
-        <div class="contact__form">
-          <div for="contact__input-block">            
-            <input type="text" class="contact__input-form" placeholder="Name">          
-            <input type="email" class="contact__input-form" placeholder="Email">          
-            <input type="password" required class="contact__input-form" placeholder="Password">            
+      <form class="contact__form">
+        <div class="contact__wrappers">
+          <div for="contact__wrapper">            
+            <input type="text" class="contact__input" placeholder="Name">          
+            <input type="email" class="contact__input" placeholder="Email">          
+            <input type="password" required class="contact__input" placeholder="Password">            
           </div>
-          <textarea class="contact__input-form" placeholder="Message" id="contact__massage" rows="2"></textarea>
+          <textarea class="contact__input" placeholder="Message" id="contact__massage" rows="2"></textarea>
         </div>
         <button class="contact__button btn btn_primary">Get Started</button>
-      </from>
+      </form>
     </div>
   </section>
   <footer class="footer">
     <div class="container">
-      <div class="wrapper__footer">
+      <div class="footer__wrapper">
         <a class="social__icon" href=""><svg xmlns="http://www.w3.org/2000/svg" width="54" height="54"
             viewBox="0 0 54 54" fill="none">
             <path

@@ -19,18 +19,18 @@
 
 /* Navbar */
 
-.navigations {
+.headers {
   background-color: #000;
   padding: 22px 0;
 }
 
-.navigation {
+.header__navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu {
+.menu__list {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
@@ -49,10 +49,11 @@
   font-weight: 600;
   line-height: 19.07px;
   text-transform: capitalize;
-  text-decoration: none
+  text-decoration: none;
+  min-width: 85px;
 }
 
-.nav__logo {
+.logo {
   display: flex;
   max-width: 87px;
 }
@@ -79,31 +80,28 @@ svg {
   background: rgba(0, 0, 0, 0.50);;
 }
 
-.banner__block {
+.banner__container {
   position: relative;
   z-index: 1;
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   column-gap: 101px;
 }
 
-.banner__logo {
+.banner__info {
   max-width: 670px;
   width: 100%;
 }
 
 
-.banner__title-logo {
+.banner__logo {
   display: flex;
   max-width: 170px;
   margin-bottom: 72px;
 }
 
-.banner__text-logo {
+.banner__title {
   color: #FFF;
   font-size: 48px;
   font-weight: 500;
@@ -113,7 +111,7 @@ svg {
   margin-bottom: 97px
 }
 
-.banner__text-logo:after {
+.banner__title:after {
   content: "";
   display: block;
   width: 170px;
@@ -130,10 +128,10 @@ svg {
   font-weight: 400;
   line-height: 21.13px;
   margin-bottom: 42px;
-  max-width: 270px;;
+  max-width: 270px;
 }
 
-.button__banner-logo {
+.banner__btn {
   color: #FFF;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -149,19 +147,20 @@ svg {
   display: block;
 }
 
-.banner__form-wrapper {
+.banner__form {
   background: #FFFFFF;
   border-radius: 10px;
   max-width: 470px;
-  
+  width: 100%;
 }
-.form__wrapper-block {
+.banner__form-wrapper {
   padding: 38px 50px 0 50px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 75px;
 }
 
-.form__wrapper-title {
+.banner__form-title {
   color: #333;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -169,6 +168,7 @@ svg {
   font-weight: 700;
   line-height: 32.68px;
   text-transform: uppercase; 
+  margin-bottom: 75px;
 }
 
 .spin {
@@ -181,22 +181,17 @@ svg {
   text-transform: uppercase; 
 }
 
-.banner__button {
+.banner__form-btn {
   border-radius: 0px 0px 8px 8px;
   color: #FFF;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 20.43px; 
   background: #EC7979;
-  text-align: center;
-  align-items: center;
-  text-decoration: none;
   width: 100%;
   border:none;
   padding: 16px;
-  display: block;
 }
 
 
@@ -209,17 +204,12 @@ svg {
   color: #BDBDBD;
   outline: none;
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #BDBDBD;
   padding: 16px 0 16px;
   width: 100%;
-  margin-bottom: 31px;
 }
 .form__input::placeholder {
   color: #BDBDBD;
-}
-
-.form__label:last-child {
-  margin-bottom: 75px;
 }
 
 /*Social Icon */
@@ -230,14 +220,16 @@ svg {
   margin-bottom: 110px;
 }
 
-.social__wrapper {
+.social__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 30px;
 }
-
-.social__wrapper-title {
+.social__info {
+  max-width: 470px;
+}
+.social__title {
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
@@ -247,14 +239,14 @@ svg {
   margin-bottom: 16px;
 }
 
-.social__wrapper-text {
+.social__text {
   color: #86878B;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
 }
 
-.social__wrapper-subheader {
+.social__wrapper {
   display: flex;
   column-gap: 32px;
   justify-content: center;
@@ -383,7 +375,7 @@ svg {
 
 /* Awesome */
 
-.awesome__header {
+.header__title {
   color: #000;
   text-align: center;
   font-size: 36px;
@@ -393,7 +385,7 @@ svg {
   position: relative;
 }
 
-.awesome__header:after {
+.header__title:after {
   content: "";
   display: block;
   position: absolute;
@@ -461,7 +453,7 @@ svg {
 
 /* Pricing */
 
-.head__title {
+.header__title {
   color: #000;
   text-align: center;
   font-size: 36px;
@@ -472,7 +464,7 @@ svg {
   position: relative;
 }
 
-.head__title::after {
+.header__title::after {
   content: "";
   display: block;
   width: 170px;
@@ -484,7 +476,7 @@ svg {
   bottom: -40px;
 }
 
-.head__text {
+.header__text {
   color: #86878B;
   text-align: center;
   font-size: 18px;
@@ -613,7 +605,7 @@ svg {
   column-gap: 30px;
 }
 
-.block__text {
+.customer__text {
   color: #86878B;
   text-align: center;
   font-size: 18px;
@@ -626,7 +618,7 @@ svg {
   position: relative;
 }
 
-.block__text::after {
+.customer__text::after {
   content: "";
   display: block;
   height: 0;
@@ -665,7 +657,7 @@ svg {
   align-items: center;
 }
 
-.customers__author-image {
+.customer__wrapper-image {
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -673,7 +665,7 @@ svg {
   flex-shrink: 0;
 }
 
-.customers__avatar {
+.customer__image {
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -691,6 +683,10 @@ svg {
   position: relative;
   margin-bottom: 67px;
   z-index: 1;
+}
+
+.desing header {
+  margin-bottom: 79px;
 }
 .desing:after {
   position: absolute;
@@ -735,7 +731,6 @@ svg {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  margin-bottom: 80px;
 }
 
 .desing__button {
@@ -780,7 +775,7 @@ svg {
   left: 50%;
   transform: translateX(-50%);
   bottom: -40px;
-  background-color: #D98943;
+  background-color: #EC7979;
 }
 
 .contact__text {
@@ -793,26 +788,27 @@ svg {
 }
 
 
-
 .contact__form {
+  width: 100%;
+}
+.contact__wrappers {
   display: flex;
   justify-content: center;
   column-gap: 30px;
+  margin-bottom: 50px;
 }
 
-.contact__input-form {
-  display: flex;
-  flex-direction: column;
-  width: 571px;
+.contact__input {
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-  color: #020202;
+  color: #BDBDBD;
   outline: none;
   border: 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #BDBDBD;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -820,9 +816,11 @@ svg {
   margin-bottom: 0;
 }
 
+.contact__header {
+  margin-bottom: 89px;
+}
 
 .contact__button {
-  text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -830,13 +828,20 @@ svg {
   text-align: center;
   background-color: #ec7979;
   border: none;
-  color: white;
-  width: 370px;
-  height: 58px;
-  margin: 66px auto 50px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  color: #ffffff;
+  width: 100%;
+  max-width: 370px;
+  padding: 19px;
+  margin: 66px auto 0;
+  display: block;
+}
+
+.contact {
+  margin-bottom: 69px
+}
+textarea {
+  resize: none;
+  max-width: 569px;
 }
 /* Footer */
 
@@ -850,12 +855,9 @@ svg {
 .footer .social__icon {
   width: 53px;
   height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.wrapper__footer {
+.footer__wrapper {
   display: flex;
   flex-direction: row;
   column-gap: 32px;
