@@ -3,10 +3,64 @@
   margin: 0;
   padding: 0;
 }
+/* Social Media */
+.media {
+  margin-bottom: 106px;
+  padding: 32px 0 18px;
+  background-color: #F8EFEF;
+}
+.media_container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+.media_text {
+  max-width: 470px;
+  width: 100%;
+  color: #86878B;
+  font-family: 'Raleway', 'sans-serif' ;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.media_headline{
+  margin-bottom: 16px;
+  display: flex;
+  width: 470px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #333;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.media_lorem{
+ text-align: left;
+}
+.media_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 670px;
+  width: 100%;
+  margin: 0 auto;
+}
+.icon_header{
+  width: 70px;
+  height: 70px;
+}
+
+
+
+/* Tabs with soft transitioning effect */
 .effect {
   margin-bottom: 106px;
-  max-width: 1170px;
-  width: 100%;
 }
 .container {
   max-width: 1170px;
@@ -102,7 +156,7 @@ padding: 17px;
 
 
 
-
+/* Why this is awesome */
 .awesome {
   margin-bottom: 106px;
 }
@@ -113,7 +167,6 @@ padding: 17px;
   padding: 0 15px;
 }
 .head {
-  margin-bottom: 92px;
 }
 .head__title {
   text-align: center;
@@ -189,11 +242,15 @@ padding: 17px;
 
 
 
+/* Pricing options */
 .pricing {
   background-color: #F5F5F5;
   max-width: 1510px;
   width: 100%;
   flex-shrink: 0;
+  padding-top: 82px;
+  padding-bottom: 83px;
+  margin-bottom: 106px;
 }
 .container {
   max-width: 1170px;
@@ -233,14 +290,19 @@ padding: 17px;
 }
 
 
+
 .packs {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 530px;
+  margin-top: 79px;
 }
 .packs_column {
-  max-width: 371px;
+  max-width: 370px;
+  width: 100%;
   display: inline-block;
+  height: 530px;
 }
 .packs-column__rectangle {
   width: 370px;
@@ -304,6 +366,7 @@ padding: 17px;
 
 
 
+/* What our customers are saying */
 .customers {
   margin-bottom: 106px;
 }
@@ -379,7 +442,7 @@ padding: 17px;
   top: 100%;
   left: 70px;
 }
-p{
+.cust_text{
   color: #86878B;
   text-align: center;
   font-family: 'Raleway', 'sans-serif';
@@ -426,3 +489,115 @@ p{
   line-height: normal;
 }
 
+
+
+/* Stylish axure design */
+.design {
+  background: rgba(0, 0, 0, 0.50);
+  padding: 70px 0;
+  position: relative;
+}
+.design::before{
+  position: absolute;
+  content: '';
+  background-image: url(../design_img/image.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.head {
+}
+.head_title {
+  text-align: center;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 80px;
+  position: relative;
+  color: #FFF;
+  text-transform: uppercase;
+}
+.head_title::after{
+  content: '';
+  width: 170px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: calc(50% - 85px);
+  top: calc(100% + 40px);
+}
+.head_text {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 58px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  border: 3px solid #fff;
+	background-image: none; 
+	background: transparent;
+	background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+}
+
+
+
+/* Footer */
+footer{
+  max-width: 1510px;
+  width: 100%;
+  height: 164px;
+  flex-shrink: 0;
+  background-color: #000;
+  padding: 35px 0 27px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 570px;
+  margin: 0 auto 27.8px;
+}
+.icon_footer{
+  width: 53.2px;
+  height: 53.2px;
+
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.50);
+  text-align: center;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
