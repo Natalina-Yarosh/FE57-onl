@@ -128,6 +128,36 @@ header {
 
 }
 
+.nav__links li {
+    position: relative;
+}
+
+.nav__link:hover{
+    color: var(--second-color);
+}
+
+.nav__link:hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    transform: translate(0, 6px);
+    background-color: var(--second-color);
+}
+
+.nav__link:active{
+    font-size: 13px;
+    color: #AB4949;
+}
+
+.nav__link:active::after{
+    transform: translate(10%, 6px);
+    background-color: #AB4949;
+    width: 80%;
+}
+
 .banner{
     background-position: center;
     background-size: cover;
@@ -797,7 +827,8 @@ footer{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding: 17px 0;
-    width: 571px;
+    max-width: 571px;
+    width: 100%;
 }
 
 .contact__input::placeholder{
