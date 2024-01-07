@@ -53,6 +53,28 @@
   min-width: 85px;
 }
 
+
+.menu__list-item:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+.menu__list-item a:hover {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+  transition: 0.1s;
+}
+
+.menu__list-item a:active {
+  color: #EC7979;
+  border-bottom: 3px solid #EC7979;
+  transition: 0.1s;
+}
+
+.menu__list-item a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .logo {
   display: flex;
   max-width: 87px;
@@ -209,9 +231,14 @@ svg {
   width: 100%;
   margin: 31px 0 auto;
 }
+.form__label:first-of-type {
+  margin: 0;
+}
 .form__input::placeholder {
   color: #BDBDBD;
 }
+
+
 
 /*Social Icon */
 
