@@ -198,6 +198,7 @@
 .pricing {
     padding: 83px 0px;
     background-color:#F5F5F5;
+    margin-bottom: 107px;
 }
 
 .pricing__options {
@@ -277,7 +278,7 @@
 /* customers */
 
 .customers{
-    padding: 107px 0px; 
+    padding-bottom: 107px; 
 }
 
 .customers__wrap {
