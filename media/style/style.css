@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .container {
@@ -17,13 +16,13 @@
     padding: 22px 0;
 }
 
-.header__wrap{
+.header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header__logo a{
+.header__logo{
     display: flex;
     width: 87px;
     height: 31px;
@@ -42,10 +41,10 @@
 .nav{
     display: flex;
     list-style-type: none;
-    gap: 45px;
+    gap: 40px;
 }
 
-.nav a{
+.header__link{
     display: block;
     text-decoration: none;
     color: #FFF;
@@ -58,23 +57,28 @@
     text-transform: capitalize;
 }
 
-.nav a:hover{
+.header__link:hover{
     background: #EC7979;
+    width: 100%;
+    padding: 6px;
 }
 
-.nav a:active{
+.header__link:active{
     background: #AB4949;
+    width: 100%;
+    padding: 6px;
 }
 
-.ban{
+.banner{
     background-image: url(../Img/headerBG.jpg);
     background-position: center;
     position: relative;
     padding: 306px 0 185px ;
+    background-size: cover;
 
 }
 
-.ban::after{
+.banner::after{
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.5);
@@ -84,18 +88,15 @@
     left: 0;
 }
 
-.banner{
+.banner__container{
     display: flex;
     position: relative;
     z-index: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner__logo{
-    display: block;
-    z-index: 1;
-}
-
-.logo{
     margin-bottom: 73px;
 }
 
@@ -169,7 +170,12 @@
     border-radius: 10px;
 }
 
-.banner__form input:not(:last-child){
+.banner__form-wrapper{
+    padding: 0 50px;
+    margin-bottom: 75px;
+}
+
+.banner__input{  
     max-width: 370px;
     width: 100%;
     color: #BDBDBD;
@@ -180,7 +186,15 @@
     line-height: 19px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 16px;
+    padding: 16px 0;
+}
+
+.banner__input:hover{
+    border-bottom: 1px solid #ff0606;
+}
+
+.banner__input:focus{
+    color: #07e207;
 }
 
 .banner__form-btn{
@@ -207,7 +221,7 @@
     background: #EC7979;
 }
 
-.try{
+.banner__form-title{
     color: #333;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -215,6 +229,7 @@
     font-weight: 700;
     line-height: 33px;
     text-transform: uppercase;
+    margin-bottom: 75px;
 }
 
 .red__text{
@@ -262,7 +277,7 @@
     gap: 30px;
 }
 
-.media__icon a{
+.media__link{
     width: 70px;
     height: 70px;
     display: flex;
@@ -270,33 +285,33 @@
     justify-content: center;
 }
 
-.media__icon img{
+.media__img{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.media__icon img:hover{
+.media__img:hover{
     transform: translateY(-20px);
 }
 
-.tab {
+#tab {
     margin-bottom: 118px;
 }
 
 
 
-.tabs {
+.tab__list {
     vertical-align:middle
 }
 
-.tabs__item_active{
+.tab__item_active{
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
     position: relative;
 }
 
-.tabs__item_active::after{
+.tab__item_active::after{
     content: "";
     width: 100%;
     height: 5px;
@@ -307,7 +322,7 @@
     left: 0;
     
 }
-.tabs__item {
+.tab__item {
     display: inline-block;
     line-height: 19px; 
     padding: 10px;
@@ -381,7 +396,7 @@
     height: 100%;
 }
 
-.awesome{
+#awesome{
     margin-bottom: 110px;
 }
 .head {
@@ -471,23 +486,17 @@
     padding: 0;
 }   
 
-.basic{
+.pricing__list{
     max-width: 370px;
     width: 100%;
 }
 
-.optima{
-    margin-top: -20px;
-    max-width: 370px;
-    width: 100%;
+.pricing__list:hover{
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.20));
 }
 
-.pro{
-    max-width: 370px;
-    width: 100%;
-}
-
-.row__prising-title{
+.prising__title{
     margin-bottom: 2px;
     padding: 13px 0;
     background-color: #333333;
@@ -500,7 +509,7 @@
     line-height: 33px;
 }
 
-.row__prising-price{
+.prising__price{
     margin-bottom: 2px;
     padding: 29px 0;
     list-style-type: none;
@@ -513,7 +522,7 @@
     line-height: 42px;
 }
 
-.row__prising-description{
+.prising__description{
     padding: 13px 0;
     list-style-type: none;    
     background-color: #333333;
@@ -524,7 +533,7 @@
     line-height: 21px;
 }
 
-.row__prising{
+.pricing__item{
     padding: 15px 0;
     border-bottom: 2px solid #F5F5F5;
     list-style-type: none;
@@ -541,7 +550,7 @@ ul :last-child{
     border-bottom: 0;
 }
 
-.customers{
+#customers{
     margin-bottom: 108px;
 }
 .custom{
@@ -657,6 +666,7 @@ ul :last-child{
     background-image: url(../Img/designBG.jpg);
     background-position: center;
     position: relative;
+    background-size: cover;
     }
 
 .design::after{
@@ -715,13 +725,13 @@ ul :last-child{
     margin-bottom: 50px;
 }
 
-.contact__form-first{
+.contact__form-input{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.contact__form-first input{
+.contact__input{
     color: #BDBDBD;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -730,17 +740,24 @@ ul :last-child{
     line-height: 19px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 16px;
+    padding: 16px 0;
     margin-bottom: 50px;
 }
+.contact__input:hover{
+    border-bottom: 1px solid #ff0606;
+}
 
-.contact__form-first input:last-child{
+.contact__input:focus{
+    color: #07e207;
+}
+
+.contact__input:last-child{
     margin-bottom: 0;
 }
 
-.contact__form-second textarea{
+.contact__textarea{
     resize: none;
-    width: 100%;
+    width: 50%;
     color: #BDBDBD;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -751,17 +768,20 @@ ul :last-child{
     border-bottom: 1px solid #BDBDBD;
 }
 
-.contact__form-second{
-    width: 50%;
+.contact__textarea:hover{
+    border-bottom: 1px solid #ff0606;
+}
+
+.contact__textarea:focus{
+    color: #07e207;
 }
 
 .contact__form-btn{
     border: none;
+    display: block;
     margin: 0 auto;
     width: 100%;
-    display: flex;
     max-width: 370px;
-    justify-content: center;
     color: #FFF;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -788,7 +808,7 @@ ul :last-child{
     padding: 35px 0 27px;
 }
 
-.icons{
+.footer__list{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -796,7 +816,7 @@ ul :last-child{
     margin-bottom: 28px;
 }
 
-.icons a{
+.footer__link{
     width: 53px;
     height: 53px;
     display: flex;
@@ -804,13 +824,13 @@ ul :last-child{
     justify-content: center;
 }
 
-.icons img{
+.footer__image {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.icons img:hover{
+.footer__image:hover{
 transform: translateY(-20px);
 }
 

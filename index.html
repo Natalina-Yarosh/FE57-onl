@@ -11,73 +11,100 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__wrap container">
-            <div class="header__logo">
-                <a href="#"><svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g id="logo">
-                    <g id="AXIT">
-                    <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
-                    <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
-                    </g>
-                    <g id="AXIT_2">
-                    <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
-                    <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
-                    </g>
-                    </g>
-                    </svg></a>
-            </div>
+        <div class="header__container container">
+            <a class="header__logo" href="#">
+                <svg width="170" height="55" viewBox="0 0 170 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="logo">
+                <g id="AXIT">
+                <path d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z" fill="white"/>
+                <path d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z" fill="white"/>
+                </g>
+                <g id="AXIT_2">
+                <path d="M107 55V0H117.64V55H107Z" fill="#EC7979"/>
+                <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979"/>
+                </g>
+                </g>
+                </svg>
+            </a>
             <nav class="header__nav">
                 <ul class="nav">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#awesome">About</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#tab" class="header__link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#awesome" class="header__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="header__link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#customers" class="header__link">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="header__link">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="ban">
-        <div class="container banner">
-            <div class="banner__logo">
-                <div class="logo"><img src="media/Icons/logo.svg" alt="AXIT"></div>
+    <section class="banner">
+        <div class="banner__container container">
+            <div class="banner__info">
+                <div class="banner__logo">
+                    <img src="media/Icons/logo.svg" alt="AXIT">
+                </div>
                 <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                 <p class="banner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <button class="banner__btn">Download</button>
             </div>
             <form class="banner__form">
-                <p class="try">Try Your <span class="red__text">FREE</span> Trial Today</p>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <h2 class="banner__form-title">Try Your <span class="red__text">FREE</span> Trial Today</h2>
+                <div class="banner__form-wrapper">
+                    <input class="banner__input" type="text" placeholder="Name">
+                    <input class="banner__input" type="email" placeholder="Email">
+                    <input class="banner__input" type="password" placeholder="Password">
+                </div>
                 <input class="banner__form-btn" type="submit" value="Get Started">
             </form>
         </div>
     </section>
-    <div class="media">
+    <section class="media">
         <div class="container media__container">
             <div class="media__body">
                 <h2 class="media__title">Social Media</h2>
                 <p class="media__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
             </div>
             <div class="media__icon">
-                <a href="#" class="facebook"><img src="media/Icons/facebook_icon.svg" alt="facebook"></a>
-                <a href="#" class="twitter"><img src="media/Icons/twitter_icon.svg" alt="twitter"></a>
-                <a href="#" class="linkedin"><img src="media/Icons/linkedin_icon.svg" alt=""></a>
-                <a href="#" class="pinterest"><img src="media/Icons/pinterest_icon.svg" alt="pinterest"></a>
-                <a href="#" class="instagram"><img src="media/Icons/instagram_icon.svg" alt="instagram"></a>
-                <a href="#" class="github"><img src="media/Icons/github_icon.svg" alt="github"></a>
-                <a href="#" class="rss"><img src="media/Icons/rss_icon.svg" alt="rss"></a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/facebook_icon.svg" alt="facebook">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/twitter_icon.svg" alt="twitter">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/linkedin_icon.svg" alt="">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/pinterest_icon.svg" alt="pinterest">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/instagram_icon.svg" alt="instagram">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/github_icon.svg" alt="github">
+                </a>
+                <a href="#" class="media__link">
+                    <img class="media__img" src="media/Icons/rss_icon.svg" alt="rss">
+                </a>
             </div>
         </div>
-    
-    </div>
-    <div class="tab">
+    </section>
+    <div id="tab">
         <div class="container">
-            <div class="tabs">
-                <a class="tabs__item tabs__item_active" href="#TAB 1">TAB 1</a>
-                <a class="tabs__item" href="#TAB 2">TAB 2</a>
-                <a class="tabs__item" href="#TAB 3">TAB 3</a>
+            <div class="tab__list">
+                <a class="tab__item tab__item_active" href="#TAB 1">TAB 1</a>
+                <a class="tab__item" href="#TAB 2">TAB 2</a>
+                <a class="tab__item" href="#TAB 3">TAB 3</a>
             </div>
             <div class="tab__wrapper">
                 <div class="tab__content">
@@ -141,43 +168,43 @@
                 <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="prising__wrapper">
-                    <ul class="basic">
-                        <li class="row__prising-title">Basic</li>
-                        <li class="row__prising-price">$10</li>
-                        <li class="row__prising-description">Free for life</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
+                    <ul class="pricing__list">
+                        <li class="prising__title">Basic</li>
+                        <li class="prising__price">$10</li>
+                        <li class="prising__description">Free for life</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
                     </ul>
-                    <ul class="optima">
-                        <li class="row__prising-title">Optima</li>
-                        <li class="row__prising-price">$20</li>
-                        <li class="row__prising-description">Free for life</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
+                    <ul class="pricing__list">
+                        <li class="prising__title">Optima</li>
+                        <li class="prising__price">$20</li>
+                        <li class="prising__description">Free for life</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
                     </ul>
-                    <ul class="pro">
-                        <li class="row__prising-title">Pro</li>
-                        <li class="row__prising-price">$30</li>
-                        <li class="row__prising-description">Free for life</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
-                        <li class="row__prising">1 Gb Of Space</li>
+                    <ul class="pricing__list">
+                        <li class="prising__title">Pro</li>
+                        <li class="prising__price">$30</li>
+                        <li class="prising__description">Free for life</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
+                        <li class="pricing__item">1 Gb Of Space</li>
                     </ul>
             </div>
         </div>
     </section>
-    <section class="customers">
+    <section id="customers">
         <div class="container">
             <div class="head custom">
                 <h2 class="head__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -245,38 +272,49 @@
         </div>
     </section>
     <section id="contact">
-        <div class="contact__wrap container">
+        <div class="contact__container container">
             <div class="head">
                 <h2 class="head__title">CONTACT US</h2>
                 <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <form class="contact__form">
                 <div class="contact__form-wrap">            
-                    <div class="contact__form-first">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
+                    <div class="contact__form-input">
+                        <input class="contact__input" type="text" placeholder="Name">
+                        <input class="contact__input" type="email" placeholder="Email">
+                        <input class="contact__input" type="password" placeholder="Password">
                     </div>
-                    <div class="contact__form-second">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
+                    <textarea class="contact__textarea" placeholder="Message"></textarea>
                 </div>
                 <button class="contact__form-btn">Send Message</button>
             </form>
         </div>
     </section>
     <footer class="footer">
-        <div class="icons">
-            <a href="#" class="facebook"><img src="media/Icons/facebook_icon.svg" alt="facebook"></a>
-            <a href="#" class="twitter"><img src="media/Icons/twitter_icon.svg" alt="twitter"></a>
-            <a href="#" class="linkedin"><img src="media/Icons/linkedin_icon.svg" alt=""></a>
-            <a href="#" class="pinterest"><img src="media/Icons/pinterest_icon.svg" alt="pinterest"></a>
-            <a href="#" class="instagram"><img src="media/Icons/instagram_icon.svg" alt="instagram"></a>
-            <a href="#" class="github"><img src="media/Icons/github_icon.svg" alt="github"></a>
-            <a href="#" class="rss"><img src="media/Icons/rss_icon.svg" alt="rss"></a>
+        <div class="footer__list">
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/facebook_icon.svg" alt="facebook">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/twitter_icon.svg" alt="twitter">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/linkedin_icon.svg" alt="">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/pinterest_icon.svg" alt="pinterest">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/instagram_icon.svg" alt="instagram">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/github_icon.svg" alt="github">
+            </a>
+            <a href="#" class="footer__link">
+                <img class="footer__image" src="media/Icons/rss_icon.svg" alt="rss">
+            </a>
         </div>
         <p class="creater">© 2015 Axure Themes</p>
-
     </footer>
 </body>
 </html>
