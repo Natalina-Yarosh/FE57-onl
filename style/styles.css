@@ -55,7 +55,7 @@ header{
 
 .header__wrapper{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -136,6 +136,7 @@ header{
 .title-banner::after{
     background-color: #FFF; 
     left: 0;
+    transform: translate(0, 40px);
 }
 
 .subtitle-banner{
@@ -429,6 +430,7 @@ header{
 .pricing {
     padding: 83px 0px;
     background-color:#F5F5F5;
+    margin-bottom: 107px;
 }
 
 .pricing__options {
@@ -508,7 +510,8 @@ header{
 /* customers */
 
 .customers{
-    padding: 107px 0px; 
+    padding: auto 0px; 
+    margin-bottom: 107px;
 }
 
 .customers__wrap {
@@ -648,6 +651,7 @@ header{
     padding: 16px;
     margin: 0 auto;
     display: block;
+    text-decoration: none;
 }
 
 /* footer */
