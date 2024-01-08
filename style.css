@@ -14,7 +14,7 @@
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
-    line-height: normal;
+    line-height: 42px;
     font-family: 'Raleway', sans-serif;
     position: relative;
 }
@@ -35,6 +35,7 @@
     color: #86878B;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    line-height: 21px;
 }
 
 .header{
@@ -42,34 +43,38 @@
     padding: 22px 0;
 }
 
-.header__wrapper{
+.header__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__nav-list{
+.header__logo-link{
+    display: flex;
+}
+
+.header__menu{
     display: flex;
     column-gap: 30px;
     list-style: none;
     text-decoration: none;
 }
 
-.item__link{
+.header__link{
     color: #FFF;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 19.07px;
     text-transform: capitalize;
+    padding: 10px;
 }
 
-.list__item:hover {
+.header__link:hover {
     background-color: #EC7979;
 }
-.list__item:active {
+.header__link:active {
     background-color: #AB4949;
 }
 
@@ -115,9 +120,8 @@
     color: #FFF;
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 56px;
     text-transform: uppercase;
     margin-bottom: 97.12px;
     position: relative;
@@ -137,9 +141,8 @@
     color: #FFF;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 21px;
     max-width: 270px;
     margin-bottom: 42px;
 }
@@ -167,9 +170,6 @@
 }
 
 .banner__form-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding-top: 36px;
     border-radius: 10px;
     background: #FFF;
@@ -190,7 +190,6 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 33px;
     text-transform: uppercase;
@@ -210,9 +209,18 @@
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    padding-bottom: 16.84px;
-    margin-bottom: 31px;
+    padding:16.84px 0 31px;
     outline: none;
+}
+
+.form__input:hover{
+    outline: none;
+    border: 1px solid #EC7979;
+}
+
+.form__input:focus {
+    outline: none;
+    border: 1px solid #EC7979;
 }
 
 .form__input::placeholder {
@@ -230,6 +238,9 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
+    display: block;
+    border: none;
+    width: 100%;
 }
 
 .form__link:hover {
@@ -274,17 +285,30 @@
     line-height: 21.13px;
 }
 
-.social__icons-links{
+.social__list{
     display: flex;
     list-style: none;
     column-gap: 30px;
 }
 
-.social__link:hover {
+.social__item:hover {
     background-color: #EC7979;
 }
-.social__link:active {
+.social__item:active {
     background-color: #AB4949;
+}
+
+.social__link{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__link-svg{
+    width: 100%;
+    height: 100%;
 }
 
 .tabs{
@@ -411,7 +435,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    line-height:normal;
+    line-height: 33px;
 }
 
 .blocks__text{
@@ -419,6 +443,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    line-height: 21px;
 }
 
 .pricing{   
@@ -451,7 +476,7 @@
     box-shadow: 5px 7px 5px 0px #33333333;
 }
 
-.block__name{
+.price__name{
     padding:15px 0 14px;
     background-color: #333333;
     border-bottom: 2px solid #F5F5F5;
@@ -459,12 +484,11 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 33px;
 }
 
-.block__price{
+.price__amount{
     padding: 25px 0;
     background-color: #333333;
     border-bottom: 2px solid #F5F5F5;
@@ -472,12 +496,11 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 42px;
 }
 
-.block__free{
+.price__info{
     padding: 15px 0 14px;
     background-color: #333333;
     border-bottom: 2px solid #F5F5F5;
@@ -486,7 +509,7 @@
     line-height: 21px;
 }
 
-.block__space{
+.price__space{
     padding: 15px 0 14px;
     background-color: #FFFFFF;
     color: #86878B;
@@ -494,9 +517,8 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 21px;
 }
 .block__space:last-child{
     border: none;
@@ -520,7 +542,6 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 21px;
     position: relative;
@@ -560,7 +581,6 @@
     color: #000;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
     text-transform: capitalize;
@@ -571,9 +591,8 @@
     color: #000;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 21px;
 }
 
 .design{
@@ -583,6 +602,10 @@
     background-size: cover;
     padding: 70px 0;
     margin-bottom: 67px;
+    position: relative;
+}
+
+.design__container{
     position: relative;
 }
 
@@ -607,7 +630,6 @@
 .design__text{
     color: #FFFFFF;
     margin-bottom: 80px;
-    position: relative;
 }
 
 
@@ -624,7 +646,6 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -639,24 +660,24 @@
     margin-bottom: 66px;
 }
 
-.form__contacts{
+.contacts__form{
     display: flex;
     column-gap: 30px;
     width: 100%;
     margin-bottom: 50px;
 }
 
-.contacts__inputs-block{
+.contacts__inputs{
     display: flex;
     flex-direction: column;
     max-width: 570px;
     width: 100%;
 }
 
-.contacts__inputs{
+.contacts__input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 16px;
+    padding: 16px 0 16px;
     margin-bottom: 34px;
     color: #BDBDBD;
     font-family: 'Open Sans', sans-serif;
@@ -666,10 +687,23 @@
     outline: none;
 }
 
-.contacts__form-textarea{
+.contacts__input:hover{
+    outline: none;
+    border: 1px solid #EC7979;
+}
+
+.contacts__input:focus {
+    outline: none;
+    border: 1px solid #EC7979;
+}
+
+.contacts__input:last-of-type {
+    margin-bottom: 0;
+}
+
+.contacts__textarea{
     max-width: 569px;
     width: 100%;
-    height: 175px;
     resize: none;
     border: none;
     border-bottom: 1px solid #BDBDBD;
@@ -681,7 +715,16 @@
     outline: none;
 }
 
-.contacts__link{
+.contacts__textarea:focus {
+    outline: none;
+    border: 1px solid #EC7979;
+}
+
+.contacts__textarea:last-of-type {
+    margin-bottom: 0;
+}
+
+.contacts__btn{
     margin: 0 auto;
     background-color: #EC7979;
     border: 1px solid #EC7979;
@@ -699,10 +742,10 @@
     line-height: 24px;
 }
 
-.contacts__link:hover {
+.contacts__btn:hover {
     background-color: #EC7979;
 }
-.contacts__link:active {
+.contacts__btn:active {
     background-color: #AB4949;
 }
 
@@ -711,7 +754,7 @@
     padding: 35px 0 27px;
 }
 
-.footer__icons-links{
+.footer__list{
     display: flex;
     justify-content: center;
     column-gap: 33px;
@@ -719,11 +762,24 @@
     align-items: center;
 }
 
-.footer__link:hover {
+.footer__item:hover {
     background-color: #EC7979;
 }
-.footer__link:active {
+.footer__item:active {
     background-color: #AB4949;
+}
+
+.footer__link{
+    width: 53px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__link-svg{
+    width: 100%;
+    height: 100%;
 }
 
 .footer__text{
@@ -733,5 +789,5 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 21px;
 }
