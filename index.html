@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Axit</title>
 </head>
 
 <header>
@@ -22,11 +22,11 @@
             </svg>
         </a>
         <nav class="header__nav-links">
-            <li><a class="header__nav-link" href="#">features</a></li>
-            <li><a class="header__nav-link" href="#">About</a></li>
-            <li><a class="header__nav-link" href="#">Pricing</a></li>
-            <li><a class="header__nav-link" href="#">Reviews</a></li>
-            <li><a class="header__nav-link" href="#">Contact</a></li>
+            <li><a class="header__nav-link" href="#tabs">features</a></>
+            <li><a class="header__nav-link" href="#awesome">About</a></li>
+            <li><a class="header__nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="header__nav-link" href="#customers">Reviews</a></li>
+            <li><a class="header__nav-link" href="#contact">Contact</a></li>
         </nav>
     </div>
 </header>
@@ -34,7 +34,7 @@
 <body>
     <!-- banner -->
 
-    <div class="banner">
+    <section class="banner">
         <div class="container container-banner">
             <div class="banner__info">
                 <div class="banner__logo">
@@ -49,21 +49,21 @@
                 <p class="subtitle subtitle-banner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a class="banner__btn" href="#">Download</a>
             </div>
-            <div class="banner__form-wrapper">
+            <form class="banner__form-wrapper" id="banner-form">
                 <div class="banner__form">
                     <h3 class="form__title">Try Your <span class="form__coloring">FREE</span> Trial Today</h3>
                     <input type="text" class="form__input" placeholder="Name">
                     <input type="email" class="form__input" placeholder="Email">
                     <input type="password" class="form__input" placeholder="Password">
                 </div>
-                <button class="form__button">Get Started</button>
-            </div>
+                <button type="submit" form="banner-form" class="form__button">Get Started</button>
+            </form>
         </div>
-    </div>
+    </section>
 
     <!-- media -->
 
-    <div class="media">
+    <section class="media">
         <div class="container container-media">
             <div class="media__info">
                 <h2 class="media__info-title">Social Media</h2>
@@ -123,11 +123,11 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
 
     <!-- tabs -->
 
-    <div class="tabs">
+    <div id="tabs" class="tabs">
         <div class="container">
             <div class="tabs__wrapper">                
                 <a href="" class="tabs__elem-text active">TAB 1</a>
@@ -155,7 +155,7 @@
 
 
     <!-- awesome -->
-    <div class="awesome">
+    <section id="awesome" class="awesome">
 
         <div class="container">
             <div class="section__head">
@@ -202,11 +202,11 @@
             
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- pricing -->
 
-    <div class="pricing">
+    <section id="pricing" class="pricing">
         <div class="container">
             <div class="section__head">
                 <h2 class="title">PRICING OPTIONS</h2>
@@ -258,10 +258,10 @@
                 </div>
             </div>
             </div>
-    </div>
+    </section>
 
     <!-- customers -->
-    <div class="customers">
+    <section id="customers" class="customers">
         <div class="container">
             <div class="section__head">                
                 <h2 class="title">WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -335,11 +335,11 @@
                 </div>                                                          
           </div>
         </div>
-    </div>
+    </section>
 
     <!-- design -->
 
-    <div class="design">
+    <section class="design">
         <div class="container container-design">
             <div class="section__head">
                 <h2 class="title title-design">STYLISH AXURE DESIGN</h2>
@@ -349,8 +349,26 @@
          <a class="design__button" href="#">Download</a>
         </div>
         
-    </div>
+    </section>
   
+    <!-- contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="title">CONTACT US</h2>
+                <h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+            <form id="contact-form" class="contact__form">
+                <div class="contact__form_elems">
+                    <input type="text" class="contact__form_elem contact__form_name contact-input" placeholder="Name">
+                    <input type="email" class="contact__form_elem contact__form_email contact-input" placeholder="Email">
+                    <input type="password" class="contact__form_elem contact__form_password contact-input" placeholder="Password">
+                </div>
+                <textarea name="contact-message" class="contact__form_message contact-input" placeholder="Message"></textarea>
+            </form>
+            <button type="submit" form="contact-form" class="contact__form_btn">Send Message</button>
+        </div>
+    </section>
 </body>
 
 <footer>
