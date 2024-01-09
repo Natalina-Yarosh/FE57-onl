@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.tabs{
+    margin: 100px 0px 120px 0px;
+}
+.tabs__options{
+}
+.tabs__options-tab{
+    display: inline-block;
+    padding: 10px 84px;
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-transform: uppercase;
+    border: 1px solid #C6CBCD;
+    border-bottom:none;
+}
+
+.tabs__content-text{
+    padding: 55px 29px 55px 100px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tabs__content{
+    border: 1px solid #C6CBCD;
+}
+.content__image{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.active{
+    background-color:#fff;
+    padding: 10px 84px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+    border-bottom:none;
+}
+.tabs__content-title{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: 40.85px;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.content-info__paragraph{
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 21.13px;
+}
+.content-info__paragraph:first-child{
+    margin: 0px 0px 26px 0px;
+}
+.content__image{
+    max-width: 470px;
+    max-height: 500px;
+}
+
+
+.content-info__button{
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #EC7979;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-transform: capitalize;
+    min-width: 270px;
+    padding: 17px;
+    border:none;
+}
+
+.tabs__content-info{
+    margin: 0px 0px 84px 0px;
+}
+
+.meme{
+    margin: 0 auto;
+}
+
+.content-info__picture{
+    width: 39%;
+    display: inline-block;
+}
