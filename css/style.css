@@ -286,7 +286,7 @@ line-height: 21.13px;
     margin-bottom: 0;
   }
 
-.pricing {
+  .pricing {
     padding: 83px 0px;
     background-color:#F5F5F5;
     margin-bottom: 107px;
@@ -412,7 +412,7 @@ margin-top: -20px;
   width: 70px;
   height: 70px;
   overflow: hidden;
-  border-radius:50%;
+  border-radius:50px
 }
 .reviews__comment-icon {
  width: 100%;
@@ -431,7 +431,6 @@ margin-top: -20px;
   font-weight: 400;
   line-height: 21.13px;
 }
-
 
 .banner {
   position: relative;
@@ -504,10 +503,10 @@ margin-top: -20px;
   padding: 16.5px;
 }
 .bannner__form {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  max-width: 470px;
   background-color:#fff;
-  padding: 36px 50px 0px 50px;
+  padding: 50px 0 0;
   border-radius: 10px;
 }
 .banner__form-try {
@@ -523,15 +522,16 @@ margin-top: -20px;
 .banner__form-try span{
   color: #EC7979;
 }
-.bannner__fields {
+.banner__input {
   display: flex;
   flex-direction: column;
+  padding: 0 50px;
+  margin-bottom: 73px;
 }
 
 .banner__field {
   margin-bottom: 30px;
-  max-width: 370px;
-  height: 40px;
+  width: 100%;
   color: #BDBDBD;
   font-family: Open Sans;
   font-size: 14px;
@@ -541,17 +541,16 @@ margin-top: -20px;
   border: none;
   border-bottom: 1px solid #BDBDBD; 
   outline: none;
-  padding-bottom: 16px;
+  padding: 16px 0;
 }
 .banner__field:last-of-type{
-  margin-bottom: 75px;
+  margin-bottom: 0;
+  
 }
 .banner__field-name {
 }
 .banner__field-button {
-  width: 470px;
-  height: 100%;
-  margin: 0 -50px;
+  width: 100%;
   color: #FFF;
   text-align: center;
   font-family: Open Sans;
