@@ -164,9 +164,11 @@
 
 .banner__button:hover {
     background-color: #EC7979;
+    border: 2px solid #EC7979;
 }
 .banner__button:active {
-    background-color: #AB4949;
+    border: 2px solid #AB4949;  
+    background: #AB4949;
 }
 
 .banner__form-wrapper{
@@ -209,23 +211,26 @@
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    padding:16.84px 0 31px;
+    margin-bottom: 31px;
+    padding: 16.84px 0 ;
     outline: none;
 }
 
+.form__input:last-of-type{
+    margin-bottom: 0;
+}
+
+
 .form__input:hover{
     outline: none;
-    border: 1px solid #EC7979;
+    border: 1px solid #BDBDBD;
 }
 
 .form__input:focus {
     outline: none;
-    border: 1px solid #EC7979;
+    border: 1px solid #BDBDBD;
 }
 
-.form__input::placeholder {
-    color: #BDBDBD;
-}
 
 .form__link{
     background-color: #EC7979;
@@ -244,10 +249,12 @@
 }
 
 .form__link:hover {
-    background-color: #EC7979;
+    background-color:#AB4949;
+    ;
 }
 .form__link:active {
-    background-color: #AB4949;
+    background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
 
 .social{
@@ -291,11 +298,11 @@
     column-gap: 30px;
 }
 
-.social__item:hover {
-    background-color: #EC7979;
+.social__item:hover path {
+    fill: #EC7979;
 }
-.social__item:active {
-    background-color: #AB4949;
+.social__item:active path {
+    fill: #AB4949;
 }
 
 .social__link{
@@ -397,10 +404,11 @@
 }
 
 .tab__link:hover {
-    background-color: #EC7979;
+    background-color: #AB4949;
 }
 .tab__link:active {
-    background-color: #AB4949;
+    background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
 
 .tab__img{
@@ -651,9 +659,11 @@
 
 .design__link:hover {
     background-color: #EC7979;
+    border: 2px solid #EC7979;
 }
 .design__link:active {
-    background-color: #AB4949;
+    border: 2px solid #AB4949;  
+    background: #AB4949;
 }
 
 .contacts{
@@ -689,12 +699,12 @@
 
 .contacts__input:hover{
     outline: none;
-    border: 1px solid #EC7979;
+    border: 1px solid #BDBDBD;
 }
 
 .contacts__input:focus {
     outline: none;
-    border: 1px solid #EC7979;
+    border: 1px solid #BDBDBD;
 }
 
 .contacts__input:last-of-type {
@@ -715,9 +725,15 @@
     outline: none;
 }
 
+.contacts__textarea:hover{
+    outline: none;
+    border: 1px solid #BDBDBD;
+}
+
+
 .contacts__textarea:focus {
     outline: none;
-    border: 1px solid #EC7979;
+    border: 1px solid #BDBDBD;
 }
 
 .contacts__textarea:last-of-type {
@@ -743,10 +759,11 @@
 }
 
 .contacts__btn:hover {
-    background-color: #EC7979;
+    background-color: #AB4949;
 }
 .contacts__btn:active {
-    background-color: #AB4949;
+    background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
 
 .footer{
@@ -762,11 +779,11 @@
     align-items: center;
 }
 
-.footer__item:hover {
-    background-color: #EC7979;
+.footer__item:hover path {
+    fill: #EC7979;
 }
-.footer__item:active {
-    background-color: #AB4949;
+.footer__item:active path {
+    fill: #AB4949;
 }
 
 .footer__link{
