@@ -735,6 +735,22 @@
     color: #BDBDBD;
 }
 
+.contact__textarea:hover{
+    border: 2px solid rgb(255, 56, 56);
+    border-radius: 5px;
+}
+
+.contact__textarea:focus{
+    outline: none;
+    border: 2px solid rgb(155, 3, 3);
+    border-radius: 5px;
+}
+
+.contact__textarea:active{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
 .contact__input-button{
     display: block;
     max-width: 370px;
