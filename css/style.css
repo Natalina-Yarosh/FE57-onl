@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 header{
   position: fixed;
@@ -45,12 +45,12 @@ header{
   color:#EC7979;
 }
 .container{
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .tabs{
-    margin: 100px 0px 120px 0px;
+  margin: 100px 0px 120px 0px;
 }
 .tabs__options{
   max-width: 512px;
@@ -76,19 +76,19 @@ header{
 }
 
 .tabs__content-text{
-    padding: 55px 29px 55px 100px;
-    width: 60%;
-    display: inline-block;
-    vertical-align: middle;
+  padding: 55px 29px 55px 100px;
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
 }
 .tabs__content{
-    border: 1px solid #C6CBCD;
+  border: 1px solid #C6CBCD;
 }
 .content__image{
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 .active{
     border-radius: 5px 5px 0px 0px;
@@ -106,22 +106,22 @@ header{
   left: 0;
 }
 .tabs__content-title{
-    color: #000;
-    font-family: Open Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40.85px; 
+  color: #000;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px; 
 }
 
 .content-info__paragraph{
-    color: #000;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 21.13px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21.13px;
 }
 .content-info__paragraph:first-child{
-    margin: 0px 0px 26px 0px;
+  margin: 0px 0px 26px 0px;
 }
 .content__image{
 }
@@ -137,20 +137,75 @@ header{
 }
 
 .tabs__content-info{
-    margin: 0px 0px 84px 0px;
+  margin: 0px 0px 84px 0px;
 }
 
 .meme{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .content-info__picture{
-    width: 39%;
-    display: inline-block;
+  width: 39%;
+  display: inline-block;
 }
 h3{
+font-family: Open Sans;
+color: #000;
+font-size: 24px;
+font-weight: 700;
+line-height: 32.68px;
+margin-bottom: 26px;
+}
+.header{
+color: #000;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+margin-bottom: 40px;
+text-transform: uppercase;
+}
+.line{
+margin: 0 auto;
+width: 170px;
+height: 1px;
+background: #EC7979;
+}
+.subtittle{
+color: #86878B;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.13px;
+}
+.benefits-column__text{
+color: #000;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.13px;
+}
+
+
+.info__benefits-column:last-child{
+margin: 0px 0px 0px 0px;
+}
+.info__benefits{
+display: flex;
+justify-content: space-around;
+}
+
+.benefits-column__logo{
+max-height: 92px;
+max-width: 92px;
+margin-bottom: 24px;
+}
+.benefits-column__tittle{
   font-family: Open Sans;
   color: #000;
+  text-align: center;
   font-size: 24px;
   font-weight: 700;
   line-height: 32.68px;
@@ -177,12 +232,13 @@ h3{
   left: 50%;
   transform: translateX(-50%);
 }
-.subtittle{
+.info__text{
 color: #86878B;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 21.13px;
+margin-bottom: 92px;
 }
 .benefits-column__text{
 color: #000;
@@ -193,7 +249,6 @@ font-weight: 400;
 line-height: 21.13px;
 }
 
-
 .info__benefits-column:last-child{
   margin: 0px 0px 0px 0px;
 }
@@ -203,9 +258,9 @@ line-height: 21.13px;
 }
 
 .benefits-column__logo{
-  max-height: 92px;
-  max-width: 92px;
-  margin-bottom: 24px;
+  height: 92px;
+  width: 92px;
+  margin: 0 auto 24px;
 }
 .benefits-column__tittle{
     font-family: Open Sans;
@@ -224,9 +279,8 @@ line-height: 21.13px;
   font-weight: 400;
   line-height: 21.13px;
   margin-bottom: 92px;
-  }
-  .benefits-column__text{
-  color: #000;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -278,40 +332,39 @@ line-height: 21.13px;
   align-items: flex-start;
 }
 .pricing__option {
-  max-width: 370px;
-  width: 100%;
+max-width: 370px;
+width: 100%;
 }
-
 .pricing__option-basic {
 }
 .pricing__option-tittle {
-    padding: 14px 0px;
-    background-color:#333333;
-    color: #FFF;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    text-transform: capitalize;
+  padding: 14px 0px;
+  background-color:#333333;
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: capitalize;
 }
 .pricing__option-price {
-    background-color:#333333;
-    color: #FFF;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    padding: 29px 0px;
+  background-color:#333333;
+  color: #FFF;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 29px 0px;
 }
 .pricing__option-comment {
-    background-color:#333333;
-    padding: 15px 0px 14px 0px;
-    color: rgba(255, 255, 255, 0.50);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
+  background-color:#333333;
+  padding: 15px 0px 14px 0px;
+  color: rgba(255, 255, 255, 0.50);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
 }
 .pricing__optin-benefit {
     background-color:#fff;
@@ -329,8 +382,8 @@ line-height: 21.13px;
   margin-bottom: 0px;
 }
 .pricing__option-optima{
-  box-shadow: 0px 4px 10px 0px #33333333;
-  margin-top: -20px;
+box-shadow: 0px 4px 10px 0px #33333333;
+margin-top: -20px;
 }
 
 .pricing__optin-benefit{
