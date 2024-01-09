@@ -28,6 +28,9 @@ html {
     max-width: 600px;
     width: 100%;
 }
+.header__toggle-menu {
+    display: none;
+}
 .header__list {
     display: flex;
 }
@@ -633,7 +636,6 @@ textarea {
         padding-left: 115px;
     }
     .main-container {
-        max-width: 1024px;
         padding: 0 16px;
     }
     .banner {
@@ -871,6 +873,296 @@ textarea {
         height: 45px;
     }
 }
-@media only screen and (max-width: 320px) {
-    
+@media only screen and (max-width: 767px) {
+    .header {
+        position: relative;
+        height: 56px;
+    }
+    .header__logo svg {
+        height: 23px;
+        width: 65px;
+    }
+    .header__container {
+        padding-left: 20px;
+    }
+    .header__list {
+        display: none;
+    }
+    .header__toggle-menu {
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 19px;
+    }
+    .banner {
+        padding: 92px 0 50px;
+    }
+    .banner__container {
+        display: block;
+        padding: 0 16px;
+    }
+    .banner__info {
+        max-width: 100%;
+    }
+    .banner__logo-wrapper {
+        display: none;
+    }
+    .banner__title {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 85.88px;
+    }
+    .banner__title::after {
+        bottom: -43.88px;
+        width: 134px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner__description {
+        margin: 0 auto 42px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner__button {
+        max-width: 288px;
+        display: block;
+        margin: 0 auto 56px;
+    }
+    .banner__form-wrapper {
+        margin: 0 auto;
+    }
+    .banner__form {
+        padding: 40px 28px 0 20px;
+        margin-bottom: 51px;
+    }
+    .form__title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 24px;
+    }
+    .form__input {
+        margin-bottom: 17px;
+    }
+    .social {
+        padding: 40px 0;
+    }
+    .social__container {
+        display: block;
+        text-align: center;
+    }
+    .social__description {
+        margin-bottom: 32px;
+    }
+    .social__container .social__icon {
+        width: 26px;
+        height: 26px;
+    }
+    .icons {
+        column-gap: 17px;
+    }
+    .info {
+        margin-bottom: 52px;
+    }
+    .info__page {
+        width: 100%;
+        padding: 35px 20.57px 30px 24.69px;
+        text-align: center;
+    }
+    .info__title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 62px;
+    }
+    .info__text {
+        font-size: 13px;
+        line-height: 15px; 
+        max-width: 100%;
+    }
+    .info__page p:last-of-type {
+        margin-bottom: 38px;
+    }
+    .button-third {
+        max-width: 242px;
+        padding: 12.75px;
+    }
+    .info__image {
+        display: none;
+    } 
+    .info__tab {
+        max-width: 85px;
+        padding: 8px 0;
+    }
+    .info__tab-active {
+        max-width: 103px;
+    }
+    .head {
+        margin-bottom: 82px;
+    }
+    .head__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 83px;
+    }
+    .head__title::after {
+        width: 134px;
+    }
+    .head__text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .awesome__list {
+        display: block;
+    } 
+    .advantage {
+        margin-bottom: 44px;
+        max-width: 100%;
+    }
+    .advantage__title {
+        margin-bottom: 40px;
+    }
+    .pricing {
+        margin-bottom: 37px;
+        padding-top: 50px;
+        padding-bottom: 26px;
+    }
+    .pricing__head {
+        margin-bottom: 24px;
+    }
+    .pricing .head__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing__block {
+        display: block;
+    }
+    .pricing__list {
+        max-width: 288px;
+        margin: 0 auto 27px;
+    }
+    .pricing__list:last-of-type {
+        margin-bottom: 0;
+    }
+    .pricing__title {
+        padding: 10px; 
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .pricing__price {
+        padding: 24px 10px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing__period {
+        padding: 11.5px 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .pricing__space {
+        padding: 11.5px 10px;
+        font-size: 14px;
+        line-height: 16px;
+    } 
+    .customers__head {
+        margin-bottom: 32px;
+    }
+    .customers {
+        margin-bottom: 57px;
+    }
+    .customer {
+        margin-bottom: 40px;
+    }
+    .customers .head__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .customers__list {
+        display: block;
+    }
+    .customer__quote {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 50px 30px;
+        max-width: 370px;
+        margin: 0 auto 40px;
+    }
+    .customer__info {
+        justify-content: flex-start;
+        max-width: 370px;
+    }
+    .customer__photo-wrapper {
+        width: 57px;
+        height: 57px;
+    }
+    .customer__name {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 18px;
+    }
+    .customer__position {
+        font-size: 13px;
+        line-height: 15px;
+    } 
+    .design {
+        padding: 58px 0;
+        margin-bottom: 50px;
+    }
+    .design__head {
+        margin-bottom: 66px;
+    }
+    .design .head__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .design .head__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .design__button {
+        max-width: 287px;
+        padding: 14.75px;
+    }
+    .contacts {
+        margin-bottom: 40px;
+    }
+    .contacts .head__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contacts .head__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .contacts__head {
+        margin-bottom: 64px;
+    }
+    .contacts__block {
+        display: block;
+    }
+    .contacts__inputs {
+        max-width: 100%;
+    }
+    .form__input {
+        display: block;
+        margin: 34px auto 30px;
+    }
+    textarea {
+        height: 180px;
+    }
+    .contacts__button {
+        max-width: 288px;
+    }
+    .footer {
+        padding: 35px 0 45px;
+    }
+    .footer__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer .social__icon {
+        width: 26px;
+        height: 26px;
+    }
+    .icons {
+        margin-bottom: 43px;
+    }
 }
