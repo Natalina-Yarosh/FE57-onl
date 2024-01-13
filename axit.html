@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="header">
-    <div class="header_container">
+    <div class="container header_container">
       <a href="#" class="header_logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="87" height="31" viewBox="0 0 87 31" fill="none">
           <path d="M10.3163 0H15.8289L26.1059 31H20.5146L17.9158 23.2718H8.1507L5.5913 31H0L10.3163 0ZM16.9314 19.0366L13.0726 6.24366L9.05633 19.0366H16.9314Z" fill="white"/>
@@ -34,7 +34,7 @@
 
 
 <section class="banner_wrap">
-  <div class="banner_container">
+  <div class="container banner_container">
     <div class="banner_main-text">
       <div class="banner_logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="170" height="55" viewBox="0 0 170 55" fill="none">
@@ -48,22 +48,15 @@
       <p class="banner_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <button class="banner_button button_first">Download</button>
     </div>
-    <div class="banner_form">
-      <div class="banner_form-container">
+    <form class="banner_form">
         <div class="input_form">
           <h3 class="form_title">Try Your <span class="form_pink">FREE</span> Trial Today</h3>
-          <label for="First-name">Name</label>
-          <input type="text" class="form_input" placeholder="">
-          <label for="Email">Email</label>
-          <input type="email" class="form_input" placeholder="">
-          <label for="Password">Password</label>
-          <input type="password" class="form_input" placeholder=""> 
+          <input type="text" class="form_input" placeholder="Name">
+          <input type="email" class="form_input" placeholder="Email">
+          <input type="password" class="form_input" placeholder="Password"> 
         </div>
-        <div class="bottom_button">
           <button class="form_button">Get Started</button>
-        </div>
-      </div>
-    </div>
+    </form>
   </div>
 </section>
 
@@ -121,7 +114,7 @@
 
 
 
-  <section class="features" id="features">
+  <div class="features" id="features">
     <div class="container">
       <div class="features__tabs">
         <a class="features__link effect__link_active" href="#features">TAB 1</a>
@@ -143,7 +136,7 @@
           </div>
         </div>
     </div>
-  </section>
+  </div>
 
 
 
@@ -298,10 +291,6 @@
     </div>
   </section>
 
-  <section class="contact" id="contact">
-
-  </section>
-
 
 
   <section class="design">
@@ -324,14 +313,14 @@
         <p class="head__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
-        <div class="contact_form">
+        <form class="contact_form">
           <div class="personal_info">
             <input type="text" class="form_input-info" placeholder="Name">
             <input type="email" class="form_input-info" placeholder="Email">
             <input type="password" class="form_input-info" placeholder="Password"> 
           </div>
           <textarea id="message" name="Message" rows="4" placeholder="Message"></textarea>
-        </div>
+        </form>
         <button class="contact_button">Send Message</button>
       </div>
   </section>
@@ -377,8 +366,8 @@
           </svg>
         </a>
       </div>
+      <p class="copyright">© 2015 Axure Themes</p>
     </div>
-    <p class="copyright">© 2015 Axure Themes</p>
   </footer>
 </body>
 </html>

@@ -4,10 +4,8 @@
   padding: 0;
 }
 .header {
-  max-width: 1510px;
-  width: 100%;
-  height: 75px;
   background: #000;
+  padding: 22px 0;
   position: relative;
 }
 .header_container{
@@ -15,29 +13,18 @@
   justify-content: space-between;
   align-items: center;
 }
-.header_logo {
-  position: absolute;
-  content: '';
-  top: 22px;
-  left: 152px;
-}
 .header_nav {
-  position: absolute;
-  content: '';
-  top: 28px;
-  right: 122px;
 }
 .nav_links{
   text-decoration: none;
   color: #FFF;
-  text-align: center;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 14px;
   font-weight: 600;
   line-height: 19px;
   text-transform: capitalize;
   display: inline-block;
-  width: 113.8px;
+  min-width: 113.8px;
   text-align: center;
 }
 .nav_links:visited{
@@ -51,13 +38,11 @@
 
 
 .banner_wrap {
-  max-width: 1510px;
-  height: 1026px;
   background: url(../design_img/image.png);
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
   position: relative;
+  padding: 306px 0 185px;
 }
 .banner_wrap::before {
   content: "";
@@ -69,9 +54,9 @@
   background-color: rgba(0, 0, 0, 0.50);
 }
 .banner_container {
-  padding: 306px 100px 185px 170px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 .banner_main-text {
@@ -100,7 +85,7 @@
   width: 170px;
 }
 .banner_text {
-  width: 270px;
+  max-width: 270px;
   color: #FFF;
   font-family: 'Raleway', 'sans-serif';
   font-size: 18px;
@@ -130,12 +115,11 @@
   font-size: 20px;
 }
 .banner_form {
-  width: 470px;
-  height: 450px;
+  max-width: 470px;
+  width: 100%;
   flex-shrink: 0;
   border-radius: 10px;
   background: #FFF;
-  margin-top: 22.5px
 }
 .form_title {
   margin-bottom: 75px;
@@ -153,19 +137,13 @@ text-transform: uppercase;
 .input_form {
   padding: 36px 50px 75px;
 }
-label{
-  color: #BDBDBD;
-  font-family: 'Open Sans', 'sans-serif';
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19px;
-}
 .form_input {
   max-width: 370px;
   width: 100%;
   margin-bottom: 31px;
   border: none;
   border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 16.84px;
 }
 .form_input:active {
   outline: none;
@@ -179,8 +157,8 @@ label{
   margin-bottom: 0;
 }
 .form_button {
-  height: 60px;
-  width: 470px;
+  width: 100%;
+  padding: 20px;
   color: #FFF;
   text-align: center;
   font-family: 'Open Sans', 'sans-serif';
@@ -697,6 +675,7 @@ margin-bottom: 26px;
   width: 100%;
   height: 100%;
   opacity: 1;
+  background: rgba(0, 0, 0, 0.50);
 }
 .design_container{
   position: relative;
@@ -799,7 +778,8 @@ margin-bottom: 26px;
   display: flex;
 }
 .personal_info {
-  width: 569px;
+  max-width: 569px;
+  width: 100%;
   margin-right: 30px;
 }
 .form_input-info {
@@ -811,8 +791,8 @@ margin-bottom: 26px;
   line-height: 19px;
   margin-bottom: 50px;
   display: flex;
-  width: 571px;
-  height: 38px;
+  width: 100%;
+  padding: 15px 0;
   flex-direction: column;
   justify-content: center;
   text-align: start;
@@ -834,7 +814,7 @@ margin-bottom: 26px;
 #message {
   max-width: 571px;
   width: 100%;
-  max-height: 214px;
+  padding: 15px 0;
   border: none;
   border-bottom: 1px solid #BDBDBD;
   color: #BDBDBD;
