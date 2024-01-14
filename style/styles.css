@@ -850,3 +850,290 @@ footer{
     font-weight: 400;
     line-height: 21.13px;
 }
+
+/* TABLET */
+
+@media only screen and (max-width: 1024px){
+
+    .container{
+        padding: 0 16px;
+    }
+
+    .section__head{
+        margin-bottom: 66px;
+    }
+
+    .title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 72px;
+    }
+
+    .title::after{
+        width: 143px;
+    }
+
+    .subtitle{
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    /* banner */
+
+    .banner{
+        padding-top: 212px;
+        padding-bottom: 106px;
+    }
+
+    .banner__info{
+        max-width: 455px;
+        margin-right: 36px;
+        margin-bottom: 25px;
+    }
+
+    .banner__form-wrapper{
+        max-width: 398px;
+    }
+
+    .banner__title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 73px;
+    }
+
+    .banner__subtitle{
+        max-width: 143px;
+        margin-bottom: 32px;
+    }
+
+    .banner__logo{
+        margin-bottom: 38px;
+    }
+
+    .banner__btn{
+        max-width: 184px;
+    }
+
+    .form__title{
+        font-size: 18px;
+        line-height: 24.51px;
+        margin-bottom: 45px;
+    }
+
+    .form__input{
+        max-width: 298px;
+        margin-bottom: 31px;
+    }
+
+    /* media */
+
+    .media{
+        margin-bottom: 50px;
+        padding: 10px 0 13px;
+    }
+
+    .media__title{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 13px;
+    }
+
+    .media__text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .media__links{
+        column-gap: 20px;
+    }
+
+    .media__link > a{
+        width: 64px;
+        height: 64px;
+    }
+
+    /* tabs */
+
+    .tabs{
+        margin-bottom: 96px;
+    }
+
+    .tabs__elem.active{
+        width: 173px;
+    }
+
+    .tabs__elem{
+        padding: 10px;
+        max-width: 156px;
+    }
+
+    .tabs__text{
+        padding: 28px 27px 50px 85px;
+    }
+
+    .tabs__title{
+        font-size: 25px;
+        margin-bottom: 66px;
+        line-height: 33px;
+    }
+
+    .tabs__descr{
+        line-height: 16.44px;
+        font-size: 14px;
+    }
+
+    .tabs__descr:nth-last-of-type(1){
+        margin-bottom: 38px;
+    }
+
+    .tabs__button{
+        max-width: 232px;
+    }
+
+    /* awesome */
+
+    .awesome{
+        margin-bottom: 60px;
+    }
+
+    .awesome__item{
+        max-width: 318px;
+    }
+    
+    .awesome__wrapper-image{
+        height: 80px;
+        width: 80px;
+        margin: 0px auto 62px;
+    }
+
+    .awesome__image{
+        max-height: 57px;
+        max-width: 57px;
+    }
+
+    .awesome__title{
+        font-size: 18px;
+        line-height: 24.51px;
+        margin-bottom: 67px;
+    }
+
+    .awesome__text{
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    /* pricing */
+
+    .pricing{
+        padding: 96px 0px 50px;
+        margin-bottom: 96px;
+    }
+
+    .pricing__options{
+        column-gap: 20px;
+    }
+
+    .pricing__option{
+        max-width: 317px;
+    }
+
+    /* customers */
+
+    .customers{
+        margin-bottom: 57px;
+    }
+
+    .customers__wrap{
+        column-gap: 20px;
+    }
+
+    .customer{
+        flex: 0 0 317px;
+    }
+
+    .customer__comment{
+        padding: 50px auto;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .customer__comment::after {
+        left: calc(70 / 317 * 100%); 
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+    }
+
+    .customet__content{
+        column-gap: 23px;
+    }
+
+    .customer__wrapper-image {
+        width: 63px;
+        height: 63px;
+    }
+
+    .customer__name{
+        font-size: 18px;
+        line-height: 24.51px;
+        margin-bottom: 14px;
+    }
+
+    .customer__position{
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    /* design */
+
+    .design
+    {
+        margin-bottom: 96px;
+        padding: 96px 0 50px;
+    }
+
+    .design__title::after {
+        width: 142px;
+    }
+
+    .design__button{
+        max-width: 318px;
+    }
+
+    /* contact */
+
+    .contact{
+        margin-bottom: 50px;
+    }
+
+    .contact__elems{
+        max-width: 486px;
+    }
+
+    .contact__button{
+        max-width: 318px;
+    }
+
+    /* footer */
+
+    footer{
+        padding-bottom: 30px;
+    }
+
+    .footer__links{
+        column-gap: 27px;
+        margin-bottom: 38px;
+    }
+
+    .footer__link > a{
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer__text{
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+}
+
+
+
