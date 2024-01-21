@@ -12,6 +12,10 @@
     margin: 0px auto;
 }
 
+button{
+    cursor: pointer;
+}
+
 
 .section__head{
     
@@ -578,7 +582,8 @@ header{
   }
   
   .customer {
-    flex: 0 0 370px;
+    flex: 0 1 auto;
+    max-width: 31.5%;
   }
   
   .customer__comment {
@@ -731,6 +736,7 @@ header{
     justify-content: space-between;
     position: relative;
     margin-bottom: 50px;
+    column-gap: 10px;
 }
 
 .contact__elems{
@@ -893,6 +899,8 @@ footer{
 
     .banner__form-wrapper{
         max-width: 398px;
+        padding: 26px 35px 0;
+        margin-bottom: 55px;
     }
 
     .banner__title{
@@ -1048,7 +1056,7 @@ footer{
     }
 
     .customer{
-        flex: 0 0 317px;
+        flex: 0 0 308px;
     }
 
     .customer__comment{
@@ -1135,5 +1143,26 @@ footer{
     }
 }
 
+@media only screen and (max-width: 992px) and (min-width:768px){
+    .media__link > a{
+        width: 50px;
+        height: 50px;   
+    }
 
+    .tabs__text{
+        padding: 28px 27px 28px 35px;
+    }
+
+    .awesome__wrapper-image{
+        margin-bottom: 30px;
+    }
+
+    .awesome__title{
+        margin-bottom: 30px;
+    }
+
+    .customer{
+        flex: 0 0 290px;
+    }
+}
 
